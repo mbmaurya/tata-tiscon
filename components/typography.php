@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="../css/typography.css">
 </head>
 <body>
-  <h1 class="text-black"> The quick brown fox jumps over the lazy dog </h1>
+  <h1 class="text-black"> The quick brown fox jumps over the lazy dog. </h1>
   <h2 class="text-blue text-uppercase"> The quick brown fox jumps over the lazy dog </h2>
   <h3 class="text-red"> The quick brown fox jumps over the lazy dog </h3>
   <h4> The quick brown fox jumps over the lazy dog </h4>
