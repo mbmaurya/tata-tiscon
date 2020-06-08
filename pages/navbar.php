@@ -1,7 +1,7 @@
-<nav style="background-color: #3069b0;">
+<nav>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-lg-4 v-center nav-left">
+            <div class="col-xs-6 col-lg-4 v-center nav-left">
                 <img src="images/tata-tiscon-logo.png" alt="Tata Tiscon Logo" class="img-fluid logo" />
                 <img src="images/quote.svg" class="img-fluid quote" />
             </div>
@@ -42,7 +42,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-6 col-lg-3 v-center nav-right">
+            <div class="col-xs-6 col-lg-3 v-center nav-right">
                 <button class="btn buy-online">
                     <img src="" />
                     Buy Online

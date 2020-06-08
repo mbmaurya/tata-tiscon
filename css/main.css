@@ -10,3 +10,32 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.v-center {
+  align-self: center;
+}
+
+/* slick slider */
+
+.slick-prev:before {
+  content: url("../images/mason/previous-icon.png");
+}
+
+.slick-next:before {
+  content: url("../images/mason/next-icon.png");
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #d4001c;
+}
+
+@media screen and (max-width: 767px) {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}
