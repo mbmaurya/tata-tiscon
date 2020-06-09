@@ -75,6 +75,7 @@
   webkit-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
   -moz-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
   box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  transition: all 0.2s ease-in-out;
 }
 
 .mason-features .feature-list li div:hover {
@@ -256,6 +257,7 @@
   padding: 15px;
 }
 
+
 .testimonial-slider .name {
   font-size: 22px;
   color: #112769;
@@ -292,4 +294,98 @@
   .mason-form section img {
     margin-top: 30px;
   }
+}
+
+
+
+/* modal */
+
+.modal {
+  background: #ffffff75;
+}
+
+.modal .modal-dialog {
+  max-width: 562px;
+}
+
+.modal .modal-content {
+  background: rgb(17, 39, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(17, 39, 105, 1) 20%,
+    rgba(8, 126, 165, 1) 80%
+  );
+  box-shadow: 0px 10px 20px #00000029;
+  border-radius: 5px;
+  border: none;
+}
+
+.modal .modal-body .info-div {
+  margin-top: 24px;
+}
+
+.modal .modal-body .info-div .d-table {
+  margin-bottom: 4px;
+}
+
+.modal .modal-body .info-div .d-table .head {
+  width: 75px;
+  font-weight: 600;
+}
+
+/* modal tabs */
+#modalTab {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#modalTab .nav-link {
+  height: auto;
+  margin-right: 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+#modalTab .nav-link.active {
+  color: #112769;
+  border-color: none;
+}
+
+.tab-content {
+  padding-top: 24px;
+}
+
+.tab-content form .row, .tab-content form .button-col {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-content form input {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  color: #ffffff !important;
+}
+.tab-content form input:focus, .tab-content form input:hover {
+  background-color: transparent;
+}
+.tab-content form input::placeholder{
+  color: #ffffff75;
+}
+
+.tab-content form .button-col {
+  margin-top: 16px;
+}
+
+.tab-content form .button-col button {
+  height: 48px;
+  width: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #112769;
 }
