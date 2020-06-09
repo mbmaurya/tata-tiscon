@@ -434,3 +434,5 @@
 <!-- /testimonial slider -->
     
 <?php include 'pages/footer.php';?>
+
+<!-- checking PR working on GithuB -->
