@@ -1,0 +1,295 @@
+.mason-hero-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mason-hero-bg h1 {
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.mason-hero-bg section {
+  padding: 30px 0px 60px;
+}
+
+.mason-features,
+.mason-form,
+.testimonial {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.mason-features h2,
+.mason-form h2,
+.testimonial h2 {
+  font-size: 38px;
+  line-height: 40px;
+  color: #112769;
+  text-transform: uppercase;
+}
+
+.mason-features hr,
+.mason-form hr,
+.testimonial hr {
+  width: 105px;
+  border-top: 2px solid #d4001c;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mason-features p {
+  color: #1a1818;
+}
+
+.mason-features .feature-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px 0px 0px;
+}
+
+.mason-features .feature-list li {
+  display: inline-block;
+  width: 210px;
+  vertical-align: top;
+}
+
+.mason-features .feature-list li p {
+  color: #112769;
+  margin: 15px 0px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.mason-features .feature-list li div {
+  display: flex;
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  webkit-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  -moz-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+}
+
+.mason-features .feature-list li div:hover {
+  background-color: #112769;
+  webkit-box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+  -moz-box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+  box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+}
+
+.mason-features .feature-list li div svg {
+  width: 170px;
+  margin: auto;
+  fill: #112769;
+}
+
+.mason-features .feature-list li div:hover svg {
+  fill: #ffffff;
+}
+
+.mason-form section {
+  border-radius: 5px;
+  border-top: 5px solid #000;
+  margin-top: 60px;
+  -webkit-box-shadow: -1px 1px 5px 0px rgba(235, 235, 235, 1);
+  -moz-box-shadow: -1px 1px 5px 0px rgba(235, 235, 235, 1);
+  box-shadow: -1px 1px 5px 0px rgba(235, 235, 235, 1);
+}
+
+.mason-form section img {
+  width: 100%;
+}
+
+.mason-form section form {
+  padding: 60px;
+}
+
+.mason-form section form h3 {
+  font-size: 22px;
+  color: #1a1818;
+  margin-bottom: 15px;
+}
+
+.mason-form section form p {
+  color: #cd2121;
+  margin-bottom: 24px;
+}
+
+.mason-form section form .form-group {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.mason-form section form .form-group label {
+  color: #112769;
+  font-weight: 600;
+}
+
+.mason-form section form button {
+  width: 45%;
+}
+
+.mason-form section form button:first-of-type {
+  float: left;
+}
+
+.mason-form section form button:first-of-type:hover {
+  background-color: #16338a;
+  color: #ffffff;
+}
+
+.mason-form section form button:last-of-type {
+  float: right;
+}
+
+.locator-results {
+  margin: 60px 0px;
+}
+
+.locator-results section {
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px 15px 15px;
+  margin-bottom: 90px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(214, 214, 214, 1);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(214, 214, 214, 1);
+  box-shadow: 0px 5px 5px 0px rgba(214, 214, 214, 1);
+}
+
+.locator-results section:hover {
+  background: rgb(17, 39, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(17, 39, 105, 1) 20%,
+    rgba(8, 126, 165, 1) 80%
+  );
+}
+
+.locator-results section:hover p,
+.locator-results section:hover a {
+  color: #ffffff !important;
+}
+
+.locator-results section .person {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 0;
+  margin-top: -45px;
+}
+
+.locator-results section p {
+  margin-bottom: 0px;
+}
+
+.locator-results section .result-type {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #1a1818;
+}
+
+.locator-results section span {
+  font-weight: 600;
+}
+
+.locator-results section a {
+  display: inline-block;
+  color: #d4001c;
+  font-weight: 600;
+  margin-top: 7px;
+}
+
+.locator-results section .certified {
+  width: 70px;
+  height: 35px;
+  background-color: #d4001c;
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+
+.locator-results section .certified p {
+  color: #ffffff;
+  font-size: 9px;
+  line-height: 18px;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+
+.locator-results section .certified .down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 12px solid #d4001c;
+}
+
+.locator-results section:hover .certified,
+.locator-results section:hover .certified p {
+  color: #112769 !important;
+  background-color: #ffffff;
+}
+
+.locator-results section:hover .certified .down-arrow {
+  border-top: 12px solid #ffffff;
+}
+
+.testimonial {
+  background-color: #f5f5f5;
+}
+
+.testimonial-slider {
+  margin-top: 60px;
+  text-align: left;
+}
+
+.testimonial-slider .slick-slide {
+  padding: 15px;
+}
+
+.testimonial-slider .name {
+  font-size: 22px;
+  color: #112769;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.testimonial-slider .content {
+  color: #1a1818;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .mason-hero-bg h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mason-features h2 {
+    line-height: 48px;
+  }
+
+  .mason-form section form {
+    padding: 30px;
+  }
+
+  .mason-form section form h3 {
+    font-size: 18px;
+  }
+
+  .mason-form section img {
+    margin-top: 30px;
+  }
+}
