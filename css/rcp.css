@@ -474,10 +474,15 @@ label {
 	margin-bottom: 0px;
 }
 .form_wrapper form {
-    /* padding: 20px; */
+    padding: 20px;
 }
 .form-img img {
     height: auto;
+}
+.wrapper_form
+{
+float:left;
+width:100%;
 }
 @media (min-width: 768px) {
     .modal-dialog {
@@ -495,6 +500,9 @@ label {
     .main_heading {
     line-height: 50px;
     margin-bottom: 1.5rem;
+}
+.footer-wrpper-sec {
+    float: left;
 }
 .btn-blue-rcp-view {
     display: inline-block;
