@@ -1,9 +1,9 @@
 
-<?php include 'pages/header.php';?>
+<?php include 'header.php';?>
 
-    <?php include 'pages/navbar.php';?>
+    <?php include 'navbar.php';?>
     <h1>Hello, world!</h1>
     
-<?php include 'pages/footer.php';?>
+<?php include 'footer.php';?>
 
     

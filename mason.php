@@ -1,7 +1,7 @@
-<?php include 'pages/header.php';?>
+<?php include 'header.php';?>
 <!-- hero bg -->
 <div class="mason-hero-bg">
-    <?php include 'pages/navbar.php';?>
+    <?php include 'navbar.php';?>
     <section>
         <div class="container">
             <div class="row">
@@ -534,4 +534,4 @@
 </div>
 <!-- /testimonial slider -->
     
-<?php include 'pages/footer.php';?>
+<?php include 'footer.php';?>
