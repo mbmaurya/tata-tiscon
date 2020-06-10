@@ -6,4 +6,9 @@ input {
   border-radius: 5px;
   background: transparent;
   outline: none;
+
+}
+
+input:hover, input:focus, select:hover, select:focus {
+  box-shadow: none !important;
 }

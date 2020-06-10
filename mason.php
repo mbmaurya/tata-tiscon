@@ -5,7 +5,7 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 v-center">
+                <div class="col-lg-6 v-center mt-5">
                     <h1 class="text-uppercase text-white">Find Skilled & Trustworthy Masons</h1>
                 </div>
                 <div class="col-lg-6">
@@ -21,7 +21,7 @@
 <div class="mason-features">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 mt-3">
                 <h2>Use The Easy Mason Locator</h2>
                 <hr />
                 <p>Finding experienced masons? TATA Tiscon SD has you covered!</p>
@@ -243,7 +243,7 @@
                         Ranbir Singh
                     </p>
                     <p class="mobile"><span>Mob No:</span> 9034408229 </p>
-                    <a href="#">
+                    <a href="#exampleModal" data-toggle="modal">
                         View More
                         <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
                     </a>
@@ -256,7 +256,7 @@
             </div>
             <div class="col-lg-4">
                 
-                <section>
+                <section class="mason-list">
                     <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Mason</p>
                     <p class="name">
@@ -375,6 +375,107 @@
     </div>
 </div>
 <!-- /locator results -->
+
+<!-- mason modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="color: white">&times;</span>
+        </button>
+          <!-- avatar image -->
+        <img src="./images/mason/person.png" alt="avatar" class="avatar-image">
+        <!-- information div -->
+        <div class="info-div">
+            <div class="name-div d-table text text-white">
+                <div class="head d-table-cell">Name:</div>
+                <div class="return d-table-cell">Mr. Ranbir Singh</div>
+            </div>
+            <div class="addr-div d-table text text-white">
+                <div class="head d-table-cell">Address:</div>
+                <div class="return d-table-cell">Laxmi Cement Store, Railway Road Kalayat,Kaithal Haryana-136117</div>
+            </div>
+            <div class="district-div d-table text text-white">
+                <div class="head d-table-cell">District:</div>
+                <div class="return d-table-cell">Kaithal</div>
+            </div>
+            <div class="state-div d-table text text-white">
+                <div class="head d-table-cell">State:</div>
+                <div class="return d-table-cell">Haryana</div>
+            </div>
+            <div class="city-div d-table text text-white">
+                <div class="head d-table-cell">City:</div>
+                <div class="return d-table-cell">Kalayat</div>
+            </div>
+            <div class="pin-div d-table text text-white">
+                <div class="head d-table-cell">Pin No:</div>
+                <div class="return d-table-cell">136117</div>
+            </div>
+            <div class="mobile-div d-table text text-white">
+                <div class="head d-table-cell">Mobile:</div>
+                <div class="return d-table-cell">9034408229</div>
+            </div>
+        </div>
+        <!-- tab section -->
+        <ul class="nav nav-tabs mt-4" id="modalTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="email-tab" data-toggle="tab" href="#email" role="tab" aria-controls="email" aria-selected="true">Gets as Email</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="sms-tab" data-toggle="tab" href="#sms" role="tab" aria-controls="sms" aria-selected="false">Gets as SMS</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="tabContent">
+            <div class="tab-pane fade show active" id="email" role="tabpanel" aria-labelledby="email-tab">
+                <form action="#" class="email-form">
+                    <div class="row">
+                        <div class="col-sm-6 col-6 input-col">
+                            <div class="form-group">
+                                <label class="text text-white" for="name">Name*</label>
+                                <input class="form-control" type="text" id="name" name="name" placeholder="John cena" required/>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-6 input-col">
+                            <div class="form-group">
+                                <label class="text text-white" for="name">Email*</label>
+                                <input class="form-control" type="email" id="email" name="email" placeholder="John@wwe.com" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-12 button-col">
+                            <button type="submit" class="btn submit-btn">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane fade" id="sms" role="tabpanel" aria-labelledby="sms-tab">
+                <form action="#" class="sms-form">
+                    <div class="row">
+                        <div class="col-sm-6 col-6">
+                            <div class="form-group">
+                                <label class="text text-white" for="mobile">Mobile*</label>
+                                <input class="form-control" type="tel" name="mobile" id="mobile" placeholder="+91 9876543210" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-12 button-col">
+                            <button type="submit" class="btn submit-btn">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- /mason modal -->
 
 <!-- testimonial slider -->
 <div class="testimonial">
