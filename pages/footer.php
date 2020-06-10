@@ -38,8 +38,8 @@
                         <div class="footer-txt">Contact us</div>
                         <div class="connect">
                             <p class="footer-txt">Customer toll free number</p>
-                            <h3>0124 - 4448080</h2>
-                        </div>
+                            <h3>0124 - 4448080</h3>
+                           </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                     	<div class="footer-wrpper-sec">
