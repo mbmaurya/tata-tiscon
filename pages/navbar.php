@@ -5,7 +5,7 @@
                 <img src="images/tata-tiscon-logo.png" alt="Tata Tiscon Logo" class="img-fluid logo" />
                 <img src="images/quote.svg" class="img-fluid quote" />
             </div>
-            <div class="col-lg-5 v-center nav-center d-xs-none">
+            <div class="col-lg-5 col-sm-5 v-center nav-center d-xs-none">
                 <ul class="menu">
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-xs-6 col-lg-3 v-center nav-right">
                 <button class="btn buy-online">
-                    <img src="" />
+                    <img src="./images/dealer/book-online.svg" />
                     Buy Online
                 </button>
                 <a href="#" class="search-btn">

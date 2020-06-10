@@ -164,6 +164,11 @@
   box-shadow: 0px 5px 5px 0px rgba(214, 214, 214, 1);
 }
 
+.locator-results section .view-more-svg {
+  margin-left: 8px;
+  fill: #D4001C;
+}
+
 .locator-results section:hover {
   background: rgb(17, 39, 105);
   background: linear-gradient(
@@ -176,6 +181,9 @@
 .locator-results section:hover p,
 .locator-results section:hover a {
   color: #ffffff !important;
+}
+.locator-results section:hover .view-more-svg {
+  fill: #ffffff
 }
 
 .locator-results section .person {
@@ -272,6 +280,7 @@
 
 @media screen and (max-width: 992px) {
   .mason-hero-bg h1 {
+    transform: translateY(-40px);
     text-align: center;
     font-size: 30px;
     line-height: 40px;
@@ -279,6 +288,12 @@
 }
 
 @media screen and (max-width: 767px) {
+  .mason-hero-bg h1 {
+   transform: translateY(-40px);
+  }
+  .mason-hero-bg section {
+    padding: 0;
+  }
   .mason-features h2 {
     line-height: 48px;
   }
@@ -320,6 +335,13 @@
   border: none;
 }
 
+.modal-body .close {
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+  opacity: 1;
+}
+
 .modal .modal-body .info-div {
   margin-top: 24px;
 }
@@ -341,7 +363,7 @@
 }
 
 #modalTab .nav-link {
-  height: auto;
+  height: 48px;
   margin-right: 16px;
   border: 1px solid #FFFFFF;
   border-radius: 5px 5px 0px 0px;
@@ -351,9 +373,18 @@
   color: #ffffff;
 }
 
+#modalTab .nav-link svg {
+  margin-right: 6px;
+  fill: #ffffff;
+}
+
 #modalTab .nav-link.active {
   color: #112769;
   border-color: none;
+}
+
+#modalTab .nav-link.active svg {
+  fill: #112769
 }
 
 .tab-content {

@@ -82,8 +82,14 @@ input.newsletter_input {
   color: #fff;
 }
 
+.newsletter_input {
+  color: #ffffff;
+  opacity: 1;
+}
+
 .newsletter_input::placeholder {
   color: #fff;
+  opacity: 0.7;
 }
 
 

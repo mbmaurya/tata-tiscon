@@ -245,7 +245,7 @@
                     <p class="mobile"><span>Mob No:</span> 9034408229 </p>
                     <a href="#exampleModal" data-toggle="modal">
                         View More
-                        <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
+                        <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
                     </a>
                     <div class="certified">
                         <p>Certificated</p>
@@ -267,7 +267,7 @@
                     <p class="mobile"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
-                        <!-- <svg></svg> -->
+                        <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
                     </a>
                     <div class="certified">
                         <p>Certificated</p>
@@ -290,7 +290,7 @@
                     <p class="mobile"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
-                        <!-- <svg></svg> -->
+                        <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
                     </a>
                     <div class="certified">
                         <p>Certificated</p>
@@ -313,7 +313,7 @@
                     <p class="mobile"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
-                        <!-- <svg></svg> -->
+                        <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
                     </a>
                     <div class="certified">
                         <p>Certificated</p>
@@ -336,7 +336,7 @@
                     <p class="mobile"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
-                        <!-- <svg></svg> -->
+                        <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
                     </a>
                     <div class="certified">
                         <p>Certificated</p>
@@ -359,7 +359,7 @@
                     <p class="mobile"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
-                        <!-- <svg></svg> -->
+                        <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
                     </a>
                     <div class="certified">
                         <p>Certificated</p>
@@ -383,7 +383,7 @@
     <div class="modal-content">
       <div class="modal-body">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" style="color: white">&times;</span>
+          <span aria-hidden="true">&times;</span>
         </button>
           <!-- avatar image -->
         <img src="./images/mason/person.png" alt="avatar" class="avatar-image">
@@ -421,10 +421,10 @@
         <!-- tab section -->
         <ul class="nav nav-tabs mt-4" id="modalTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="email-tab" data-toggle="tab" href="#email" role="tab" aria-controls="email" aria-selected="true">Gets as Email</a>
+                <a class="nav-link active" id="email-tab" data-toggle="tab" href="#email" role="tab" aria-controls="email" aria-selected="true"><svg xmlns="http://www.w3.org/2000/svg" width="24.739" height="17.923" viewBox="0 0 24.739 17.923"><defs><style>.a{}</style></defs><g transform="translate(-663 -274.857)"><path class="a" d="M687.136,373.083a2.624,2.624,0,0,1-3.4,0l-2.142-1.816-7.275,7.275h22.24l-7.275-7.275Z" transform="translate(-10.065 -85.762)"/><path class="a" d="M829.23,319.091V305.84l-7.172,6.079Z" transform="translate(-141.491 -27.561)"/><path class="a" d="M663,305.84v13.252l7.172-7.172Z" transform="translate(0 -27.561)"/><path class="a" d="M686.823,274.857H663.916a.917.917,0,0,0-.916.916v.19l.483.409,11.327,9.6a.863.863,0,0,0,1.12,0l11.326-9.6.483-.409v-.19A.917.917,0,0,0,686.823,274.857Z"/></g></svg> Gets as Email</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="sms-tab" data-toggle="tab" href="#sms" role="tab" aria-controls="sms" aria-selected="false">Gets as SMS</a>
+                <a class="nav-link" id="sms-tab" data-toggle="tab" href="#sms" role="tab" aria-controls="sms" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="16.744" height="29.766" viewBox="0 0 16.744 29.766"><defs><style>.a{}</style></defs><path class="a" d="M1379.268,329.461H1367.45a2.688,2.688,0,0,0-2.463,2.849v24.064a2.692,2.692,0,0,0,2.463,2.853h11.818a2.684,2.684,0,0,0,2.463-2.853V332.31A2.68,2.68,0,0,0,1379.268,329.461Zm-7.118,1.135h2.414v.571h-2.414Zm1.211,28.224a1.56,1.56,0,1,1,1.332-1.537A1.448,1.448,0,0,1,1373.361,358.82Zm7.219-3.589h-14.438v-23.11h14.438Z" transform="translate(-1364.987 -329.461)"/></svg> Gets as SMS</a>
             </li>
         </ul>
         <div class="tab-content" id="tabContent">

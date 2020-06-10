@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/mason.css">
+    <link rel="stylesheet" href="./css/dealer.css">
     <title>Tata Tiscon</title>
   </head>
   <body>
