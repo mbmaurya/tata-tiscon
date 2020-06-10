@@ -15,11 +15,92 @@ body {
   align-self: center;
 }
 
-button:hover, button:focus{
+button:hover,
+button:focus {
   box-shadow: none !important;
 }
 
-/* slick slider */
+input {
+  padding: 10px;
+  color: #3f3f41;
+  font-size: 1rem;
+  border: 1px solid #3f3f41;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+}
+
+input:hover,
+input:focus,
+select:hover,
+select:focus {
+  box-shadow: none !important;
+}
+
+.heading {
+  font-size: 38px;
+  line-height: 40px;
+  color: #112769;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 105px;
+  border-top: 2px solid #d4001c;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---------------------- button css ------------------*/
+.btn {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 7px 15px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #ebebeb;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f5f5f5;
+}
+
+.btn-white {
+  color: #0f3975;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-blue {
+  color: #ffffff;
+  background-color: #112769;
+  border: 1px solid #112769;
+}
+
+.btn-blue:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-blue-inverse {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #112769;
+}
+
+.btn-blue-inverse:hover {
+  color: #ffffff;
+  background-color: #112769;
+}
+
+/*---------------------- /button css ------------------*/
+
+/*-------------------- slick slider css --------------------*/
 
 .slick-prev:before {
   content: url("../images/mason/previous-icon.png");
@@ -36,6 +117,830 @@ button:hover, button:focus{
 .slick-dots li.slick-active button:before {
   color: #d4001c;
 }
+
+/*-------------------- /slick slider css --------------------*/
+
+/*------------------ header css -----------------------*/
+
+nav {
+  background: transparent;
+  padding: 30px 0px 0px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+nav .v-center {
+  align-self: center;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.quote {
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.dropdown {
+  display: inline-block;
+  padding-right: 13px;
+}
+
+.dropdown a {
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.dropdown .dropdown-item {
+  color: #000000;
+}
+
+.dropdown-toggle::after {
+  content: url("../images/dropdown-arrow.svg");
+  border: none;
+  vertical-align: text-bottom;
+}
+
+.buy-online {
+  color: #0f3975;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.search-btn {
+  padding: 0px 20px;
+}
+
+.hamburger-menu {
+  display: inline;
+}
+
+.hamburger-menu .dropdown-toggle:after {
+  content: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobile-search {
+  display: none;
+}
+
+.hamburger-menu .dropdown-menu {
+  transform: translate3d(60px, 45px, 0px) !important;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    padding: 10px 0;
+    background: #112769;
+    height: auto;
+  }
+  nav .container {
+    max-width: 100%;
+  }
+
+  nav .nav-left {
+    width: 50%;
+  }
+  nav .nav-right {
+    margin-top: 10px;
+    width: 45%;
+  }
+
+  nav .nav-center {
+    display: none;
+  }
+
+  nav .nav-right {
+    text-align: right;
+  }
+
+  .hamburger-menu .dropdown-menu {
+    transform: none;
+  }
+
+  nav .nav-right nav .nav-right .search-btn,
+  nav .nav-right .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile .navbar-toggler {
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+
+  .mobile .dropdown {
+    padding: 5px 15px;
+  }
+
+  .mobile .dropdown-toggle::after {
+    content: url("../images/dropdown-arrow.svg");
+    border: none;
+    vertical-align: text-bottom;
+  }
+
+  .mobile .dropdown-menu {
+    transform: translate3d(15px, 40px, 0px) !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    padding: 10px 0;
+    background: #112769;
+    height: auto;
+  }
+  nav .nav-left {
+    width: 80%;
+  }
+  .quote {
+    /* display: none; */
+    width: 50%;
+    margin-left: -10px;
+  }
+
+  nav .nav-right {
+    width: 20%;
+  }
+
+  nav .nav-right .buy-online,
+  nav .nav-right .search-btn,
+  nav .nav-right .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile .navbar-toggler {
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+
+  .mobile .dropdown {
+    padding: 5px 15px;
+  }
+
+  .mobile .dropdown-toggle::after {
+    content: url("../images/dropdown-arrow.svg");
+    border: none;
+    vertical-align: text-bottom;
+  }
+
+  .mobile .dropdown-menu {
+    transform: translate3d(15px, 40px, 0px) !important;
+  }
+
+  /* search for mobile */
+
+  .mobile-search {
+    display: block;
+  }
+
+  .mobile-search input {
+    border-radius: 25px 0 0 25px;
+    width: calc(100% - 52px);
+    height: 40px;
+    border: none;
+    font-weight: normal;
+  }
+  .mobile-search button {
+    margin-left: -1px;
+    height: 40px;
+    border-radius: 0 25px 25px 0;
+    padding-left: 10px;
+    border: none;
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .quote {
+    /* display: none; */
+    width: 30%;
+    margin-left: -10px;
+  }
+
+  .mobile-search input {
+    margin: 0 !important;
+    width: calc(100% - 52px) !important;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  .menu {
+    margin-left: -50px;
+  }
+
+  .dropdown {
+    padding-right: 1.6%;
+  }
+
+  .buy-online {
+    color: #0f3975;
+    margin-left: -50px;
+  }
+}
+
+/*------------------ /header css -----------------------*/
+
+/*------------------ mason/dealer css --------------------*/
+
+.mason-hero-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mason-hero-bg h1 {
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.mason-hero-bg section {
+  padding: 30px 0px 60px;
+}
+
+.mason-features,
+.mason-form,
+.testimonial {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.mason-features h2,
+.mason-form h2,
+.testimonial h2 {
+  font-size: 38px;
+  line-height: 40px;
+  color: #112769;
+  text-transform: uppercase;
+}
+
+.mason-features hr,
+.mason-form hr,
+.testimonial hr {
+  width: 105px;
+  border-top: 2px solid #d4001c;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mason-features p {
+  color: #1a1818;
+}
+
+.mason-features .feature-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px 0px 0px;
+}
+
+.mason-features .feature-list li {
+  display: inline-block;
+  width: 210px;
+  vertical-align: top;
+}
+
+.mason-features .feature-list li p {
+  color: #1a1818;
+  margin: 15px 0px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.mason-features .feature-list li div {
+  display: flex;
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  webkit-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  -moz-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+.mason-features .feature-list li div:hover {
+  background-color: #112769;
+  webkit-box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+  -moz-box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+  box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+}
+
+.mason-features .feature-list li div svg {
+  width: 170px;
+  margin: auto;
+  fill: #112769;
+}
+
+.mason-features .feature-list li div:hover svg {
+  fill: #ffffff;
+}
+
+.mason-form section {
+  border-radius: 5px;
+  border-top: 5px solid #000;
+  margin-top: 60px;
+  -webkit-box-shadow: -1px 1px 5px 0px rgba(235, 235, 235, 1);
+  -moz-box-shadow: -1px 1px 5px 0px rgba(235, 235, 235, 1);
+  box-shadow: -1px 1px 5px 0px rgba(235, 235, 235, 1);
+}
+
+.mason-form section img {
+  width: 100%;
+}
+
+.mason-form section form {
+  padding: 60px;
+}
+
+.mason-form section form h3 {
+  font-size: 22px;
+  color: #1a1818;
+  margin-bottom: 15px;
+}
+
+.mason-form section form p {
+  color: #cd2121;
+  margin-bottom: 24px;
+}
+
+.mason-form section form .form-group {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.mason-form section form .form-group label {
+  color: #112769;
+  font-weight: 600;
+}
+
+.mason-form section form button {
+  width: 45%;
+}
+
+.mason-form section form button:first-of-type {
+  float: left;
+}
+
+.mason-form section form button:first-of-type:hover {
+  background-color: #16338a;
+  color: #ffffff;
+}
+
+.mason-form section form button:last-of-type {
+  float: right;
+}
+
+.locator-results {
+  margin: 60px 0px;
+}
+
+.locator-results section {
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px 15px 15px;
+  margin-bottom: 90px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(214, 214, 214, 1);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(214, 214, 214, 1);
+  box-shadow: 0px 5px 5px 0px rgba(214, 214, 214, 1);
+}
+
+.locator-results section .map-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  fill: #112769;
+}
+
+.locator-results section:hover .map-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  fill: #ffffff;
+}
+
+.locator-results section .view-more-svg {
+  margin-left: 8px;
+  fill: #d4001c;
+}
+
+.locator-results section:hover {
+  background: rgb(17, 39, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(17, 39, 105, 1) 20%,
+    rgba(8, 126, 165, 1) 80%
+  );
+}
+
+.locator-results section:hover p,
+.locator-results section:hover a {
+  color: #ffffff !important;
+}
+.locator-results section:hover .view-more-svg {
+  fill: #ffffff;
+}
+
+.locator-results section .person {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 0;
+  margin-top: -45px;
+}
+
+.locator-results section p {
+  margin-bottom: 0px;
+}
+
+.locator-results section .result-type {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #1a1818;
+}
+
+.locator-results section span {
+  font-weight: 600;
+}
+
+.locator-results section a {
+  display: inline-block;
+  color: #d4001c;
+  font-weight: 600;
+  margin-top: 7px;
+}
+
+.locator-results section .certified {
+  width: 70px;
+  height: 35px;
+  background-color: #d4001c;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.locator-results section .certified p {
+  color: #ffffff;
+  font-size: 9px;
+  line-height: 18px;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+
+.locator-results section .certified .down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 12px solid #d4001c;
+}
+
+.locator-results section:hover .certified,
+.locator-results section:hover .certified p {
+  color: #112769 !important;
+  background-color: #ffffff;
+}
+
+.locator-results section:hover .certified .down-arrow {
+  border-top: 12px solid #ffffff;
+}
+
+.testimonial {
+  background-color: #f5f5f5;
+}
+
+.testimonial-slider {
+  margin-top: 60px;
+  text-align: left;
+}
+
+.testimonial-slider .slick-slide {
+  padding: 15px;
+}
+
+.testimonial-slider .name {
+  font-size: 22px;
+  color: #112769;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.testimonial-slider .content {
+  color: #1a1818;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .mason-hero-bg h1 {
+    transform: translateY(-40px);
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mason-hero-bg h1 {
+    transform: translateY(-40px);
+  }
+  .mason-hero-bg section {
+    padding: 0;
+  }
+  .mason-features h2 {
+    line-height: 48px;
+  }
+
+  .mason-form section form {
+    padding: 30px;
+  }
+
+  .mason-form section form h3 {
+    font-size: 18px;
+  }
+
+  .mason-form section img {
+    margin-top: 30px;
+  }
+}
+
+/* modal */
+
+.modal {
+  background: #ffffff75;
+}
+
+.modal .modal-dialog {
+  max-width: 562px;
+}
+
+.modal .modal-content {
+  background: rgb(17, 39, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(17, 39, 105, 1) 20%,
+    rgba(8, 126, 165, 1) 80%
+  );
+  box-shadow: 0px 10px 20px #00000029;
+  border-radius: 5px;
+  border: none;
+}
+
+.modal-body .close {
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+  opacity: 1;
+}
+
+.modal .modal-body .info-div {
+  margin-top: 24px;
+}
+
+.modal .modal-body .info-div .d-table {
+  margin-bottom: 4px;
+}
+
+.modal .modal-body .info-div .d-table .head {
+  width: 75px;
+  font-weight: 600;
+}
+
+/* modal tabs */
+#modalTab {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#modalTab .nav-link {
+  height: 48px;
+  margin-right: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+#modalTab .nav-link svg {
+  margin-right: 6px;
+  fill: #ffffff;
+}
+
+#modalTab .nav-link.active {
+  color: #112769;
+  border-color: none;
+}
+
+#modalTab .nav-link.active svg {
+  fill: #112769;
+}
+
+.tab-content {
+  padding-top: 24px;
+}
+
+.tab-content form .row,
+.tab-content form .button-col {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-content form input {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff !important;
+}
+.tab-content form input:focus,
+.tab-content form input:hover {
+  background-color: transparent;
+}
+.tab-content form input::placeholder {
+  color: #ffffff75;
+}
+
+.tab-content form .button-col {
+  margin-top: 16px;
+}
+
+.tab-content form .button-col button {
+  height: 48px;
+  width: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #112769;
+}
+
+/*------------------ / mason/dealer css --------------------*/
+
+/*---------------------- footer css ------------------------*/
+
+.footer_wrapper {
+  float: left;
+  width: 100%;
+  background: #000;
+  /* margin-top: 40px; */
+}
+.footer-links ul {
+  color: #fff;
+  list-style: none;
+  padding: 0;
+}
+.footer-links ul li {
+  margin-bottom: 24px;
+}
+.connect {
+  margin-top: 24px;
+}
+.footer-info {
+  float: left;
+  width: 100%;
+}
+.social-links a {
+  border-radius: 50%;
+  color: #000;
+}
+.social-links {
+  float: left;
+  width: 100%;
+}
+
+.social-links a {
+  margin: 0 10px 0 0;
+}
+.footer-wrpper-sec {
+  float: right;
+}
+.newsletter {
+  margin-top: 100px;
+}
+input.newsletter_input {
+  border: 2px solid #fff;
+  margin-top: 20px;
+  width: calc(100% - 55px);
+  border-radius: 10px 0 0 10px;
+  height: 46px;
+}
+.footer-second {
+  background: #1a1818 0% 0% no-repeat padding-box;
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+}
+.copyright {
+  letter-spacing: 0.64px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+.newsletter_button {
+  border: 2px solid #fff;
+  height: 46px;
+  position: relative;
+  top: 20px;
+  left: -10px;
+  width: 50px;
+  float: right;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  background: no-repeat;
+}
+
+.newsletter_button:hover,
+.newsletter_button:focus {
+  outline: none;
+}
+.newsletter_input::-webkit-input-placeholder {
+  /* Edge */
+  color: #fff;
+}
+
+.newsletter_input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.newsletter_input {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.newsletter_input::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-wrpper-sec {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-txt {
+    font-size: 1rem;
+  }
+
+  .footer-links ul li {
+    margin-bottom: 16px;
+  }
+  .connect {
+    margin-top: 16px;
+  }
+  .connect h3 {
+    margin-top: -8px;
+    font-size: 0.875rem;
+  }
+  .footer-wrpper-sec {
+    margin-top: 16px;
+    float: left;
+  }
+
+  input.newsletter_input {
+    width: calc(100% - 120px);
+  }
+  .newsletter_button {
+    left: -72px;
+  }
+
+  .newsletter_input::placeholder {
+    color: #fff;
+    font-size: 12px;
+  }
+}
+
+/*---------------------- /footer css ------------------------*/
 
 @media screen and (max-width: 767px) {
   .slick-prev,

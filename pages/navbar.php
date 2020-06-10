@@ -52,7 +52,7 @@
                 </a>
 
                 <div class="hamburger-menu desktop">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/breadcrumb.svg"/></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/hamburger.svg"/></a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -64,7 +64,7 @@
             </div>
             <!-- hamburger for mobile -->
             <div class="hamburger-menu mobile">
-                    <a class="navbar-toggler" data-toggle="collapse" href="#" role="button" data-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation"><img src="images/breadcrumb.svg"/></a>
+                    <a class="navbar-toggler" data-toggle="collapse" href="#" role="button" data-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation"><img src="images/hamburger.svg"/></a>
                     <div class="collapse navbar-collapse" id="mobileMenu">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item dropdown">

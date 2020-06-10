@@ -9,7 +9,7 @@
                     <h1 class="text-uppercase text-white">Find Skilled & Trustworthy Masons</h1>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/mason-banner.png" class="img-fluid" />
+                    <img src="images/mason/mason-banner.jpg" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -218,7 +218,7 @@
                         </form>
                         </div>
                         <div class="col-lg-6 order-lg-2 order-md-1">
-                            <img src="images/mason/mason-form.png" class="img-fluid" />
+                            <img src="images/mason/mason-form.jpg" class="img-fluid" />
                         </div>
                     </div>
                 </section>

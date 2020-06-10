@@ -13,14 +13,9 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <!-- Add the new slick-theme.css if you want the default styling -->
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/button.css">
-    <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/mason.css">
-    <link rel="stylesheet" href="./css/dealer.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/rcp.css">
     <title>Tata Tiscon</title>
   </head>
   <body>
