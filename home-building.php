@@ -203,7 +203,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-12 order-4 order-sm-3 text-col">
+                <div class="col-sm-6 col-12 order-4 order-sm-3 text-col left-text-1">
                     <div class="div">
                         <p class="number-title">02</p>
                         <h4 class="title">Inspirational Design Library</h4>
@@ -256,7 +256,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-12 order-4 order-sm-3 text-col">
+                <div class="col-sm-6 col-12 order-4 order-sm-3 text-col left-text-2">
                     <div class="div">
                         <p class="number-title">04</p>
                         <h4 class="title">Service Provider & Dealer <br/>Directory</h4>
