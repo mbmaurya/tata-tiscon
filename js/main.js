@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".testimonial-slider").slick({
+  $(".mason-testimonial-slider").slick({
     infinite: true,
     dots: true,
     slidesToShow: 3,
@@ -13,6 +13,22 @@ $(document).ready(function () {
           infinite: true,
         },
       },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+
+  $(".expert-testimonial-slider").slick({
+    infinite: true,
+    dots: true,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    responsive: [
       {
         breakpoint: 767,
         settings: {
