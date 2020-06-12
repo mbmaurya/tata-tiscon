@@ -129,12 +129,67 @@ select:focus {
   text-transform: uppercase;
 }
 
+.sub-heading {
+  color: #1a1818;
+}
+
 .underline {
   width: 105px;
   border-top: 2px solid #d4001c;
   margin-left: auto;
   margin-right: auto;
 }
+
+.content-section {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+/*----------------------- from ---------------------*/
+
+.form-group {
+  position: relative;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #112769;
+}
+
+.form-control {
+  border: 1px solid #3f3f41;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.form-control ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #3f3f41;
+  font-weight: 300;
+  opacity: 1; /* Firefox */
+}
+
+.form-control :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #3f3f41;
+  font-weight: 300;
+}
+
+.form-control ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #3f3f41;
+  font-weight: 300;
+}
+
+.error {
+  position: absolute;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  color: #ff0000;
+}
+
+/*----------------------- /from ---------------------*/
 
 /*---------------------- button css ------------------*/
 .btn {
@@ -204,12 +259,70 @@ select:focus {
 
 /*-------------------- /slick slider css --------------------*/
 
+/*--------------------- feature-list -----------------------*/
+
+.feature-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px 0px 0px;
+}
+
+.feature-list li {
+  display: inline-block;
+  width: 210px;
+  vertical-align: top;
+}
+
+.feature-list li p {
+  color: #1a1818;
+  margin: 15px 0px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.feature-list li div {
+  display: flex;
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  webkit-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  -moz-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+.feature-list li div:hover {
+  background-color: #112769;
+  webkit-box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+  -moz-box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+  box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
+}
+
+.feature-list li div svg {
+  width: 170px;
+  margin: auto;
+  fill: #112769;
+}
+
+.feature-list li div:hover svg {
+  fill: #ffffff;
+}
+
+.feature-list li div:hover + p {
+  color: #112769;
+}
+
+/*-------------------- /feature-list --------------------*/
+
 /*------------------- hero-bg ---------------------*/
 
 .hero-bg {
   position: relative;
   width: 100%;
   height: 100%;
+  background-image: url("../images/banner-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -222,8 +335,12 @@ select:focus {
   text-transform: uppercase;
 }
 
-.hero-bg img {
-  padding-bottom: 1.25rem;
+.hero-bg section {
+  padding: 30px 0px 60px;
+}
+
+.hero-img {
+  padding-bottom: 20px;
 }
 
 /*------------------- /hero-bg ---------------------*/
@@ -521,55 +638,6 @@ nav .v-center {
   color: #1a1818;
 }
 
-.mason-features .feature-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 50px 0px 0px;
-}
-
-.mason-features .feature-list li {
-  display: inline-block;
-  width: 210px;
-  vertical-align: top;
-}
-
-.mason-features .feature-list li p {
-  color: #1a1818;
-  margin: 15px 0px;
-  line-height: 24px;
-  font-weight: 300;
-}
-
-.mason-features .feature-list li div {
-  display: flex;
-  width: 170px;
-  height: 170px;
-  margin: 0 auto;
-  background-color: #f5f5f5;
-  border-radius: 50%;
-  webkit-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
-  -moz-box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
-  box-shadow: 5px 5px 5px -6px rgba(245, 245, 245, 1);
-  transition: all 0.2s ease-in-out;
-}
-
-.mason-features .feature-list li div:hover {
-  background-color: #112769;
-  webkit-box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
-  -moz-box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
-  box-shadow: 5px 5px 5px -6px rgba(17, 39, 105, 1);
-}
-
-.mason-features .feature-list li div svg {
-  width: 170px;
-  margin: auto;
-  fill: #112769;
-}
-
-.mason-features .feature-list li div:hover svg {
-  fill: #ffffff;
-}
-
 .mason-form section {
   border-radius: 5px;
   border-top: 5px solid #000;
@@ -753,6 +821,7 @@ nav .v-center {
 
 .testimonial-slider .slick-slide {
   padding: 15px;
+  outline: none;
 }
 
 .testimonial-slider .name {
@@ -911,6 +980,52 @@ nav .v-center {
 }
 
 /*------------------ / mason/dealer css --------------------*/
+
+/*------------------ ask-expert css --------------------*/
+
+.expert-hero-bg section {
+  padding-bottom: 0;
+}
+
+.expert-hero-bg .expert-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.expert-hero-bg .expert-form h3 {
+  font-size: 1.375rem;
+  line-height: 1.375rem;
+  color: #1a1818;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0px 30px;
+}
+
+.expert-hero-bg .expert-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.expert-hero-bg .expert-form .btn {
+  width: 100%;
+  font-weight: 600;
+  padding: 10px 15px;
+}
+
+.expert-testimonials {
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 992px) {
+  .expert-hero-bg .expert-form {
+    margin: 15px 0px;
+  }
+}
+
+/*------------------ / ask-expert css --------------------*/
 
 /*---------------------- footer css ------------------------*/
 
