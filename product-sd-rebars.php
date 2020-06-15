@@ -28,7 +28,7 @@
                         </div>
                 </div>
                 <div class="row grid-row">
-                        <div class="col-sm-6 col-12 text-col">
+                        <div class="col-md-6 col-12 text-col">
                                 <h4 class="title">About Us</h4>
                                 <p class="para">
                                         TATA Tiscon Super Ductile (SD) Rebars are the new <br/>
@@ -43,7 +43,7 @@
                                         Tiscon SD Rebars!
                                 </p>
                         </div>
-                        <div class="col-sm-6 col-12 img-col">
+                        <div class="col-md-6 col-12 img-col">
                                 <img src="./images/product-sd-rebars/about-us-1.png" alt="about us" class="img-fluid img-1">
                                 <img src="./images/product-sd-rebars/about-us-2.png" alt="about us" class="img-fluid img-2">
                         </div>
@@ -64,10 +64,10 @@
                         </div>
                 </div>
                 <div class="row grid-row">
-                        <div class="col-sm-5 col-12 img-col">
+                        <div class="col-md-5 col-12 img-col">
                                 <img src="./images/product-sd-rebars/unbeatable-strength.png" alt="Unbeatable Strength" class="img-fluid" />
                         </div>
-                        <div class="col-sm-7 col-12 text-col">
+                        <div class="col-md-7 col-12 text-col">
                                 <h4 class="title">Earthquake Resistant SD Rebars</h4>
                                 <p class="para">
                                         54% of India lies above volatile Himalayan and Eurasian tectonic plates <br/>
@@ -153,7 +153,10 @@
                                 </p>
                                 <div class="img-div">
                                         <img src="./images/product-sd-rebars/rebars.png" alt="rebars" class="img-fluid" />
-                                        <div class="click-div"></div>
+                                        <div class="click-div click-div-1">+</div>
+                                        <div class="click-div click-div-2">+</div>
+                                        <div class="click-div click-div-3">+</div>
+                                        <div class="click-div click-div-4">+</div>
                                 </div>
                         </div>
                         <div class="tab-pane fade" id="superior-ductility" role="tabpanel" aria-labelledby="superior-ductility-tab">
