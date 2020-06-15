@@ -1426,6 +1426,314 @@ input.newsletter_input {
 
 /* /home building css */
 
+/* product-sd-rebars */
+
+.about-us {
+  padding: 60px 0;
+  background: #F5F5F5;
+}
+
+.about-us .grid-row {
+  padding-top: 60px;
+}
+
+.about-us .grid-row .text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-us .grid-row .title {
+  position: relative;
+  margin-bottom: 16px;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1A366F;
+}
+
+.about-us .grid-row .img-col {
+  position: relative;
+}
+
+.about-us .grid-row .img-col .img-1 {
+  float: right;
+}
+.about-us .grid-row .img-col .img-2 {
+  margin-top: -300px;
+}
+
+.unbeatable-strength {
+  padding: 60px 0;
+  background: #ffffff;
+}
+
+.unbeatable-strength .grid-row {
+  padding-top: 60px;
+}
+
+.unbeatable-strength .grid-row .img-col img {
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.unbeatable-strength .grid-row .text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.unbeatable-strength .grid-row .text-col .title {
+  position: relative;
+  margin-bottom: 16px;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1A366F;
+}
+
+.unbeatable-strength .grid-row .text-col .icon-row {
+  margin-top: 12px;
+}
+.unbeatable-strength .grid-row .text-col .icon-row .col-sm-3 {
+  text-align: center;
+}
+.unbeatable-strength .grid-row .text-col .icon-row .col-sm-3 .icon-para {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.unbeatable-strength .grid-row .text-col .download-link {
+  color: #D4001C;
+  font-weight: 600;
+}
+.unbeatable-strength .grid-row .text-col .download-link img {
+  margin-right: 6px;
+}
+
+.apart-section {
+  padding: 60px 0;
+  background: linear-gradient(180deg, #087EA5 0%, #112769  100%);
+}
+
+.apart-section .underline {
+  border-top: 2px solid #FFFFFF;
+}
+
+.apart-section .grid-row {
+  padding-top: 60px;
+}
+
+.apart-section .grid-row .title {
+  margin: 16px 0 12px 0;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.architectural-application {
+  padding: 60px 0 48px 0;
+}
+
+.architectural-application .grid-row {
+  padding-top: 60px;
+}
+
+.architectural-application .grid-row .col-sm-4 {
+  margin-bottom: 12px;
+}
+
+.architectural-application .grid-row .title {
+  margin-top: 12px;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1A366F;
+}
+
+.sd-rebars {
+  padding: 60px 0;
+  background: #F5F5F5;
+}
+.sd-rebars .nav-tabs {
+  margin-top: 30px;
+  justify-content: center;
+  border: none;
+}
+.sd-rebars .nav-item a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1A1818;
+  opacity: 0.5;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.sd-rebars .nav-item .active {
+  background: initial;
+  color: #D4001C;
+  opacity: 1;
+  border-bottom: 1px solid #D4001C;
+}
+
+.sd-rebars .tab-content .tab-pane {
+  padding-top: 20px;
+}
+.sd-rebars .tab-content .tab-pane .img-div {
+  position: relative;
+  display: inline-block ;
+}
+.sd-rebars .tab-content .tab-pane img {
+  margin-top: 20px;
+}
+
+.sd-rebars .tab-content .img-div .click-div {
+  position: absolute;
+  top: 28%;
+  left: 18%;
+  width: 30px;
+  height: 30px;
+  background: #112769;
+  border-radius: 100%;
+}
+
+.sd-rebars .tab-content .img-div .click-div:after {
+  position: absolute;
+  bottom: 13px;
+  left: -100px;
+  content: '';
+  height: 50px;
+  width: 100px;
+  border-left: 2px dashed #112769;
+  border-bottom: 2px dashed #112769;
+}
+
+.sd-rebars .tab-content .img-div .click-div:before {
+  position: absolute;
+  bottom: 70px;
+  left: -165px;
+  content: 'fdgobdfighdf';
+  padding: 8px 16px;
+  box-shadow: 0px 5px 16px #00000029;
+  border-radius: 5px;
+}
+
+.sd-rebars .btn-div .btn-blue {
+  margin-right: 10px;
+}
+
+.sd-rebars .modal {
+  background: #ffffffe0;
+}
+.sd-rebars .modal-dialog {
+  max-width: 1190px;
+} 
+
+.sd-rebars .modal .modal-content {
+  background: transparent;
+  box-shadow: none;
+}
+
+.sd-rebars .modal .modal-content table {
+  border-collapse:separate; 
+  border-spacing:0 15px; 
+}
+
+.sd-rebars .modal .modal-content thead {
+  background: #D4001C;
+}
+
+.sd-rebars .modal .modal-content thead th {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  font-weight: 500;
+  box-shadow: 0px 5px 10px #00000029;
+}
+.sd-rebars .modal .modal-content thead th:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: none;
+}
+.sd-rebars .modal .modal-content thead th:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: none;
+}
+
+.sd-rebars .modal .modal-content tbody tr {
+  box-shadow: 0px 5px 10px #00000029;
+}
+.sd-rebars .modal .modal-content tbody td {
+  border-right: 1px solid #D4001C;
+  border-left: 1px solid #D4001C;
+  height: 60px;
+}
+.sd-rebars .modal .modal-content tbody td .d-flex div {
+  width: 50%;
+}
+.sd-rebars .modal .modal-content tbody td:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: none;
+}
+.sd-rebars .modal .modal-content tbody td:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: none;
+}
+
+.bg-grey {
+  background: #F5F5F5;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #112769;
+}
+.bg-white {
+  background: #FFFFFF;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .about-us .grid-row .img-col  .img-1{
+    width: 70%;
+  }
+  .about-us .grid-row .img-col  .img-2{
+    margin-top: -200px;
+    width: 50%;
+  }
+
+  .unbeatable-strength .grid-row .text-col {
+    margin-top: 60px;
+  }
+
+  .sd-rebars .btn-blue {
+    margin-bottom: 16px;
+  }
+
+  .sd-rebars .modal .modal-content {
+    overflow-x: scroll ;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-us .grid-row .text-col br {
+    display: none;
+  }
+  .about-us .grid-row .img-col  .img-1{
+    width: 80%;
+  }
+  .about-us .grid-row .img-col  .img-2{
+    margin-top: -200px;
+    width: 60%;
+  }
+  .unbeatable-strength .grid-row .text-col br {
+    display: none;
+  }
+  .sd-rebars .tab-content br {
+    display: none;
+  }
+}
+
+/* /product-sd-rebars */
+
 
 /* tata ashiyana */
 
