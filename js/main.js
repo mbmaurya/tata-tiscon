@@ -38,4 +38,13 @@ $(document).ready(function () {
       },
     ],
   });
+
+  $('.map').maphilight({
+    alwaysOn: true,
+    fillColor: "1A366F",
+    fillOpacity: '1',
+    strokeColor: '1A266F',
+    strokeWidth: 5,
+    strokeOpacity: 0.5
+  });
 });
