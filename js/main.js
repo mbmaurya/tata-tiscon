@@ -39,12 +39,51 @@ $(document).ready(function () {
     ],
   });
 
-  $('.map').maphilight({
+  $(".map").maphilight({
     alwaysOn: true,
     fillColor: "1A366F",
-    fillOpacity: '1',
-    strokeColor: '1A266F',
+    fillOpacity: "1",
+    strokeColor: "1A266F",
     strokeWidth: 5,
-    strokeOpacity: 0.5
+    strokeOpacity: 0.5,
+  });
+
+  $(".plus-desc").mouseenter(function () {
+    var id = $(this).attr("id");
+    $(".plus-info").each(function (index) {
+      var dataAttr = $(this).attr("data-infofor");
+      if (id == dataAttr) {
+        $(this).addClass("d-inline-block");
+      }
+    });
+  });
+
+  $(".plus-desc").mouseleave(function () {
+    var id = $(this).attr("id");
+    $(".plus-info").each(function (index) {
+      var dataAttr = $(this).attr("data-infofor");
+      if (id == dataAttr) {
+        $(this).removeClass("d-inline-block");
+      }
+    });
+  });
+
+  $(".plus-desc").click(function () {
+    $(this).addClass("active");
+    var id = $(this).attr("id");
+    $(".plus-info").each(function (index) {
+      var dataAttr = $(this).attr("data-infofor");
+      if (id == dataAttr) {
+        $(this).removeClass("d-none");
+        $(this).addClass("activated");
+        var dataAttrTab = $(this).attr("data-tab");
+        $("#" + dataAttrTab).tab("show");
+        console.log(dataAttrTab);
+      } else {
+        $(this).removeClass("activated");
+        $(this).addClass("d-none");
+      }
+    });
+    $(".plus-desc").not(this).removeClass("active");
   });
 });

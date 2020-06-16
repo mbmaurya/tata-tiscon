@@ -136,47 +136,52 @@
                                         With a minimum elongation of 18% and a total elongation of minimum 7.5% at max force, TATA Tiscon SD <br/>
                                         Rebars can bear great weight, stretch under pressure, and return to their original shape and size.
                                 </p>
-                                <div class="img-div">
-                                        <img src="./images/product-sd-rebars/rebars.png" alt="rebars" class="img-fluid map" usemap="#image-map" />
-                                        <map name="image-map">
-                                                <area target="" alt="" title="" href="" coords="110,100,14" shape="circle">
-                                                <area target="" alt="" title="" href="" coords="232,112,14" shape="circle">
-                                                <area target="" alt="" title="" href="" coords="372,254,16" shape="circle">
-                                                <area target="" alt="" title="" href="" coords="471,290,15" shape="circle">
-                                        </map>
-                                </div>
                         </div>
                         <div class="tab-pane fade" id="stress-absorbtion" role="tabpanel" aria-labelledby="stress-absorbtion-tab">
                                 <p class="para">
                                         TATA Tiscon SD Rebars have a uniform stress bearing capacity of 500 MPa. As opposed to ordinary <br/>
                                         rebars that crack overtime, SD rebars can absorb extreme pressure and stand strong.
                                 </p>
-                                <div class="img-div">
-                                        <img src="./images/product-sd-rebars/rebars.png" alt="rebars" class="img-fluid" />
-                                        <div class="click-div click-div-1">+</div>
-                                        <div class="click-div click-div-2">+</div>
-                                        <div class="click-div click-div-3">+</div>
-                                        <div class="click-div click-div-4">+</div>
-                                </div>
                         </div>
                         <div class="tab-pane fade" id="superior-ductility" role="tabpanel" aria-labelledby="superior-ductility-tab">
                                 <p class="para">
                                         Specially suited for construction in seismic zones, TATA Tiscon SD rebars have a high ductility ratio <br/>
                                         of more than 1.5. This allows them to bend but not break, especially in case of earthquakes
                                 </p>
-                                <div class="img-div">
+                                <!-- <div class="img-div">
                                         <img src="./images/product-sd-rebars/rebars.png" alt="rebars" class="img-fluid" />
-                                </div>
+                                </div> -->
                         </div>
                         <div class="tab-pane fade" id="uniform-ridges" role="tabpanel" aria-labelledby="uniform-ridges-tab">
                                 <p class="para">
                                         Uniform ridges, parallel ribs & superior bond strength ensures that concrete around the rebars does <br/>
                                         not crack or dust off due to continued wear & tear through the years, as opposed to ordinary rebars.
                                 </p>
-                                <div class="img-div">
+                                <!-- <div class="img-div">
                                         <img src="./images/product-sd-rebars/rebars.png" alt="rebars" class="img-fluid" />
-                                </div>
+                                </div> -->
                         </div>
+                </div>
+
+                <div class="plus-container">
+                                <a href="javascript:void(0)" class="plus-desc active" id="plus-sign-one">+</a>
+                                <a href="javascript:void(0)" class="plus-desc" id="plus-sign-two">+</a>
+                                <a href="javascript:void(0)" class="plus-desc" id="plus-sign-three">+</a>
+                                <a href="javascript:void(0)" class="plus-desc" id="plus-sign-four">+</a>
+
+                                <div class="plus-info activated" id="plus-info-one" data-infofor="plus-sign-one" data-tab="elongation-tab">
+                                        <span>Greater Elongation</span>
+                                </div>
+                                <div class="plus-info" id="plus-info-two" data-infofor="plus-sign-two" data-tab="stress-absorbtion-tab">
+                                        <span>Stress Absorption</span>
+                                </div>
+                                <div class="plus-info" id="plus-info-three" data-infofor="plus-sign-three" data-tab="superior-ductility-tab">
+                                        <span>Superior Ductility</span>
+                                </div>
+                                <div class="plus-info" id="plus-info-four" data-infofor="plus-sign-four" data-tab="uniform-ridges-tab">
+                                        <span>Uniform Ridges</span>
+                                </div>
+                        <img src="./images/product-sd-rebars/rebars.png" alt="rebars" class="img-fluid" />        
                 </div>
                 <div class="btn-div">
                         <button class="btn btn-blue" data-toggle="modal" data-target="#mechanicalProperties">Mechanical properties</button>
