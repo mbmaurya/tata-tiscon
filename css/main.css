@@ -1736,18 +1736,22 @@ input.newsletter_input {
   display: none;
   width: 80px;
   height: 80px;
-  border-right: 2px dashed;
-  border-bottom: 2px dashed;
+  border-right: 2px dashed #112769;
+  border-bottom: 2px dashed #112769;
   top: -64px;
 }
 
 .plus-info span {
   position: absolute;
   display: inline-block;
-  top: -48px;
+  top: -44px;
   width: 200px;
-  padding: 12px;
+  padding: 8px 12px;
   margin-left: -48px;
+  height: 42px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 5px 16px #00000029;
 }
 
 .activated {
@@ -1778,7 +1782,7 @@ input.newsletter_input {
   top: 244px;
   right: 240px;
   border-right: none;
-  border-left: 2px dashed;
+  border-left: 2px dashed #112769;
   height: 20px;
   width: 200px;
 }
@@ -1790,11 +1794,11 @@ input.newsletter_input {
 
 #plus-info-two {
   border-right: none;
-  border-left: 2px dashed;
+  border-left: 2px dashed #112769;
   top: 23px;
   left: 35px;
   border-right: none;
-  border-left: 2px dashed;
+  border-left: 2px dashed #112769;
 }
 
 #plus-info-two span {
@@ -1809,6 +1813,26 @@ input.newsletter_input {
 #plus-info-four {
   top: 212px;
   right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .about-us .grid-row .text-col br {
+    display: none;
+  }
+  .about-us .grid-row .img-col .img-1 {
+    width: 80%;
+  }
+  .about-us .grid-row .img-col .img-2 {
+    margin-top: -200px;
+    width: 60%;
+  }
+  .unbeatable-strength .grid-row .text-col br {
+    display: none;
+  }
+  .sd-rebars .tab-content br {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1845,38 +1869,330 @@ input.newsletter_input {
     width: 300px;
     margin-right: 0;
   }
-}
 
-@media screen and (max-width: 992px) {
-  .about-us .grid-row .text-col br {
-    display: none;
+  .plus-container {
+    width: 100%;
   }
-  .about-us .grid-row .img-col .img-1 {
-    width: 80%;
+
+  #plus-sign-one {
+    top: 29%;
+    left: 47%;
   }
-  .about-us .grid-row .img-col .img-2 {
-    margin-top: -200px;
-    width: 60%;
+  #plus-sign-two { 
+    top: 27%;
+    left: 23%;
   }
-  .unbeatable-strength .grid-row .text-col br {
-    display: none;
+  #plus-sign-three {
+    bottom: 29%;
+    right: 33%;
   }
-  .sd-rebars .tab-content br {
-    display: none;
+  #plus-sign-four {
+    bottom: 19%;
+    right: 14%;
   }
+
+  #plus-info-one {
+    top: 19%;
+    left: 55.5%;
+    height: 40px;
+    width: 40px;
+  }
+  #plus-info-one span {
+    margin-left: -76px;
+  }
+  #plus-info-two {
+    top: 15%;
+    left: 27%;
+    height: 30px;
+    width: 0px;
+  }
+  #plus-info-three {
+    top: 62%;
+    right: 41%;
+    height: 8px;
+    width: 108px;
+  }
+  #plus-info-four {
+    top: 21%;
+    right: 18%;
+    height: 111px;
+    width: 0px;
+  }
+  #plus-info-four span {
+    margin-left: -127px;
+  }
+
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
-  /* .about-us .text-col {
-    text-align: center;
-  } */
 
   .unbeatable-strength .img-col {
     text-align: center;
   }
+
+  #plus-sign-one {
+    top: 26%;
+    left: 39%;
+  }
+  #plus-sign-two { 
+    top: 27%;
+    left: 23%;
+  }
+  #plus-sign-three {
+    bottom: 29%;
+    right: 33%;
+  }
+  #plus-sign-four {
+    bottom: 19%;
+    right: 14%;
+  }
+
+  #plus-info-one {  
+    top: 19%;
+    left: 44.5%;
+    height: 40px;
+    width: 40px;
+  }
+  #plus-info-one span {
+    margin-left: -76px;
+  }
+  #plus-info-two {
+    top: 7%;
+    left: 6%;
+    height: 86px;
+    width: 91px;
+  }
+  #plus-info-three {
+    top: 55%;
+    right: 38%;
+    height: 41px;
+    width: 254px;
+  }
+  #plus-info-four {
+    top: 41%;
+    right: 16.5%;
+    height: 111px;
+    width: 0px;
+  }
+  #plus-info-four span {
+    margin-left: -104px;
+  }
+
 }
 
 /* /product-sd-rebars */
+
+/* GFX coated superlinks */
+
+.superlinks .plus-container {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.superlinks .plus-container section {
+  position: absolute;
+}
+
+.superlinks .plus-desc {
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+  line-height: 10px;
+  background-color: #112768;
+  color: #ffffff;
+  border-radius: 16px;
+}
+
+.superlinks .plus-info {
+  position: absolute;
+  display: none;
+  width: 80px;
+  height: 80px;
+  border-right: 2px dashed #112769;
+  border-bottom: 2px dashed #112769;
+  top: -64px;
+}
+
+.superlinks .plus-info span {
+  position: absolute;
+  display: inline-block;
+  top: -44px;
+  width: 200px;
+  padding: 8px 12px;
+  margin-left: -48px;
+  height: 42px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 5px 16px #00000029;
+}
+
+.superlinks .activated {
+  display: inline-block;
+}
+
+.superlinks #plus-sign-one {
+  top: 120px;
+  left: 250px;
+}
+
+.superlinks #plus-sign-two {
+  top: 59px;
+  left: 31px;
+}
+
+.superlinks #plus-sign-three {
+  bottom: 100px;
+  right: 190px;
+}
+
+.superlinks #plus-sign-four {
+  bottom: 43px;
+  right: 35px;
+}
+
+.superlinks #plus-info-three {
+  top: 198px;
+    right: 221px;
+    border-right: none;
+    border-left: 2px dashed #112769;
+    height: 20px;
+    width: 207px;
+}
+
+.superlinks #plus-info-one {
+  top: 54px;
+  left: 281px;
+}
+.superlinks #plus-info-one span {
+ width: 218px;
+ margin-left: -66px;
+}
+
+.superlinks #plus-info-two {
+  top: 19px;
+  left: -82px;
+  height: 54px;
+  width: 111px;
+}
+
+.superlinks #plus-info-two span {
+  left: -75px;
+  width: 245px;
+}
+
+.superlinks #plus-info-three span {
+  margin-left: 0;
+  left: -100px;
+}
+
+.superlinks #plus-info-four {
+  top: 194px;
+  right: -57px;
+  width: 90px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .superlinks #plus-info-one {
+    top: 34px;
+    left: 263px;
+    height: 89px;
+    width: 0px;
+}
+.superlinks #plus-info-one span {
+  width: 210px;
+  margin-left: -123px;
+}
+
+.superlinks #plus-info-two {
+  top: 24px;
+  left: 18px;
+  height: 51px;
+  width: 13px;
+}
+.superlinks #plus-info-two span {
+  left: 19px;
+  width: 245px;
+}
+
+.superlinks #plus-info-three {
+  top: 21px;
+  right: 204px;
+  border-right: none;
+  border-left: 2px dashed #112769;
+  height: 176px;
+  width: 0px;
+}
+.superlinks #plus-info-three span {
+  margin-left: 0;
+  left: -100px;
+}
+
+.superlinks #plus-info-four {
+  top: 29px;
+  right: 7px;
+  height: 243px;
+  width: 28px;
+}
+.superlinks #plus-info-four span {
+  margin-left: -170px;
+}
+
+}
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+  .superlinks #plus-info-one {
+    top: 34px;
+    left: 281px;
+    height: 101px;
+    width: 97px;
+}
+.superlinks #plus-info-one span {
+  width: 210px;
+  margin-left: -61px;
+}
+
+.superlinks #plus-info-two {
+  top: 24px;
+  left: -44px;
+  height: 51px;
+  width: 73px;
+}
+.superlinks #plus-info-two span {
+  left: -65px;
+  width: 245px;
+}
+
+.superlinks #plus-info-three {
+  top: 165px;
+  right: 220px;
+  border-right: none;
+  border-left: 2px dashed #112769;
+  height: 53px;
+  width: 186px;
+}
+.superlinks #plus-info-three span {
+  margin-left: 0;
+  left: -100px;
+}
+
+.superlinks #plus-info-four {
+  top: 176px;
+  right: -64px;
+  height: 98px;
+  width: 97px;
+}
+.superlinks #plus-info-four span {
+  margin-left: -60px;
+}
+
+}
+
+/* /GFX coated superlinks */
+
 
 /* tata ashiyana */
 
