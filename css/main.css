@@ -1202,7 +1202,7 @@ input.newsletter_input {
   content: "";
   height: 100%;
   border-right: 2px solid transparent;
-  border-image: url(../images/home-building/path\3050@2x.png) 50 stretch;
+  border-image: url(../images/home-building/path3050@2x.png) 50 stretch;
   transform: translateX(-50%);
 }
 
