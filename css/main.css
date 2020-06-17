@@ -3010,6 +3010,10 @@ input.newsletter_input {
   line-height: 1.5;
 }
 
+.apart-section .grid-row p {
+  color: #ffffff;
+}
+
 .architectural-application {
   padding: 60px 0 48px 0;
 }
