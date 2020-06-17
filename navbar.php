@@ -14,7 +14,7 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="sd-rebars.php">SD Rebars</a>
                             <a class="dropdown-item" href="gfx-coated-superlinks.php">GFX Coated Superlinks</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="ultima-superlinks.php">Ultima Superlinks</a>
                         </div>
                     </li>
                     <li class="dropdown">
@@ -24,6 +24,7 @@
                             <a class="dropdown-item" href="dealer.php">Dealer</a>
                             <a class="dropdown-item" href="rcp.php">RCP</a>
                             <a class="dropdown-item" href="distributor.php">Distributor</a>
+                            <a class="dropdown-item" href="ask-expert.php">Ask Expert</a>
                         </div>
                     </li>
                     <li class="dropdown">
