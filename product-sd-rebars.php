@@ -170,16 +170,16 @@
                                 <a href="javascript:void(0)" class="plus-desc" id="plus-sign-four">+</a>
 
                                 <div class="plus-info activated" id="plus-info-one" data-infofor="plus-sign-one" data-tab="elongation-tab">
-                                        <span>Greater Elongation</span>
+                                        <span><img src="./images/product-sd-rebars/greater-elongation-small.svg" alt="Greater Elongation"> Greater Elongation</span>
                                 </div>
                                 <div class="plus-info" id="plus-info-two" data-infofor="plus-sign-two" data-tab="stress-absorbtion-tab">
-                                        <span>Stress Absorption</span>
+                                        <span><img src="./images/product-sd-rebars/stress-absorbtion-small.svg" alt="Stress Absorbtion"> Stress Absorption</span>
                                 </div>
                                 <div class="plus-info" id="plus-info-three" data-infofor="plus-sign-three" data-tab="superior-ductility-tab">
-                                        <span>Superior Ductility</span>
+                                        <span><img src="./images/product-sd-rebars/superior-ductility-small.svg" alt="Superior Ductility"> Superior Ductility</span>
                                 </div>
                                 <div class="plus-info" id="plus-info-four" data-infofor="plus-sign-four" data-tab="uniform-ridges-tab">
-                                        <span>Uniform Ridges</span>
+                                        <span><img src="./images/product-sd-rebars/uniform-ridges-small.svg" alt="Uniform Rifges"> Uniform Ridges</span>
                                 </div>
                         <img src="./images/product-sd-rebars/rebars.png" alt="rebars" class="img-fluid" />        
                 </div>
