@@ -102,23 +102,23 @@
                 <section>
                     <div class="row">
                         <div class="col-lg-6 order-lg-1 order-md-2">
-                            <form>
-                                <h3>Choose by Location</h3>
-                                <div class="form-group">
-                                    <label for="pincode">Pincode*</label>
-                                    <input type="text" class="form-control" id="pincode" aria-describedby="pincode">
-                                </div>
-                                <div class="form-group">
-                                    <label for="district">Products</label>
-                                    <select id="district" class="form-control">
-                                        <option selected>Product 1</option>
-                                        <option>Product 2</option>
-                                        <option>Product 3</option>
-                                    </select>
-                                </div>
-                                <button class="btn btn-blue">View</button>
-                                <button class="btn btn-blue-inverse">Cancel</button>
-                            </form>
+                        <form>
+                            <h3>Choose by Location</h3>
+                            <div class="form-group">
+                                <label for="pincode">Pincode*</label>
+                                <input type="text" class="form-control" id="pincode" aria-describedby="pincode">
+                            </div>
+                            <div class="form-group">
+                                <label for="district">Products</label>
+                                <select id="district" class="form-control">
+                                    <option selected>Product 1</option>
+                                    <option>Product 2</option>
+                                    <option>Product 3</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-blue">View</button>
+                            <button class="btn btn-blue-inverse">Cancel</button>
+                        </form>
                         </div>
                         <div class="col-lg-6 order-lg-2 order-md-1">
                             <img src="images/price-calculator-image.png" class="img-fluid" />
@@ -130,69 +130,54 @@
     </div>
 </div>
 <!-- /mason form -->
-<div class="result_wrapper py-5">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-5">
-                <div class="section_wrapper">
-                    <div class="circle-img"><img src="images/section.svg"></div>
-                    <h3 class="text-center text-white">Section</h3>
-                    <p>8 mm</p>
-                    <p>10 mm</p>
-                    <p>12 mm</p>
-                    <p>16 mm</p>
-                    <p>20 mm</p>
-                    <p>25 mm</p>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="rcp_wrapper">
-                    <div class="circle-img"><img src="images/rcp.svg"></div>
-                    <h3 class="text-center text-white">Recommended Consumer Price</h3>
-                    <p>400</p>
-                    <p>613</p>
-                    <p>878</p>
-                    <p>1558</p>
-                    <p>2435</p>
-                    <p>3798</p>
-                </div>
-            </div>
+
+        <div class="result_wrapper py-5">
+        	<div class="container">
+        	<div class="row justify-content-center">
+        		<div class="col-md-5">
+        				<div class="section_wrapper">
+        					<div class="circle-img"><img src="images/section.svg"></div>
+        					<h3 class="text-center text-white">Section</h3>	
+        					<p>8 mm</p>
+        					<p>10 mm</p>
+        					<p>12 mm</p>
+        					<p>16 mm</p>
+        					<p>20 mm</p>
+        					<p>25 mm</p>
+        				</div>
+        		</div>
+        		<div class="col-md-5">
+        			<div class="rcp_wrapper">
+        					<div class="circle-img"><img src="images/rcp.svg"></div>
+        					<h3 class="text-center text-white">Recommended Consumer Price</h3>	
+        					<p>400</p>
+        					<p>613</p>
+        					<p>878</p>
+        					<p>1558</p>
+        					<p>2435</p>
+        					<p>3798</p>
+        				</div>	
+        			</div>
+        		</div>	
+        	</div>
         </div>
     </div>
-</div>
-<section>
-<div class="wrapper_tison_ahshiyana py-5">
-    <div class="container">
-        <div class="col-sm-12">
-            <h2 class="heading">TATA Steel Aashiyana</h2>
-            <hr class="underline" />
-        </div>
-    </div>
-</div>
-<div class="ashiyana_img">
-    <div class="container">
-        <div class="row">
-            <div class="img_ashiyana_web text-center">
-                <div class="img_ashiyana">
-                    <img src="./images/tata-shiyana-web.png" alt="" class="img-fluid">
-                </div>
-                <div class="btn-blue btn-blue-rcp">Buy Online <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</section>
-<div class="thank-you-popup">
-    <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <p>Thank you for your interest in TATA TISCON products. The prices for the product selected by you is being reviewed for the specific region you have chosen. Please visit this section later for the updated recommended prices.</p>
+
+    <!-- ashiyana -->
+
+    <?php include './components/tata-ashiyana.php';?>
+
+    <!-- /ashiyana -->
+    <div class="thank-you-popup">
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <p>Thank you for your interest in TATA TISCON products. The prices for the product selected by you is being reviewed for the specific region you have chosen. Please visit this section later for the updated recommended prices.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <?php include 'footer.php';?>
+        <?php include 'footer.php';?>

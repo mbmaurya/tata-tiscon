@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <!-- hero bg -->
-<div class="mason-hero-bg">
+<div class="hero-bg mason-hero-bg">
     <?php include 'navbar.php';?>
     <section>
         <div class="container">
@@ -9,7 +9,7 @@
                     <h1 class="text-uppercase text-white">Find Skilled & Trustworthy Masons</h1>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/mason/mason-banner.jpg" class="img-fluid" />
+                    <img src="images/mason/mason-banner.jpg" class="img-fluid hero-img" />
                 </div>
             </div>
         </div>
@@ -22,9 +22,9 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 mt-3">
-                <h2>Use The Easy Mason Locator</h2>
-                <hr />
-                <p>Finding experienced masons? TATA Tiscon SD has you covered!</p>
+                <h2 class="heading">Use The Easy Mason Locator</h2>
+                <hr class="underline" />
+                <p class="subheading">Finding experienced masons? TATA Tiscon SD has you covered!</p>
                 <ul class="feature-list">
                     <li>
                         <div>
@@ -484,7 +484,7 @@
             <div class="col-sm-12">
                 <h2>Our Masons</h2>
                 <hr />
-                <div class="testimonial-slider">
+                <div class="mason-testimonial-slider testimonial-slider">
                     <div>
                         <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
                         <p class="name">Lorem Ipsum</p>

@@ -522,7 +522,7 @@
             <div class="col-sm-12">
                 <h2>Our Dealers</h2>
                 <hr />
-                <div class="testimonial-slider">
+                <div class="mason-testimonial-slider testimonial-slider">
                     <div>
                         <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
                         <p class="name">Lorem Ipsum</p>
