@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-6 col-lg-4 v-center nav-left">
-                <img src="images/tata-tiscon-logo.png" alt="Tata Tiscon Logo" class="img-fluid logo" />
+                <a href="index.php">
+                    <img src="images/tata-tiscon-logo.png" alt="Tata Tiscon Logo" class="img-fluid logo" />
+                </a>
                 <img src="images/quote.svg" class="img-fluid quote" />
             </div>
             <div class="col-lg-5 col-sm-5 v-center nav-center d-xs-none">
@@ -10,21 +12,19 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
+                            <a class="dropdown-item" href="sd-rebars.php">SD Rebars</a>
+                            <a class="dropdown-item" href="gfx-coated-superlinks.php">GFX Coated Superlinks</a>
+                            <a class="dropdown-item" href="ultima-superlinks.php">Ultima Superlinks</a>
                         </div>
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
+                            <a class="dropdown-item" href="mason.php">Mason</a>
+                            <a class="dropdown-item" href="dealer.php">Dealer</a>
+                            <a class="dropdown-item" href="rcp.php">RCP</a>
+                            <a class="dropdown-item" href="distributor.php">Distributor</a>
+                            <a class="dropdown-item" href="ask-expert.php">Ask Expert</a>
                         </div>
                     </li>
                     <li class="dropdown">
@@ -38,7 +38,7 @@
                         </div>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Building Guide</a>
+                        <a href="home-building.php">Building Guide</a>
                     </li>
                 </ul>
             </div>

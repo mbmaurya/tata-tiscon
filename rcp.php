@@ -92,7 +92,6 @@
     </div>
 </div>
 <!-- /mason features -->
-
 <!-- mason form -->
 <div class="mason-form">
     <div class="container">
@@ -162,27 +161,13 @@
         		</div>	
         	</div>
         </div>
-        <div class="wrapper_tison_ahshiyana py-5">
-            <div class="container">
-                <div class="col-sm-12">
-                    <h2 class="heading">TATA Steel Aashiyana</h2>
-                    <hr class="underline" />
-                </div>
-            </div>
-        </div>
-        <div class="ashiyana_img">
-            <div class="container">
-                <div class="row">
-                    <div class="img_ashiyana_web text-center">
-                        <div class="img_ashiyana">
-                            <img src="./images/tata-shiyana-web.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="btn-blue btn-blue-rcp" data-toggle="modal" data-target="#myModal">Buy Online <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+
+    <!-- ashiyana -->
+
+    <?php include './components/tata-ashiyana.php';?>
+
+    <!-- /ashiyana -->
     <div class="thank-you-popup">
         <div id="myModal" class="modal fade" role="dialog">
             <div class="modal-dialog">
