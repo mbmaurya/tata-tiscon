@@ -146,6 +146,32 @@ $(".testi-slider").slick({
     // instead of a settings object
   ],
 });
+
+/* discovery slider */
+
+$('.discovery-slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  centerMode: true,
+  variableWidth: true,
+  useTransform: true,
+  focusOnSelect: false
+});
+
+/* /discovery slider */
+
+/*gallery lightbox */
+
+$('.gallery-img').click(function() {
+  $('#image').attr('src', $(this).data('img'));
+  $('#image-lightbox').modal({show: true})
+})
+
+/* /gallery lightbox */
+
+
 /* Product Jquery */
 
 $("#btnSupport").click(function () {

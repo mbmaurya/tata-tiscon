@@ -85,6 +85,15 @@ p,
   text-transform: uppercase;
 }
 
+.title {
+  position: relative;
+  margin-bottom: 16px;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1a366f;
+}
+
 /* =================================
    color stylesheet
    ==================================  */
@@ -3667,6 +3676,133 @@ input.newsletter_input {
 
 /* /GFX coated superlinks */
 
+/* discovery */
+
+.discovery-series {
+  padding: 60px 0 50px 0 ;
+  overflow: hidden;
+}
+.discovery-series .discovery-slider div {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.discovery-series .discovery-slider div img {
+  width: 590px;
+  transition: all 0.2s ease-in-out;
+}
+.discovery-series .slick-slide:focus {
+  border: none !important;
+}
+.discovery-series .slick-center:hover img {
+  width: 720px;
+  box-shadow: 0px 5px 5px #00000029;
+}
+
+.programmes {
+  padding: 60px 0;
+}
+.programmes .logo-container {
+  padding-left: 27px;
+  display: flex;
+  justify-content: center;
+}
+.programmes .logo-container div {
+  margin-right: 27px;
+  padding: 20px;
+  box-shadow: 0px 5px 5px #00000029;
+  border-radius: 5px;
+}
+.programmes .logo-container div:first-child {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 39, 105, 1) 20%,
+    rgba(8, 126, 165, 1) 80%
+  );
+}
+.programmes .logo-container img {
+  width: 160px;
+}
+
+.programmes .container .col-md-6 {
+  margin-top: 60px;
+}
+
+.programmes .container .text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.connect-section {
+  margin-bottom: 60px;
+  padding: 60px 0;
+  background: #F5F5F5;
+}
+
+.connect-section .form input[type="submit"] {
+  margin-top: 30px;
+}
+
+.gallery {
+  padding: 60px 0;  
+}
+.gallery .gallery-img img {
+  cursor: pointer;
+}
+#image-lightbox {
+  background: #ffffff75;
+}
+#image-lightbox .modal-dialog .modal-content .modal-body img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px)  {
+  .discovery-series .para br {
+    display: none;
+  }
+  .discovery-series .discovery-slider div img {
+    width: 100vw;
+  }
+  .discovery-series .slick-center:hover img {
+    width: 100vw;
+    box-shadow: none;
+  }
+
+  .programmes .para br {
+    display: none;
+  }
+    .programmes .logo-container  {
+      padding-left: 5px;
+    }
+    .programmes .logo-container div  {
+    padding: 10px 5px;
+    margin-right: 5px;
+  }
+  .programmes .container .row .text-col br{
+    display: none;
+  }
+  .programmes .container .row .img-col{
+    margin-top: 0;
+  }
+  .programmes .container .row .text-col br{
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .discovery-series .discovery-slider div img {
+    width: 90vw;
+  }
+  .discovery-series .slick-center:hover img {
+    width: 90vw;
+    box-shadow: none;
+  }
+  .programmes .container .row .text-col br{
+    display: none;
+  }
+}  
+
+/* /discovery */
+
 /* tata ashiyana */
 
 .ashiyana-title {
@@ -3701,6 +3837,7 @@ input.newsletter_input {
 }
 
 /* /tata ashiyana */
+
 
 /*------------------ rcp -----------------*/
 .btn-blue-rcp {
