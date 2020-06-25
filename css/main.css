@@ -3679,7 +3679,7 @@ input.newsletter_input {
 /* discovery */
 
 .discovery-series {
-  padding: 60px 0 50px 0 ;
+  padding: 60px 0 10px 0 ;
   overflow: hidden;
 }
 .discovery-series .discovery-slider div {
@@ -3690,11 +3690,14 @@ input.newsletter_input {
   width: 590px;
   transition: all 0.2s ease-in-out;
 }
-.discovery-series .slick-slide:focus {
-  border: none !important;
+.discovery-series .slick-slide {
+  margin: 50px 0 !important;
+  transition: all 0.2s ease-in-out;
+}
+.discovery-series .slick-center:hover {
+  transform: scale(1.3);
 }
 .discovery-series .slick-center:hover img {
-  width: 720px;
   box-shadow: 0px 5px 5px #00000029;
 }
 
@@ -3751,10 +3754,22 @@ input.newsletter_input {
 }
 #image-lightbox {
   background: #ffffff75;
+  transition: all 0.2s ease-in-out;
 }
 #image-lightbox .modal-dialog .modal-content .modal-body img {
   width: 100%;
 }
+#image-lightbox .modal-dialog .modal-content .modal-body .img-list {
+  margin: 10px 30px;
+}
+.slick-slide:focus {
+  outline: none;
+}
+#image-lightbox .modal-dialog .modal-content .modal-body .img-list div img {
+  padding: 10px;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 767px)  {
   .discovery-series .para br {
@@ -3763,9 +3778,8 @@ input.newsletter_input {
   .discovery-series .discovery-slider div img {
     width: 100vw;
   }
-  .discovery-series .slick-center:hover img {
-    width: 100vw;
-    box-shadow: none;
+  .discovery-series .slick-center:hover {
+    transform: scale(1);
   }
 
   .programmes .para br {

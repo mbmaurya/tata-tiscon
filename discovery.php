@@ -36,7 +36,7 @@
     </div>
     <!-- image slider -->
 
-    <div class="discovery-slider mt-5">
+    <div class="discovery-slider">
         <div>
             <img src="images/discover/discovery-series-1.png" alt="" class="img-fluid">
         </div>
@@ -167,22 +167,22 @@
         </div>
         <div class="row mt-5">
             <div class="col-sm-4 col-6 mb-3 gallery-img" data-img="images/discover/Image-1.png">
-                <img src="images/discover/Image-1.png" alt="" class="img-fluid">
+                <img src="images/discover/Image-1.png" alt="" class="img-fluid g-img">
             </div>
             <div class="col-sm-4 col-6 mb-3 gallery-img" data-img="images/discover/Image-2.png">
-                <img src="images/discover/Image-2.png" alt="" class="img-fluid">
+                <img src="images/discover/Image-2.png" alt="" class="img-fluid g-img">
             </div>
             <div class="col-sm-4 col-6 mb-3 gallery-img" data-img="images/discover/Image-3.png">
-                <img src="images/discover/Image-3.png" alt="" class="img-fluid">
+                <img src="images/discover/Image-3.png" alt="" class="img-fluid g-img">
             </div>
             <div class="col-sm-4 col-6 mb-3 gallery-img" data-img="images/discover/Image-4.png">
-                <img src="images/discover/Image-4.png" alt="" class="img-fluid">
+                <img src="images/discover/Image-4.png" alt="" class="img-fluid g-img">
             </div>
             <div class="col-sm-4 col-6 mb-3 gallery-img" data-img="images/discover/Image-5.png">
-                <img src="images/discover/Image-5.png" alt="" class="img-fluid">
+                <img src="images/discover/Image-5.png" alt="" class="img-fluid g-img">
             </div>
             <div class="col-sm-4 col-6 mb-3 gallery-img" data-img="images/discover/Image-6.png">
-                <img src="images/discover/Image-6.png" alt="" class="img-fluid">
+                <img src="images/discover/Image-6.png" alt="" class="img-fluid g-img">
             </div>
         </div>
     </div>
@@ -194,6 +194,12 @@
         <div class="modal-body">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <img src="" id="image" class="img-fluid" />
+            <!-- <ul class="img-list">
+
+            </ul> -->
+            <div class="img-list">
+                
+            </div>
         </div>
         </div>
     </div>
