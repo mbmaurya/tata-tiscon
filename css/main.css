@@ -15,6 +15,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -235,6 +236,21 @@ select:focus {
   border-top: 2px solid #d4001c;
   margin-left: auto;
   margin-right: auto;
+}
+.underline-small {
+  width: 70px;
+  border-top: 2px solid #112769;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue-bg {
+  background: linear-gradient(180deg, #112769 0%, #087ea5 100%) 0%
+0% no-repeat padding-box;
+}
+.red-bg {
+  background: linear-gradient(180deg, #d4001c 0%, #6a000e 100%) 0%
+    0% no-repeat padding-box;
 }
 
 /*---------------------- button css ------------------*/
@@ -3816,6 +3832,313 @@ input.newsletter_input {
 }  
 
 /* /discovery */
+
+/* Basera */
+.new-world {
+  padding: 60px 0 0 0;
+}
+.new-world-banner {
+  background: url('../images/tata-basera/banner-2.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.navbar {
+  margin: 0;
+  height: 90px;
+  background: #FFFFFF !important;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.navbar .navbar-collapse {
+  margin-left: -140px;
+}
+.navbar .navbar-nav .nav-item {
+  margin-right: 20px;
+}
+.navbar .navbar-nav .active>.nav-link {
+  color: #D4001C;
+  border-bottom: 1px solid #D4001C;
+}
+
+.overview {
+  padding: 60px 0 0 0;
+  background: #FFFFFF;
+}
+.overview .row .text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.journey {
+  padding: 60px 0;
+  background: #FFFFFF;
+}
+.journey .container {
+  max-width: 1000px;
+}
+
+.journey .path-div {
+  display: flex;
+  justify-content: space-between;
+}
+.journey .path-div .path {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  color: #1A1818;
+  border: 1px solid #1A1818;
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.journey .path-div .path:hover {
+  background: #112769;
+  color: #FFFFFF;
+}
+.journey .path-div .path:not(:last-child):after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -120%;
+  border-top: 1px dashed #1A1818;
+  width: 120%;
+  transform: translateY(-50%);
+}
+.journey .path-div  .focus {
+  background: #112769;
+  color: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.journey .carousel-div {
+  position: relative;
+}
+.journey .carousel-div .left-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
+  cursor: pointer;
+}
+.journey .carousel-div .right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -30px;
+  cursor: pointer;
+}
+.journey .carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px #00000029;
+}
+.journey .carousel .caption {
+  padding: 24px;
+}
+.journey .carousel .caption .title, .journey .carousel .caption .para {
+  margin: 0;
+}
+
+.banner-section {
+  height: 600px;
+  background: url('../images/tata-basera/basera-banner.png') no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.banner-section .container {
+  max-width: 1000px;
+}
+.banner-section .container .banner-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1A366F;
+}
+
+.benefits {
+  padding: 60px 0;
+  background: #FFFFFF;
+}
+.benefits .container {
+  max-width: 1000px;
+}
+
+.benefits .card {
+  border: 1px solid #707070;
+  box-shadow: 0px 10px 20px #00000029;
+}
+
+.benefits .card .card-header {
+  box-shadow: 0px 10px 20px #00000029;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits .card .card-header .img-div {
+  margin-top: -70px;
+  height: 108px;
+  width: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 100%;
+  box-shadow: 0px 5px 5px #00000029;
+}
+
+.offers {
+  padding: 60px 0;
+  background: #F5F5F5;
+}
+.offers .container {
+  max-width: 1000px;
+}
+.offers .nav-tabs {
+  justify-content: center;
+  border-bottom: none;
+}
+.offers .nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1A1818;
+  cursor: pointer;
+}
+
+.offers .nav-tabs .nav-link.active {
+  background: #F5F5F5;
+  border-bottom: 3px solid #D4001C;
+}
+
+.offers .tab-content {
+  padding: 0 30px;
+}
+.offers .tab-content .card {
+  box-shadow: 0px 5px 5px #00000029;
+  border: 1px solid #707070;
+  height: 100%;
+}
+.offers .tab-content .card .card-header {
+  background: #0C437B;
+}
+.offers .tab-content .card .card-header .title {
+  margin: 0;
+}
+.offers .tab-content .card .card-body {
+  padding: 20px 0;
+}
+.offers .tab-content .card .card-body ul {
+  margin-right: 20px;
+}
+.offers .tab-content .card .card-body hr {
+  border-top: 1px solid #0C437B;
+}
+
+
+@media screen and (max-width: 767px) {
+  br {
+    display: none;
+  }
+  .new-world-banner {
+    height: 70vh;
+  }
+
+  .journey .path-div .path {
+    width: 30px;
+    height: 30px;
+  }
+  .journey .carousel-div .left-arrow {
+    left: -4%;
+  }
+  .journey .carousel-div .right-arrow {
+    right: -4%;
+  }
+
+  .banner-section {
+    background-size: 800px 100%;
+    background-position-x: right;
+  }
+  .benefits .card-row {
+    margin-top: -20px !important;
+  }
+  .benefits .card {
+    margin-top: 100px;
+  }
+
+  .offers .nav-tabs .nav-link {
+    border: none;
+    min-height: 80px;
+  }
+  .offers .tab-content {
+    padding: 0px;
+  }
+  .offers .tab-content .card {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .journey .path-div .path {
+    width: 54px;
+    height: 54px;
+  }
+  .journey .carousel-div .left-arrow {
+    left: -2%;
+  }
+  .journey .carousel-div .right-arrow {
+    right: -2%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner-section {
+    background-position-x: right;
+  }
+  .navbar .navbar-collapse {
+    margin: 0 -15px 0 -15px;
+    padding: 0 15px;
+    background: #FFFFFF;
+  }
+  .navbar .navbar-nav .active>.nav-link {
+    border-bottom: none;
+  }
+  .journey .carousel-div .left-arrow {
+    left: -2%;
+  }
+  .journey .carousel-div .right-arrow {
+    right: -2%;
+  }
+}
+@media screen and (width: 1024px) {
+  .banner-section {
+    background-position-x: right;
+  }
+  .navbar .navbar-collapse {
+    margin-left: 0;
+  }
+  .journey .carousel-div .left-arrow {
+    left: -2%;
+  }
+  .journey .carousel-div .right-arrow {
+    right: -2%;
+  }
+}
+
+/* /Basera */
 
 /* tata ashiyana */
 

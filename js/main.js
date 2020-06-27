@@ -359,3 +359,40 @@ $(document).ready(function () {
     $(".plus-desc").not(this).removeClass("active");
   });
 });
+
+// basera
+
+$(".navbar-nav li").on('click', function(){
+  $(this).siblings().removeClass('active');
+  $(this).addClass('active')
+});
+// $(document).on("scroll", onScroll);
+// function onScroll(event){
+//   var scrollPos = $(document).scrollTop();
+//   $(".navbar-nav a").each(function () {
+//       var currLink = $(this);
+//       var refElement = $(currLink.attr("href"));
+//       if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+//           $(".navbar-nav li").removeClass("active");
+//           currLink.addClass("active");
+//       }
+//       else{
+//           currLink.removeClass("active");
+//       }
+//   });
+// }
+
+$(".path").on('click', function() {
+  $(this).siblings().removeClass('focus');
+  $(this).addClass('focus')
+  $('#journey-carousel').carousel($(this).data('index') -1);
+});
+$('#journey-carousel').on('slide.bs.carousel', function () {
+  
+});
+$(".right-arrow").on('click', function() {
+  $('#journey-carousel').carousel('next');
+});
+$(".left-arrow").on('click', function() {
+  $('#journey-carousel').carousel('prev');
+});
