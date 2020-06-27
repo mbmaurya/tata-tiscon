@@ -4105,6 +4105,9 @@ input.newsletter_input {
 }
 
 @media screen and (max-width: 992px) {
+  br {
+    display: none;
+  }
   .banner-section {
     background-position-x: right;
   }
@@ -4121,6 +4124,9 @@ input.newsletter_input {
   }
   .journey .carousel-div .right-arrow {
     right: -2%;
+  }
+  .benefits .card {
+    height: 100%;
   }
 }
 @media screen and (width: 1024px) {

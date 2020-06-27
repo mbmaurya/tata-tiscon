@@ -144,63 +144,63 @@
 
                         <div class="carousel-inner">
 
-                            <div class="carousel-item active">
+                            <div class="carousel-item active" data-id="1">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 1</h2>
                                     <p class="para">Avail loans upto 90% of the project value at attractive interest rates, at the 0% construction stage!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-id="2">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 2</h2>
                                     <p class="para">Avail loans upto 90% of the project value at attractive interest rates, at the 0% construction stage!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-id="3">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 3</h2>
                                     <p class="para">Avail loans upto 90% of the project value at attractive interest rates, at the 0% construction stage!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-id="4">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 4</h2>
                                     <p class="para">Avail loans upto 90% of the project value at attractive interest rates, at the 0% construction stage!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-id="5">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 5</h2>
                                     <p class="para">Avail loans upto 90% of the project value at attractive interest rates, at the 0% construction stage!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-id="6">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 6 </h2>
                                     <p class="para">Avail loans upto 90% of the project value at attractive interest rates, at the 0% construction stage!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-id="7">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 7</h2>
                                     <p class="para">Avail loans upto 90% of the project value at attractive interest rates, at the 0% construction stage!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-id="8">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 8</h2>
                                     <p class="para">Avail loans upto 90% of the project value at attractive interest rates, at the 0% construction stage!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-id="9">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
                                     <h2 class="title">Home Loan Enquiry 9</h2>
