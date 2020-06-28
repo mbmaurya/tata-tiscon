@@ -245,12 +245,12 @@ select:focus {
 }
 
 .blue-bg {
-  background: linear-gradient(180deg, #112769 0%, #087ea5 100%) 0%
-0% no-repeat padding-box;
+  background: linear-gradient(180deg, #112769 0%, #087ea5 100%) 0% 0% no-repeat
+    padding-box;
 }
 .red-bg {
-  background: linear-gradient(180deg, #d4001c 0%, #6a000e 100%) 0%
-    0% no-repeat padding-box;
+  background: linear-gradient(180deg, #d4001c 0%, #6a000e 100%) 0% 0% no-repeat
+    padding-box;
 }
 
 /*---------------------- button css ------------------*/
@@ -3695,7 +3695,7 @@ input.newsletter_input {
 /* discovery */
 
 .discovery-series {
-  padding: 60px 0 10px 0 ;
+  padding: 60px 0 10px 0;
   overflow: hidden;
 }
 .discovery-series .discovery-slider div {
@@ -3755,7 +3755,7 @@ input.newsletter_input {
 .connect-section {
   margin-bottom: 60px;
   padding: 60px 0;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 .connect-section .form input[type="submit"] {
@@ -3763,7 +3763,7 @@ input.newsletter_input {
 }
 
 .gallery {
-  padding: 60px 0;  
+  padding: 60px 0;
 }
 .gallery .gallery-img img {
   cursor: pointer;
@@ -3786,8 +3786,7 @@ input.newsletter_input {
   cursor: pointer;
 }
 
-
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 767px) {
   .discovery-series .para br {
     display: none;
   }
@@ -3801,20 +3800,20 @@ input.newsletter_input {
   .programmes .para br {
     display: none;
   }
-    .programmes .logo-container  {
-      padding-left: 5px;
-    }
-    .programmes .logo-container div  {
+  .programmes .logo-container {
+    padding-left: 5px;
+  }
+  .programmes .logo-container div {
     padding: 10px 5px;
     margin-right: 5px;
   }
-  .programmes .container .row .text-col br{
+  .programmes .container .row .text-col br {
     display: none;
   }
-  .programmes .container .row .img-col{
+  .programmes .container .row .img-col {
     margin-top: 0;
   }
-  .programmes .container .row .text-col br{
+  .programmes .container .row .text-col br {
     display: none;
   }
 }
@@ -3826,10 +3825,10 @@ input.newsletter_input {
     width: 90vw;
     box-shadow: none;
   }
-  .programmes .container .row .text-col br{
+  .programmes .container .row .text-col br {
     display: none;
   }
-}  
+}
 
 /* /discovery */
 
@@ -3838,7 +3837,7 @@ input.newsletter_input {
   padding: 60px 0 0 0;
 }
 .new-world-banner {
-  background: url('../images/tata-basera/banner-2.png') no-repeat;
+  background: url("../images/tata-basera/banner-2.png") no-repeat;
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -3847,7 +3846,7 @@ input.newsletter_input {
 .navbar {
   margin: 0;
   height: 90px;
-  background: #FFFFFF !important;
+  background: #ffffff !important;
   box-shadow: 0px 3px 6px #00000029;
 }
 .navbar .navbar-collapse {
@@ -3856,14 +3855,14 @@ input.newsletter_input {
 .navbar .navbar-nav .nav-item {
   margin-right: 20px;
 }
-.navbar .navbar-nav .active>.nav-link {
-  color: #D4001C;
-  border-bottom: 1px solid #D4001C;
+.navbar .navbar-nav .active > .nav-link {
+  color: #d4001c;
+  border-bottom: 1px solid #d4001c;
 }
 
 .overview {
   padding: 60px 0 0 0;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .overview .row .text-col {
   display: flex;
@@ -3874,46 +3873,51 @@ input.newsletter_input {
 
 .journey {
   padding: 60px 0;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .journey .container {
   max-width: 1000px;
 }
 
-.journey .path-div {
+.journey .path-div .carousel-indicators {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
 }
-.journey .path-div .path {
+.journey .path-div .carousel-indicators .path {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
-  color: #1A1818;
-  border: 1px solid #1A1818;
+  background: #ffffff;
+  color: #1a1818;
+  border: 1px solid #1a1818;
   width: 54px;
   height: 54px;
   border-radius: 100%;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-indent: 0;
 }
 .journey .path-div .path:hover {
   background: #112769;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.journey .path-div .path:not(:last-child):after {
-  content: '';
+.journey .path-div .carousel-indicators .path:not(:last-child):after {
+  content: "";
   position: absolute;
   top: 50%;
-  right: -120%;
-  border-top: 1px dashed #1A1818;
-  width: 120%;
+  right: -105%;
+  border-top: 1px dashed #1a1818;
+  width: 100%;
   transform: translateY(-50%);
 }
-.journey .path-div  .focus {
+.journey .path-div .carousel-indicators .active {
   background: #112769;
-  color: #FFFFFF;
+  color: #ffffff;
   box-shadow: 0px 3px 6px #00000029;
 }
 
@@ -3934,7 +3938,7 @@ input.newsletter_input {
   right: -30px;
   cursor: pointer;
 }
-.journey .carousel {
+.journey .carousel .carousel-inner {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
@@ -3943,13 +3947,14 @@ input.newsletter_input {
 .journey .carousel .caption {
   padding: 24px;
 }
-.journey .carousel .caption .title, .journey .carousel .caption .para {
+.journey .carousel .caption .title,
+.journey .carousel .caption .para {
   margin: 0;
 }
 
 .banner-section {
   height: 600px;
-  background: url('../images/tata-basera/basera-banner.png') no-repeat;
+  background: url("../images/tata-basera/basera-banner.png") no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -3960,12 +3965,12 @@ input.newsletter_input {
 .banner-section .container .banner-heading {
   font-size: 32px;
   font-weight: bold;
-  color: #1A366F;
+  color: #1a366f;
 }
 
 .benefits {
   padding: 60px 0;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .benefits .container {
   max-width: 1000px;
@@ -3990,14 +3995,14 @@ input.newsletter_input {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 100%;
   box-shadow: 0px 5px 5px #00000029;
 }
 
 .offers {
   padding: 60px 0;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 .offers .container {
   max-width: 1000px;
@@ -4008,18 +4013,18 @@ input.newsletter_input {
 }
 .offers .nav-tabs .nav-link {
   border: 1px solid transparent;
-  border-top-left-radius: .25rem;
-  border-top-right-radius: .25rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
   height: 100% !important;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #1A1818;
+  border-bottom: 1px solid #1a1818;
   cursor: pointer;
 }
 
 .offers .nav-tabs .nav-link.active {
-  background: #F5F5F5;
-  border-bottom: 3px solid #D4001C;
+  background: #f5f5f5;
+  border-bottom: 3px solid #d4001c;
 }
 
 .offers .tab-content {
@@ -4031,7 +4036,7 @@ input.newsletter_input {
   height: 100%;
 }
 .offers .tab-content .card .card-header {
-  background: #0C437B;
+  background: #0c437b;
 }
 .offers .tab-content .card .card-header .title {
   margin: 0;
@@ -4043,9 +4048,8 @@ input.newsletter_input {
   margin-right: 20px;
 }
 .offers .tab-content .card .card-body hr {
-  border-top: 1px solid #0C437B;
+  border-top: 1px solid #0c437b;
 }
-
 
 @media screen and (max-width: 767px) {
   br {
@@ -4055,7 +4059,7 @@ input.newsletter_input {
     height: 70vh;
   }
 
-  .journey .path-div .path {
+  .journey .path-div .carousel-indicators .path {
     width: 30px;
     height: 30px;
   }
@@ -4088,7 +4092,6 @@ input.newsletter_input {
     height: auto;
     margin-bottom: 20px;
   }
-
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
@@ -4114,9 +4117,9 @@ input.newsletter_input {
   .navbar .navbar-collapse {
     margin: 0 -15px 0 -15px;
     padding: 0 15px;
-    background: #FFFFFF;
+    background: #ffffff;
   }
-  .navbar .navbar-nav .active>.nav-link {
+  .navbar .navbar-nav .active > .nav-link {
     border-bottom: none;
   }
   .journey .carousel-div .left-arrow {
@@ -4127,6 +4130,10 @@ input.newsletter_input {
   }
   .benefits .card {
     height: 100%;
+  }
+
+  .journey .path-div .carousel-indicators .path:not(:last-child):after {
+    content: none;
   }
 }
 @media screen and (width: 1024px) {
@@ -4180,7 +4187,6 @@ input.newsletter_input {
 }
 
 /* /tata ashiyana */
-
 
 /*------------------ rcp -----------------*/
 .btn-blue-rcp {

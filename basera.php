@@ -107,43 +107,43 @@
             <div class="col-sm-12">
                 <h2 class="heading">The TATA Basera Journey</h2>
                 <hr class="underline" />
-
-                <div class="path-div mt-5 mb-4">
-                    <div class="path focus" data-index="1">
-                        01
-                    </div>
-                    <div class="path" data-index="2">
-                        02
-                    </div>
-                    <div class="path" data-index="3">
-                        03
-                    </div>
-                    <div class="path" data-index="4">
-                        04
-                    </div>
-                    <div class="path" data-index="5">
-                        05
-                    </div>
-                    <div class="path" data-index="6">
-                        06
-                    </div>
-                    <div class="path" data-index="7">
-                        07
-                    </div>
-                    <div class="path" data-index="8">
-                        08
-                    </div>
-                    <div class="path" data-index="9">
-                        09
-                    </div>
-                </div>
+              
 
                 <div class="carousel-div">
                     <img src="images/left-blue.svg"  class="img-fluid left-arrow"/>
                     <div id="journey-carousel" class="carousel slide" data-ride="carousel">
-
+                    <div class="path-div mt-5 mb-4">
+                        <ol class="carousel-indicators">
+                            <li data-target="#journey-carousel" data-slide-to="0" class="path active" >
+                                01
+                            </li>
+                            <li data-target="#journey-carousel" data-slide-to="1" class="path">
+                                02
+                            </li>
+                            <li data-target="#journey-carousel" data-slide-to="2" class="path">
+                                03
+                            </li>
+                            <li data-target="#journey-carousel" data-slide-to="3" class="path">
+                                04
+                            </li>
+                            <li data-target="#journey-carousel" data-slide-to="4" class="path">
+                                05
+                            </li>
+                            <li data-target="#journey-carousel" data-slide-to="5" class="path">
+                                06
+                            </li>
+                            <li data-target="#journey-carousel" data-slide-to="6" class="path">
+                                07
+                            </li>
+                            <li data-target="#journey-carousel" data-slide-to="7" class="path">
+                                08
+                            </li>
+                            <li data-target="#journey-carousel" data-slide-to="8" class="path">
+                                09
+                            </li>
+                        </ol>
+                    </div>
                         <div class="carousel-inner">
-
                             <div class="carousel-item active" data-id="1">
                                 <img src="images/tata-basera/home-loan.png" alt="" class="img-fluid w-100">
                                 <div class="caption">
