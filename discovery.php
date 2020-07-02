@@ -35,25 +35,26 @@
         </div>
     </div>
     <!-- image slider -->
-
-    <div class="discovery-slider">
-        <div>
-            <img src="images/discover/discovery-series-1.png" alt="" class="img-fluid">
-        </div>
-        <div>
-            <img src="images/discover/discovery-series-2.png" alt="" class="img-fluid">
-        </div>
-        <div>
-            <img src="images/discover/discovery-series-3.png" alt="" class="img-fluid">
-        </div>
-        <div>
-            <img src="images/discover/discovery-series-1.png" alt="" class="img-fluid">
-        </div>
-        <div>
-            <img src="images/discover/discovery-series-2.png" alt="" class="img-fluid">
-        </div>
-        <div>
-            <img src="images/discover/discovery-series-3.png" alt="" class="img-fluid">
+    <div class="discovery-series">
+        <div class="discovery-slider">
+            <div>
+                <img src="images/discover/discovery-series-1.png" alt="" class="img-fluid">
+            </div>
+            <div>
+                <img src="images/discover/discovery-series-2.png" alt="" class="img-fluid">
+            </div>
+            <div>
+                <img src="images/discover/discovery-series-3.png" alt="" class="img-fluid">
+            </div>
+            <div>
+                <img src="images/discover/discovery-series-1.png" alt="" class="img-fluid">
+            </div>
+            <div>
+                <img src="images/discover/discovery-series-2.png" alt="" class="img-fluid">
+            </div>
+            <div>
+                <img src="images/discover/discovery-series-3.png" alt="" class="img-fluid">
+            </div>
         </div>
     </div>
 
