@@ -312,14 +312,14 @@ $(document).ready(function () {
     ],
   });
 
-  $(".map").maphilight({
-    alwaysOn: true,
-    fillColor: "1A366F",
-    fillOpacity: "1",
-    strokeColor: "1A266F",
-    strokeWidth: 5,
-    strokeOpacity: 0.5,
-  });
+  // $(".map").maphilight({
+  //   alwaysOn: true,
+  //   fillColor: "1A366F",
+  //   fillOpacity: "1",
+  //   strokeColor: "1A266F",
+  //   strokeWidth: 5,
+  //   strokeOpacity: 0.5,
+  // });
 
   $(".plus-desc").mouseenter(function () {
     var id = $(this).attr("id");
@@ -392,6 +392,7 @@ $(".left-arrow").on("click", function () {
   $("#journey-carousel").carousel("prev");
 });
 
+
 $(".rajasthan-homes-prev").on("click", function () {
   $("#rajasthanCarouselControls").carousel('prev');
 });
@@ -412,3 +413,43 @@ $(".kerala-homes-prev").on("click", function () {
 $(".kerala-homes-next").on("click", function () {
   $("#keralaCarouselControls").carousel('next');
 });
+
+
+// feedback form validation
+$(document).ready(function() {
+
+  $('form[name="feedback"]').validate({
+    rules: {
+      name: 'required',
+      phone: {
+        required: true,
+        minlength: 10
+      },
+      email: {
+        required: true,
+        email: true
+      },
+      pincode: {
+        required: true
+      },
+      feedback: {
+        required: true
+      }
+    },
+    messages: {
+      name: 'Name requried',
+      phone: 'Phone number requried',
+      email: {
+        required: 'Email required',
+        email: 'Invalid email'
+      },
+      pincode: 'Pincode requried',
+      feedback: 'Feedback required'
+    },
+    submitHandler: function(form) {
+      form.submit();
+    }
+  })
+
+})
+
