@@ -5698,11 +5698,151 @@ input.newsletter_input {
     top: -32px;
     left: -28px;
   }
-
-
 }
 
 /* /contact us */
+
+
+/* about us */
+
+.story {
+  padding: 60px 0;
+  background: #FFFFFF;
+}
+.story .inner-section {
+  position: relative;
+  margin-left: auto;
+  width: 70%;
+  height: 587px;
+  background: url('../images/about/6.png') no-repeat;
+  background-size: cover;
+}
+.story .inner-section .text-div {
+  position: absolute;
+  top: 50%;
+  left: -25%;
+  padding: 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000029;
+  transform: translateY(-50%);
+}
+
+.number-grid {
+  width: 100%;
+  min-height: 500px;
+  background: url('../images/about/The-TATA-Tiscon-SD-Story.png') no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.number-grid .grid {
+  padding: 0 40px;
+  margin: 20px 0;
+}
+.number-grid .grid p {
+  margin: 0;
+}
+.number-grid .grid:not(:last-child) {
+  border-right: 2px solid #FFFFFF;
+}
+
+.about-tata-steel {
+  position: relative;
+  margin: 60px 0;
+  width: 70%;
+  background: url('../images/about/5.png') no-repeat;
+  background-size: cover;
+  height: 587px;
+}
+
+.about-tata-steel .text-div {
+  position: absolute;
+  top: 50%;
+  padding: 24px;
+  right: -25%;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000029;
+  transform: translateY(-50%);
+}
+
+.projects {
+  padding: 60px 0 0 0;
+  background: #F5F5F5;
+}
+.projects .container {
+  max-width: 1000px;
+}
+.projects .container .col-md-6 {
+  margin-bottom: 80px;
+}
+.projects .img-col .carousel{
+ display: flex; 
+ align-items: center;
+}
+.projects .img-col .carousel .carousel-inner {
+  margin: 0 10px;
+}
+.projects .img-col .carousel .arrow {
+  cursor: pointer;
+}
+.projects .text-col {
+  display: flex;
+  align-items: center;
+}
+
+.key-projects {
+  padding: 60px 0;
+  background: #FFFFFF;
+}
+.key-projects .discovery-series {
+  margin-top: -50px;
+}
+.key-projects .discovery-series .discovery-slider div img {
+  width: 100%;
+}
+.key-projects .discovery-series .title {
+  margin: 10px 0 0 0;
+  z-index: -1;
+}
+.key-projects .discovery-series .para {
+  margin: 0;
+  margin-right: 100px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 767px) { 
+  .story .text-div, .about-tata-steel .text-div {
+    max-width: 120%;
+  }
+  .number-grid .grid:not(:last-child) {
+    border-right: none;
+  }
+
+  .projects .container .img-col {
+    margin-bottom: 20px;
+  }
+
+  .key-projects .discovery-series .discovery-slider div {
+    width: 100vw;
+  }
+}
+@media only screen and (min-width: 768px)  and (max-width: 992px) {
+  .story .text-div, .about-tata-steel .text-div {
+    max-width: 80%;
+  }
+  .number-grid {
+    min-height: 300px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .number-grid {
+    min-height: 300px;
+  }
+}
+
+/* /about us */
 
 /* tata ashiyana */
 

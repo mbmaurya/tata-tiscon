@@ -393,6 +393,28 @@ $(".left-arrow").on("click", function () {
 });
 
 
+$(".rajasthan-homes-prev").on("click", function () {
+  $("#rajasthanCarouselControls").carousel('prev');
+});
+$(".rajasthan-homes-next").on("click", function () {
+  $("#rajasthanCarouselControls").carousel('next');
+});
+
+$(".delhi-homes-prev").on("click", function () {
+  $("#delhiCarouselControls").carousel('prev');
+});
+$(".delhi-homes-next").on("click", function () {
+  $("#delhiCarouselControls").carousel('next');
+});
+
+$(".kerala-homes-prev").on("click", function () {
+  $("#keralaCarouselControls").carousel('prev');
+});
+$(".kerala-homes-next").on("click", function () {
+  $("#keralaCarouselControls").carousel('next');
+});
+
+
 // feedback form validation
 $(document).ready(function() {
 
@@ -430,3 +452,4 @@ $(document).ready(function() {
   })
 
 })
+
