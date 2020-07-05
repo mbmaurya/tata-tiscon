@@ -1,67 +1,92 @@
-<footer>
-        <div class="footer_wrapper py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <ul>
-                            <li class="footer-txt">
-                            	<a class="text-white" href="javascript:void(0)">Home</a>
-                            </li>
-                            <li class="footer-txt">
-                            	<a class="text-white" href="javascript:void(0)">Products</a>
-                            </li>
-                            <li class="footer-txt">
-                            	<a class="text-white" href="javascript:void(0)">Services</a>
-                            </li>
-                            <li class="footer-txt">
-                            	<a class="text-white" href="javascript:void(0)">Programs</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <ul>
-                            <li class="footer-txt">
-                            	<a class="text-white" href="javascript:void(0)">Building guide</a>
-                            </li>
-                            <li class="footer-txt">
-                            	<a class="text-white" href="javascript:void(0)">Testimonial</a>
-                            </li>
-                            <li class="footer-txt">
-                            	<a class="text-white" href="javascript:void(0)">Blog</a>
-                            </li>
-                            <li class="footer-txt">
-                            	<a class="text-white" href="javascript:void(0)">Media</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-6 footer-txt text-white">
-                        <div class="footer-txt">Contact us</div>
-                        <div class="connect">
-                            <p class="footer-txt">Customer toll free number</p>
-                            <h3>0124 - 4448080</h3>
-                           </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                    	<div class="footer-wrpper-sec">
-                        <div class="text-white footer-txt">Stay Connected</div>
-                        <div class="social-links mt-3">
-                            <a href="#" class="twitter"><img src="./images/facebook.svg" alt=""></a>
-                            <a href="#" class="instagram"><img src="./images/instagram.svg" alt=""></a>
-                            <a href="#" class="linkedin"><img src="./images/linkdien.svg" alt=""></a>
-                            <a href="#" class="twitter"><img src="./images/twitter.svg" alt=""></a>
-                            <a href="#" class="twitter"><img src="./images/youtube.svg" alt=""></a>
-                        </div>
-                       </div>
-                        <div class="newsletter">
-                        	<input class="newsletter_input newsletter-txt" type="text" placeholder="Enter your email ID to Subscribe">
-                        	<button class="newsletter_button"><img src="./images/left-arrow.svg"></button>
-                        </div>                   
+    <footer>
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-md-2 col-12">
+                    <h2 class="footer-heading">Company</h2>
+                    <ul class="list">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Media Room</a>
+                        </li>
+                        <li>
+                            <a href="#">Home Building Guide</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-3 col-12">
+                    <h2 class="footer-heading">Products</h2>
+                    <ul class="list">
+                        <li>
+                            <a href="#">TATA Tiscon SD Rebars</a>
+                        </li>
+                        <li>
+                            <a href="#">TATA Tiscon SD Superlinks</a>
+                        </li>
+                        <li>
+                            <a href="#">TATA Ultima GFX Coated Superlinks</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2  col-12">
+                    <h2 class="footer-heading">Services</h2>
+                    <ul class="list">
+                        <li>
+                            <a href="#">Mason Locator</a>
+                        </li>
+                        <li>
+                            <a href="#">Delear Locator</a>
+                        </li>
+                        <li>
+                            <a href="#">Distributor Locator</a>
+                        </li>
+                        <li>
+                            <a href="#">Ask the Experts</a>
+                        </li>
+                        <li>
+                            <a href="#">Recommend Consumer Prices</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-12">
+                    <h2 class="footer-heading">Programs</h2>
+                    <ul class="list">
+                        <li>
+                            <a href="#">Discovery Program</a>
+                        </li>
+                        <li>
+                            <a href="#">Mitr Program</a>
+                        </li>
+                        <li>
+                            <a href="#">TATA Basera</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-12">
+                    <h2 class="footer-heading">Toll Free Customer Helpline</h2>
+                    <ul class="list number">
+                        <li>
+                            <a href="#"><b>1800-108-8282</b></a>
+                        </li>
+                    </ul>
+                    <div class="social-link-div">
+                        <a href="#" class="twitter"><img src="./images/facebook.svg" alt=""></a>
+                        <a href="#" class="instagram"><img src="./images/instagram.svg" alt=""></a>
+                        <a href="#" class="linkedin"><img src="./images/linkdien.svg" alt=""></a>
+                        <a href="#" class="twitter"><img src="./images/twitter.svg" alt=""></a>
+                        <a href="#" class="twitter"><img src="./images/youtube.svg" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-second">
-            <div class="copyright">@ 2020 TATA Tiscon | All rights reserved</div>
+        <div class="footer-base">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="footer-base-line">© 2020 TATA Tiscon | All rights reserved</p>
+                </div>
+            </div>
         </div>
     </footer>
 
