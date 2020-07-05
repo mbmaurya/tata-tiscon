@@ -146,6 +146,48 @@ $(".testi-slider").slick({
     // instead of a settings object
   ],
 });
+
+/* discovery slider */
+
+$(".discovery-slider").slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  centerMode: true,
+  variableWidth: true,
+  variableHeight: true,
+  useTransform: true,
+  focusOnSelect: false,
+});
+
+/* /discovery slider */
+
+/*gallery lightbox */
+
+$(".gallery-img").click(function () {
+  $("#image").attr("src", $(this).data("img"));
+  $("#image-lightbox").modal({ show: true });
+});
+$(".g-img").each(function (index, i) {
+  $(".img-list").append(
+    `<div><img src=${i.src} class="img-fluid grid-img" /></div>`
+  );
+});
+$(".grid-img").click(function () {
+  $("#image").attr("src", $(this).attr("src"));
+});
+$(".img-list").slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  focusOnSelect: false,
+});
+
+/* /gallery lightbox */
+
 /* Product Jquery */
 
 $("#btnSupport").click(function () {
@@ -270,14 +312,14 @@ $(document).ready(function () {
     ],
   });
 
-  $(".map").maphilight({
-    alwaysOn: true,
-    fillColor: "1A366F",
-    fillOpacity: "1",
-    strokeColor: "1A266F",
-    strokeWidth: 5,
-    strokeOpacity: 0.5,
-  });
+  // $(".map").maphilight({
+  //   alwaysOn: true,
+  //   fillColor: "1A366F",
+  //   fillOpacity: "1",
+  //   strokeColor: "1A266F",
+  //   strokeWidth: 5,
+  //   strokeOpacity: 0.5,
+  // });
 
   $(".plus-desc").mouseenter(function () {
     var id = $(this).attr("id");
@@ -318,3 +360,96 @@ $(document).ready(function () {
     $(".plus-desc").not(this).removeClass("active");
   });
 });
+
+// basera
+
+$(".navbar-nav li").on("click", function () {
+  $(this).siblings().removeClass("active");
+  $(this).addClass("active");
+});
+
+// $(".path").on('click', function() {
+//   $(this).siblings().removeClass('focus');
+//   $(this).addClass('focus')
+//   $('#journey-carousel').carousel($(this).data('index') -1);
+// });
+$("#journey-carousel").on("slide.bs.carousel", function () {
+  // $(`.path[data-index=${$('.carousel-item').data('id')}]`).addClass('focus');
+  // if($('.carousel-item').hasClass('active')) {
+  //   $(`.path[data-index='3']`).addClass('focus');
+  //   console.log($('.carousel-item').data('id  '))
+  // }
+  // $('.carousel-item').each(function(i, e) {
+  //   if($(e).hasClass('active')) {
+  //     $(`.path[data-index=${i+2}]`).addClass('focus');
+  //   }
+  // })
+});
+$(".right-arrow").on("click", function () {
+  $("#journey-carousel").carousel("next");
+});
+$(".left-arrow").on("click", function () {
+  $("#journey-carousel").carousel("prev");
+});
+
+
+$(".rajasthan-homes-prev").on("click", function () {
+  $("#rajasthanCarouselControls").carousel('prev');
+});
+$(".rajasthan-homes-next").on("click", function () {
+  $("#rajasthanCarouselControls").carousel('next');
+});
+
+$(".delhi-homes-prev").on("click", function () {
+  $("#delhiCarouselControls").carousel('prev');
+});
+$(".delhi-homes-next").on("click", function () {
+  $("#delhiCarouselControls").carousel('next');
+});
+
+$(".kerala-homes-prev").on("click", function () {
+  $("#keralaCarouselControls").carousel('prev');
+});
+$(".kerala-homes-next").on("click", function () {
+  $("#keralaCarouselControls").carousel('next');
+});
+
+
+// feedback form validation
+$(document).ready(function() {
+
+  $('form[name="feedback"]').validate({
+    rules: {
+      name: 'required',
+      phone: {
+        required: true,
+        minlength: 10
+      },
+      email: {
+        required: true,
+        email: true
+      },
+      pincode: {
+        required: true
+      },
+      feedback: {
+        required: true
+      }
+    },
+    messages: {
+      name: 'Name requried',
+      phone: 'Phone number requried',
+      email: {
+        required: 'Email required',
+        email: 'Invalid email'
+      },
+      pincode: 'Pincode requried',
+      feedback: 'Feedback required'
+    },
+    submitHandler: function(form) {
+      form.submit();
+    }
+  })
+
+})
+
