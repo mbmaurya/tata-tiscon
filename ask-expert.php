@@ -213,46 +213,5 @@
         </div>
     </div>
 
-    <div class="content-section expert-testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="heading">Testimonials</h2>
-                    <hr class="underline" />
-                    <div class="expert-testimonial-slider testimonial-slider">
-                        <div>
-                            <img src="images/expert/testimonial-1.jpg" class="img-fluid" />
-                            <p class="name">Lorem Ipsum</p>
-                            <p class="content">
-                                Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                            </p>
-                        </div>
-                        <div>
-                            <img src="images/expert/testimonial-2.jpg" class="img-fluid" />
-                            <p class="name">Lorem Ipsum</p>
-                            <p class="content">
-                                Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                            </p>
-                        </div>
-                        <div>
-                            <img src="images/expert/testimonial-1.jpg" class="img-fluid" />
-                            <p class="name">Lorem Ipsum</p>
-                            <p class="content">
-                                Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                            </p>
-                        </div>
-                        <div>
-                            <img src="images/expert/testimonial-2.jpg" class="img-fluid" />
-                            <p class="name">Lorem Ipsum</p>
-                            <p class="content">
-                                Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 <?php include 'footer.php';?>
 

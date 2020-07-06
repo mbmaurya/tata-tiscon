@@ -28,6 +28,12 @@
                         </div>
                         <div class="col-sm-3 col-12">
                             <div class="form-group">
+                                <label for="pincode">Pincode*</label>
+                                <input type="text" class="form-control" name="pincode" id="pincode"  placeholder="123456"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-12 mx-auto">
+                            <div class="form-group">
                                 <input type="submit" value="Submit" class="form-control btn btn-blue" />
                             </div>
                         </div>

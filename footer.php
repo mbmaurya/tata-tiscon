@@ -5,13 +5,13 @@
                     <h2 class="footer-heading">Company</h2>
                     <ul class="list">
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="about-us.php">About Us</a>
                         </li>
                         <li>
                             <a href="#">Media Room</a>
                         </li>
                         <li>
-                            <a href="#">Home Building Guide</a>
+                            <a href="home-building.php">Home Building Guide</a>
                         </li>
                     </ul>
 
@@ -20,13 +20,13 @@
                     <h2 class="footer-heading">Products</h2>
                     <ul class="list">
                         <li>
-                            <a href="#">TATA Tiscon SD Rebars</a>
+                            <a href="sd-rebars.php">TATA Tiscon SD Rebars</a>
                         </li>
                         <li>
-                            <a href="#">TATA Tiscon SD Superlinks</a>
+                            <a href="ultima-superlinks.php">TATA Tiscon SD Superlinks</a>
                         </li>
                         <li>
-                            <a href="#">TATA Ultima GFX Coated Superlinks</a>
+                            <a href="gfx-coated-superlinks.php">TATA Ultima GFX Coated Superlinks</a>
                         </li>
                     </ul>
                 </div>
@@ -34,19 +34,19 @@
                     <h2 class="footer-heading">Services</h2>
                     <ul class="list">
                         <li>
-                            <a href="#">Mason Locator</a>
+                            <a href="mason.php">Mason Locator</a>
                         </li>
                         <li>
-                            <a href="#">Delear Locator</a>
+                            <a href="dealer.php">Delear Locator</a>
                         </li>
                         <li>
-                            <a href="#">Distributor Locator</a>
+                            <a href="distributor.php">Distributor Locator</a>
                         </li>
                         <li>
-                            <a href="#">Ask the Experts</a>
+                            <a href="ask-expert.php">Ask the Experts</a>
                         </li>
                         <li>
-                            <a href="#">Recommend Consumer Prices</a>
+                            <a href="rcp.php">Recommend Consumer Prices</a>
                         </li>
                     </ul>
                 </div>
@@ -54,13 +54,13 @@
                     <h2 class="footer-heading">Programs</h2>
                     <ul class="list">
                         <li>
-                            <a href="#">Discovery Program</a>
+                            <a href="discovery.php">Discovery Program</a>
                         </li>
                         <li>
                             <a href="#">Mitr Program</a>
                         </li>
                         <li>
-                            <a href="#">TATA Basera</a>
+                            <a href="basera.php">TATA Basera</a>
                         </li>
                     </ul>
                 </div>
