@@ -368,6 +368,10 @@ $(".navbar-nav li").on("click", function () {
   $(this).addClass("active");
 });
 
+$(".product-menu .dropdown-item").on("mouseover", function () {
+  $(".product-menu .dropdown-item .default").css("display", "none");
+});
+
 // $(".path").on('click', function() {
 //   $(this).siblings().removeClass('focus');
 //   $(this).addClass('focus')
@@ -392,64 +396,59 @@ $(".left-arrow").on("click", function () {
   $("#journey-carousel").carousel("prev");
 });
 
-
 $(".rajasthan-homes-prev").on("click", function () {
-  $("#rajasthanCarouselControls").carousel('prev');
+  $("#rajasthanCarouselControls").carousel("prev");
 });
 $(".rajasthan-homes-next").on("click", function () {
-  $("#rajasthanCarouselControls").carousel('next');
+  $("#rajasthanCarouselControls").carousel("next");
 });
 
 $(".delhi-homes-prev").on("click", function () {
-  $("#delhiCarouselControls").carousel('prev');
+  $("#delhiCarouselControls").carousel("prev");
 });
 $(".delhi-homes-next").on("click", function () {
-  $("#delhiCarouselControls").carousel('next');
+  $("#delhiCarouselControls").carousel("next");
 });
 
 $(".kerala-homes-prev").on("click", function () {
-  $("#keralaCarouselControls").carousel('prev');
+  $("#keralaCarouselControls").carousel("prev");
 });
 $(".kerala-homes-next").on("click", function () {
-  $("#keralaCarouselControls").carousel('next');
+  $("#keralaCarouselControls").carousel("next");
 });
 
-
 // feedback form validation
-$(document).ready(function() {
-
+$(document).ready(function () {
   $('form[name="feedback"]').validate({
     rules: {
-      name: 'required',
+      name: "required",
       phone: {
         required: true,
-        minlength: 10
+        minlength: 10,
       },
       email: {
         required: true,
-        email: true
+        email: true,
       },
       pincode: {
-        required: true
+        required: true,
       },
       feedback: {
-        required: true
-      }
+        required: true,
+      },
     },
     messages: {
-      name: 'Name requried',
-      phone: 'Phone number requried',
+      name: "Name requried",
+      phone: "Phone number requried",
       email: {
-        required: 'Email required',
-        email: 'Invalid email'
+        required: "Email required",
+        email: "Invalid email",
       },
-      pincode: 'Pincode requried',
-      feedback: 'Feedback required'
+      pincode: "Pincode requried",
+      feedback: "Feedback required",
     },
-    submitHandler: function(form) {
+    submitHandler: function (form) {
       form.submit();
-    }
-  })
-
-})
-
+    },
+  });
+});
