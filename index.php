@@ -161,7 +161,7 @@
                                 <div class="product_number">01</div>
                                 <div class="product_name">TATA Tiscon SD</div>
                                 <div class="product_desc mt-2">TATA Tiscon SD rebars have superior mechanical properties, better bond strength and high absorption capacity.</div>
-                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                                 <div class="product_number">01</div>
                                 <div class="product_name">Expert Solutions</div>
                                 <div class="product_desc mt-2">Whatever your rebar, building material or home building queries and confusions- at TATA Tiscon SD we have answers to all your questions.</div>
-                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>  
@@ -187,7 +187,7 @@
                                 <div class="product_number">01</div>
                                 <div class="product_name">Superior Ductility</div>
                                 <div class="product_desc mt-2">TATA Tiscon SD rebars have superior ductility & are suited specifically for houses built in earthquake prone and seismic zones.</div>
-                               <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                               <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                                 <div class="product_number">02</div>
                                 <div class="product_name">TATA Tiscon Superlinks</div>
                                 <div class="product_desc mt-2">Used to hold the main reinforcement bars together, TATA Tiscon Superlinks are high grade stirrups made of high strength ribbed TMT reinforcement bars.</div>
-                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                                 <div class="product_number">02</div>
                                 <div class="product_name">Site Supervisory Services</div>
                                 <div class="product_desc mt-2">A first of its kind, the site supervisory service provides you Technical Advice and Expertise right at your building site</div>
-                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                                 <div class="product_number">02</div>
                                 <div class="product_name">Specialised Chemical Coating</div>
                                 <div class="product_desc mt-2">TATA Tiscon GFX Coated Superlinks are manufactured using a specially designed GFX coating that makes them perfect for homes in coastal areas.</div>
-                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                                 <div class="product_number">03</div>
                                 <div class="product_name">TATA Tiscon Ultima GFX Coated Superlinks</div>
                                 <div class="product_desc mt-2">A cutting edge advancement in stirrups, TATA Tiscon Ultima GFX Coated Superlinks are special grade superlinks that create better bond strength.</div>
-                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                                 <div class="product_number">03</div>
                                 <div class="product_name">Home Building Help</div>
                                 <div class="product_desc mt-2">All the help you need- from a detailed home building guide to inspirational designs, from material estimators to a secure online shopping experience</div>
-                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>
@@ -269,7 +269,7 @@
                                 <div class="product_number">03</div>
                                 <div class="product_name">Accuracy & Uniformity</div>
                                 <div class="product_desc mt-2">TATA Tiscon SD rebars are highly accurate and possess uniform ridges, high elasticity, and a high absorption capacity.</div>
-                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <img src="./images/left-arrow.svg"></span></button>
+                                <button class="btn-blue btn-blue-discover">Discover More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></button>
                             </div>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                             <div class="img_storie order-2 order-md-1">
                                 <h3>Find Masons</h3>
                                 <p>Find trustworthy masons &amp; fabricators closest to your location.</p>
-                                <a href="javascript:void(0)" class="read_more">Know more <span class="left-arrow"><img src="./images/left-orange-arrow.svg"></span></a>
+                                <a href="javascript:void(0)" class="read_more">Know more <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
                             </div>
                             <div class="img_section mb-3 order-1 order-md-2"><img src="images/ask-the-experts.png" class="img-fluid"></div>
                         </div>
@@ -310,7 +310,7 @@
                             <div class="img_storie order-2">
                                 <h3>Find Dealers</h3>
                                 <p>Find authentic TATA Tiscon SD dealers in your state &amp; district.</p>
-                                <a href="javascript:void(0)" class="read_more">Know more <span class="left-arrow"><img src="./images/left-orange-arrow.svg"></span></a>
+                                <a href="javascript:void(0)" class="read_more">Know more <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
                             </div>
                             <div class="img_section mb-3 order-1">
                                 <img src="images/buy-online.png" class="img-fluid">
@@ -324,7 +324,7 @@
                             <div class="img_storie order-2 order-md-1">
                                 <h3>Find Distributors</h3>
                                 <p>Find authorised TATA Tiscon SD distributors closest to your location.</p>
-                                <a href="javascript:void(0)" class="read_more">Know more <span class="left-arrow"><img src="./images/left-orange-arrow.svg"></span></a>
+                                <a href="javascript:void(0)" class="read_more">Know more <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
                             </div>
                             <div class="img_section mb-3 order-1 order-md-2"><img src="images/recommanded-consumer-price.png" class="img-fluid"></div>
                         </div>
@@ -332,7 +332,7 @@
                 </div>
                 <button class="btn-blue btn-blue-buy-next">
                     <span> Next </span>
-                    <span class="left-arrow"><img src="./images/left-arrow.svg"></span>
+                    <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span>
                 </button>
             </div>
         </div>
@@ -360,7 +360,7 @@
                                     <div class="text_project">
                                         <h3>Bandra-Worli Sealink</h3>
                                         <p>Reducing travelling time by almost 50%, the Bandra- Worli Sealink dominates the Arabian Sea. Reinforced with TATA Tiscon SD Rebars, all 8 lanes of this engineering marvel were opened in 2010.</p>
-                                        <a href="javascript:void(0)" class="read_more text-white">Read More <span class="left-arrow"> <img src="./images/left-arrow.svg"></a>
+                                        <a href="javascript:void(0)" class="read_more text-white">Read More <span class="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></a>
                                     </div>
                                 </div>
                             </div>
@@ -373,7 +373,7 @@
                                     <div class="text_project">
                                         <h3>The Lotus Temple</h3>
                                         <p>Reducing travelling time by almost 50%, the Bandra- Worli Sealink dominates the Arabian Sea. Reinforced with TATA Tiscon SD Rebars, all 8 lanes of this engineering marvel were opened in 2010.</p>
-                                        <a href="javascript:void(0)" class="read_more text-white">Read More <span class="left-arrow"><img src="./images/left-arrow.svg"></span></a>
+                                        <a href="javascript:void(0)" class="read_more text-white">Read More <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -392,7 +392,7 @@
                                     <div class="text_project">
                                         <h3>Bandra-Worli Sealink</h3>
                                         <p>Reducing travelling time by almost 50%, the Bandra- Worli Sealink dominates the Arabian Sea. Reinforced with TATA Tiscon SD Rebars, all 8 lanes of this engineering marvel were opened in 2010.</p>
-                                        <a href="javascript:void(0)" class="read_more text-white">Read More </a>
+                                        <a href="javascript:void(0)" class="read_more text-white">Read More <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span> </a>
                                     </div>
                                 </div>
                             </div>
@@ -402,7 +402,7 @@
                                     <div class="text_project">
                                         <h3>The Lotus Temple</h3>
                                         <p>Reducing travelling time by almost 50%, the Bandra- Worli Sealink dominates the Arabian Sea. Reinforced with TATA Tiscon SD Rebars, all 8 lanes of this engineering marvel were opened in 2010.</p>
-                                        <a href="javascript:void(0)" class="read_more text-white">Read More</a>
+                                        <a href="javascript:void(0)" class="read_more text-white">Read More <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span> </a>
                                     </div>
                                 </div>
                             </div>
