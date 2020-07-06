@@ -235,14 +235,13 @@
             <div class="col-lg-4">
                 
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Mason</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobile"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#exampleModal" data-toggle="modal">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
@@ -257,14 +256,13 @@
             <div class="col-lg-4">
                 
                 <section class="mason-list">
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Mason</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobile"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
@@ -280,14 +278,13 @@
             <div class="col-lg-4">
                 
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Mason</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobile"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
@@ -303,14 +300,13 @@
             <div class="col-lg-4">
                 
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Mason</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobile"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
@@ -326,14 +322,13 @@
             <div class="col-lg-4">
                 
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Mason</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobile"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
@@ -349,14 +344,13 @@
             <div class="col-lg-4">
                 
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Mason</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobile"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs><style>.a{stroke-width:0.4px;}</style></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg>
@@ -385,8 +379,6 @@
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-          <!-- avatar image -->
-        <img src="./images/mason/person.png" alt="avatar" class="avatar-image">
         <!-- information div -->
         <div class="info-div">
             <div class="name-div d-table text text-white">
@@ -454,7 +446,13 @@
             <div class="tab-pane fade" id="sms" role="tabpanel" aria-labelledby="sms-tab">
                 <form action="#" class="sms-form">
                     <div class="row">
-                        <div class="col-sm-6 col-6">
+                        <div class="col-sm-6 col-6 input-col">
+                            <div class="form-group">
+                                <label class="text text-white" for="name">Name*</label>
+                                <input class="form-control" type="text" id="name" name="name" placeholder="John cena" required/>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-6 input-col">
                             <div class="form-group">
                                 <label class="text text-white" for="mobile">Mobile*</label>
                                 <input class="form-control" type="tel" name="mobile" id="mobile" placeholder="+91 9876543210" required/>
@@ -476,62 +474,5 @@
 
 
 <!-- /mason modal -->
-
-<!-- testimonial slider -->
-<div class="testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Our Masons</h2>
-                <hr />
-                <div class="mason-testimonial-slider testimonial-slider">
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- /testimonial slider -->
     
 <?php include 'footer.php';?>
