@@ -141,7 +141,16 @@ $(".testi-slider").slick({
         // instead of a settings object
     ],
 });
-
+$(document).ready(function(){
+$("#key-project-one").hover(function(){
+  $(".overlay").addClass("opacity");
+  $(".overlay-two").removeClass("opacity");
+});
+$("#key-project-two").hover(function(){
+  $(".overlay").removeClass("opacity");
+  $(".overlay-two").addClass("opacity");
+});
+});
 /* discovery slider */
 
 $(".discovery-slider").slick({
@@ -158,7 +167,7 @@ $(".discovery-slider").slick({
 
 /* /discovery slider */
 
-/*gallery lightbox */
+//*gallery lightbox */
 
 $(".gallery-img").click(function() {
     $("#image").attr("src", $(this).data("img"));
@@ -277,9 +286,17 @@ $('#dvGFX').click(function() {
 /* /Product Jquery */
 
 $(document).ready(function() {
-    $("#aboutUsClick").click(function() {
+    $("#aboutUsClickTata").click(function() {
         $(".wrapperTataStory").show();
+        $(".imgTisconStories").show();
         $(".wrapperTisconStrory").hide();
+        $(".imgTataStories").hide();
+    });
+    $("#aboutUsClickTiscon").click(function() {
+        $(".wrapperTataStory").hide();
+        $(".imgTisconStories").hide();
+        $(".wrapperTisconStrory").show();
+        $(".imgTataStories").show();
     });
 });
 $(document).ready(function() {
