@@ -3664,6 +3664,10 @@ input.newsletter_input {
     border-radius: 16px;
 }
 
+.plus-desc:hover {
+  color: #FFFFFF !important;
+}
+
 .plus-info {
     position: absolute;
     display: none;
@@ -4044,57 +4048,67 @@ input.newsletter_input {
     right: -57px;
     width: 90px;
 }
+.superlinks #plus-info-four span {
+  width: 225px;
+}
 
 @media only screen and (max-width: 767px) {
-    .superlinks #plus-info-one {
-        top: 34px;
-        left: 263px;
-        height: 89px;
-        width: 0px;
-    }
+  .superlinks #plus-info-one {
+    top: 34px;
+    left: 263px;
+    height: 89px;
+    width: 0px;
+  }
+  .superlinks #plus-info-one span {
+    width: 210px;
+    margin-left: -123px;
+  }
 
-    .superlinks #plus-info-one span {
-        width: 210px;
-        margin-left: -123px;
-    }
+  .superlinks #plus-info-two {
+    top: 24px;
+    left: 18px;
+    height: 51px;
+    width: 13px;
+  }
+  .superlinks #plus-info-two span {
+    left: 19px;
+    width: 245px;
+  }
 
-    .superlinks #plus-info-two {
-        top: 24px;
-        left: 18px;
-        height: 51px;
-        width: 13px;
-    }
+  .superlinks #plus-info-three {
+    top: 21px;
+    right: 204px;
+    border-right: none;
+    border-left: 2px dashed #112769;
+    height: 176px;
+    width: 0px;
+  }
+  .superlinks #plus-info-three span {
+    margin-left: 0;
+    left: -100px;
+  }
 
-    .superlinks #plus-info-two span {
-        left: 19px;
-        width: 245px;
-    }
-
-    .superlinks #plus-info-three {
-        top: 21px;
-        right: 204px;
-        border-right: none;
-        border-left: 2px dashed #112769;
-        height: 176px;
-        width: 0px;
-    }
-
-    .superlinks #plus-info-three span {
-        margin-left: 0;
-        left: -100px;
-    }
-
-    .superlinks #plus-info-four {
-        top: 29px;
-        right: 7px;
-        height: 243px;
-        width: 28px;
-    }
-
-    .superlinks #plus-info-four span {
-        margin-left: -170px;
-    }
+  .superlinks #plus-info-four {
+    top: 29px;
+    right: 7px;
+    height: 243px;
+    width: 28px;
+  }
+  .superlinks #plus-info-four span {
+    margin-left: -195px;
+  }
 }
+
+
+  .superlinks #plus-info-four {
+    top: 176px;
+    right: -64px;
+    height: 98px;
+    width: 97px;
+  }
+  .superlinks #plus-info-four span {
+    margin-left: -84px;
+  }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
     .superlinks #plus-info-one {

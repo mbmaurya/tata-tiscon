@@ -384,6 +384,20 @@ $(document).ready(function() {
         });
         $(".plus-desc").not(this).removeClass("active");
     });
+    $(".plus-desc").not(this).removeClass("active");
+  });
+
+  $(".nav-link").click(function() {
+    const id = $(this).attr("id");
+
+    $('.plus-info').removeClass('activated');
+    $('.plus-info').addClass('d-none');
+    
+    $(`div[data-tab = ${id}]`).removeClass('d-none');
+    $(`div[data-tab = ${id}]`).addClass('activated');
+
+    // console.log( $(`div[data-tab = ${id}]`));
+  })
 });
 
 // basera
