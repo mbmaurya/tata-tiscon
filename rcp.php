@@ -131,37 +131,62 @@
 </div>
 <!-- /mason form -->
 
-        <div class="result_wrapper py-5">
-        	<div class="container">
-        	<div class="row justify-content-center">
-        		<div class="col-md-5">
-        				<div class="section_wrapper">
-        					<div class="circle-img"><img src="images/section.svg"></div>
-        					<h3 class="text-center text-white">Section</h3>	
-        					<p>8 mm</p>
-        					<p>10 mm</p>
-        					<p>12 mm</p>
-        					<p>16 mm</p>
-        					<p>20 mm</p>
-        					<p>25 mm</p>
-        				</div>
-        		</div>
-        		<div class="col-md-5">
-        			<div class="rcp_wrapper">
-        					<div class="circle-img"><img src="images/rcp.svg"></div>
-        					<h3 class="text-center text-white">Recommended Consumer Price</h3>	
-        					<p>400</p>
-        					<p>613</p>
-        					<p>878</p>
-        					<p>1558</p>
-        					<p>2435</p>
-        					<p>3798</p>
-        				</div>	
-        			</div>
-        		</div>	
-        	</div>
+<div class="result_wrapper py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="section_wrapper">
+                    <div class="circle-img"><img src="images/section.svg"></div>
+                    <h3 class="text-center text-white">Section</h3>	
+                    <p class="active"><span>8 mm</span></p>
+                    <p><span>10 mm</span></p>
+                    <p><span>12 mm</span></p>
+                    <p><span>16 mm</span></p>
+                    <p><span>20 mm</span></p>
+                    <p><span>25 mm</span></p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="rcp_wrapper">
+                        <div class="circle-img"><img src="images/rcp.svg"></div>
+                        <h3 class="text-center text-white">Recommended Consumer Price</h3>	
+                        <p class="active"><span>400.00</span></p>
+                        <p><span>613.00</span></p>
+                        <p><span>878.00</span></p>
+                        <p><span>1558.00</span></p>
+                        <p><span>2435.00</span></p>
+                        <p><span>3798.00</span></p>
+                    </div>	
+                </div>
+            </div>	
         </div>
     </div>
+    <div class="result-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>
+                        These PLASMA REBAR prices are applicable in the state of Gujarat for material sold through the Authorised Distributor and its network, with effect from 4th July 2019
+                    </p>
+                    <ul>
+                        <li>
+                            The above prices are on cash basis and are inclusive of all taxes
+                        </li>
+                        <li>
+                            Each piece of 12 m length
+                        </li>
+                        <li>
+                            All dimensions are subject to BIS tolerances Customers should satisfy themselves, as far as the no. of pieces are concerned, at the time of delivery
+                        </li>
+                        <li>
+                            Free home delivery on a minimum purchase of Rs. 30000 of any Tiscon product and within 5 kms from the dealer outlet
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- ashiyana -->
 

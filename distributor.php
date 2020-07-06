@@ -9,7 +9,7 @@
                     <h1 class="text-uppercase text-white">Find Leading Trustworthy Distributors</h1>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/distrubutor/distrubutor-hero.png" class="img-fluid" />
+                    <img src="images/distrubutor/distrubutor-hero.jpg" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -183,7 +183,7 @@
                             </form>
                         </div>
                         <div class="col-lg-6 order-lg-2 order-md-1">
-                            <img src="images/distrubutor/distrubutor-form.png" class="img-fluid" />
+                            <img src="images/distrubutor/distrubutor-form.jpg" class="img-fluid" />
                         </div>
                     </div>
                 </section>
@@ -198,14 +198,13 @@
         <div class="row">
             <div class="col-lg-4">
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Distributor</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobileNumber"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#exampleModal" data-toggle="modal">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419">
@@ -219,14 +218,13 @@
             </div>
             <div class="col-lg-4">
                 <section class="mason-list">
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Distributor</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobileNumber"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#exampleModal" data-toggle="modal">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419">
@@ -240,14 +238,13 @@
             </div>
             <div class="col-lg-4">
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Distributor</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobileNumber"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#exampleModal" data-toggle="modal">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419">
@@ -261,14 +258,13 @@
             </div>
             <div class="col-lg-4">
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Distributor</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobileNumber"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#exampleModal" data-toggle="modal">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419">
@@ -282,14 +278,13 @@
             </div>
             <div class="col-lg-4">
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Distributor</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobileNumber"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#exampleModal" data-toggle="modal">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419">
@@ -303,14 +298,13 @@
             </div>
             <div class="col-lg-4">
                 <section>
-                    <img src="images/mason/person.png" class="person" />
                     <p class="result-type">Distributor</p>
                     <p class="name">
                         <span>Name:</span>
                         <span class="title">Mr:</span>
                         Ranbir Singh
                     </p>
-                    <p class="mobileNumber"><span>Mob No:</span> 9034408229 </p>
+                    <p class="mobile-number"><span>Mob No:</span> 9034408229 </p>
                     <a href="#exampleModal" data-toggle="modal">
                         View More
                         <svg class="view-more-svg" xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419">
@@ -322,9 +316,6 @@
                     </a>
                 </section>
             </div>
-        </div>
-        <div class="text-center">
-            <button class="btn btn-blue-inverse">Show More</button>
         </div>
     </div>
 </div>
@@ -337,8 +328,6 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <!-- avatar image -->
-                <img src="./images/mason/person.png" alt="avatar" class="avatar-image">
                 <!-- information div -->
                 <div class="info-div">
                     <div class="name-div d-table text text-white">
@@ -369,9 +358,13 @@
                         <div class="head d-table-cell">Mobile:</div>
                         <div class="return d-table-cell">9034408229</div>
                     </div>
+                    <div class="mobile-div d-table text text-white">
+                        <div class="head d-table-cell">Email:</div>
+                        <div class="return d-table-cell">nsgm@dagagroup.in</div>
+                    </div>
                 </div>
                 <!-- tab section -->
-                <ul class="nav nav-tabs mt-4" id="modalTab" role="tablist">
+                <!-- <ul class="nav nav-tabs mt-4" id="modalTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="email-tab" data-toggle="tab" href="#email" role="tab" aria-controls="email" aria-selected="true"><svg xmlns="http://www.w3.org/2000/svg" width="24.739" height="17.923" viewBox="0 0 24.739 17.923">
                                 <defs>
@@ -421,7 +414,13 @@
                     <div class="tab-pane fade" id="sms" role="tabpanel" aria-labelledby="sms-tab">
                         <form action="#" class="sms-form">
                             <div class="row">
-                                <div class="col-sm-6 col-6">
+                                <div class="col-sm-6 col-6 input-col">
+                                    <div class="form-group">
+                                        <label class="text text-white" for="name">Name*</label>
+                                        <input class="form-control" type="text" id="name" name="name" placeholder="John cena" required />
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-6 input-col">
                                     <div class="form-group">
                                         <label class="text text-white" for="mobile">Mobile*</label>
                                         <input class="form-control" type="tel" name="mobile" id="mobile" placeholder="+91 9876543210" required />
@@ -435,66 +434,10 @@
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 </div>
 <!-- /mason modal -->
-<!-- testimonial slider -->
-<div class="testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Our Distributor</h2>
-                <hr />
-                <div class="testimonial-slider">
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                    <div>
-                        <img src="images/mason/testimonial-thumbnail.png" class="img-fluid" />
-                        <p class="name">Lorem Ipsum</p>
-                        <p class="content">
-                            Lorem Ipsum is simply dummy text of the and typesetting industry Lorem Ipsum has
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- /testimonial slider -->
 <?php include 'footer.php';?>
