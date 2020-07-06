@@ -393,6 +393,10 @@ $(".navbar-nav li").on("click", function() {
     $(this).addClass("active");
 });
 
+$(".product-menu .dropdown-item").on("mouseover", function () {
+  $(".product-menu .dropdown-item .default").css("display", "none");
+});
+
 // $(".path").on('click', function() {
 //   $(this).siblings().removeClass('focus');
 //   $(this).addClass('focus')
@@ -418,27 +422,26 @@ $(".left-arrow").on("click", function() {
 });
 
 
-$(".rajasthan-homes-prev").on("click", function() {
-    $("#rajasthanCarouselControls").carousel('prev');
+$(".rajasthan-homes-prev").on("click", function () {
+  $("#rajasthanCarouselControls").carousel("prev");
 });
-$(".rajasthan-homes-next").on("click", function() {
-    $("#rajasthanCarouselControls").carousel('next');
-});
-
-$(".delhi-homes-prev").on("click", function() {
-    $("#delhiCarouselControls").carousel('prev');
-});
-$(".delhi-homes-next").on("click", function() {
-    $("#delhiCarouselControls").carousel('next');
+$(".rajasthan-homes-next").on("click", function () {
+  $("#rajasthanCarouselControls").carousel("next");
 });
 
-$(".kerala-homes-prev").on("click", function() {
-    $("#keralaCarouselControls").carousel('prev');
+$(".delhi-homes-prev").on("click", function () {
+  $("#delhiCarouselControls").carousel("prev");
 });
-$(".kerala-homes-next").on("click", function() {
-    $("#keralaCarouselControls").carousel('next');
+$(".delhi-homes-next").on("click", function () {
+  $("#delhiCarouselControls").carousel("next");
 });
 
+$(".kerala-homes-prev").on("click", function () {
+  $("#keralaCarouselControls").carousel("prev");
+});
+$(".kerala-homes-next").on("click", function () {
+  $("#keralaCarouselControls").carousel("next");
+});
 
 // feedback form validation
 $(document).ready(function() {
@@ -504,3 +507,4 @@ $boxes.each(function(index) {
     }
 }); //each()   
 });(jQuery);
+

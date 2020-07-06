@@ -9,7 +9,7 @@
                     <h1 class="text-uppercase text-white">Build The Unbreakable With <br/>TATA Tiscon</h1>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/dealer/dealer-hero.png" class="img-fluid" />
+                    <img src="images/about-us.jpg" class="img-fluid" />
                 </div>
             </div>
         </div>
