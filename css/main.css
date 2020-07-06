@@ -3421,6 +3421,10 @@ input.newsletter_input {
   border-radius: 16px;
 }
 
+.plus-desc:hover {
+  color: #FFFFFF !important;
+}
+
 .plus-info {
   position: absolute;
   display: none;
@@ -3779,6 +3783,9 @@ input.newsletter_input {
   right: -57px;
   width: 90px;
 }
+.superlinks #plus-info-four span {
+  width: 225px;
+}
 
 @media only screen and (max-width: 767px) {
   .superlinks #plus-info-one {
@@ -3823,7 +3830,7 @@ input.newsletter_input {
     width: 28px;
   }
   .superlinks #plus-info-four span {
-    margin-left: -170px;
+    margin-left: -195px;
   }
 }
 @media only screen and (max-width: 767px) and (orientation: landscape) {
@@ -3869,7 +3876,7 @@ input.newsletter_input {
     width: 97px;
   }
   .superlinks #plus-info-four span {
-    margin-left: -60px;
+    margin-left: -84px;
   }
 }
 

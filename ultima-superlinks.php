@@ -171,7 +171,7 @@
                                         <span><img src="./images/GFX-coated-superlinks/graphene-biopolymer-small.svg" alt="Graphene Biopolymer"> Zero Wastage</span>
                                 </div>
                                 <div class="plus-info" id="plus-info-three" data-infofor="plus-sign-three" data-tab="superior-ductility-tab">
-                                        <span>Superior Quality</span>
+                                        <span><img src="./images/GFX-coated-superlinks/special-gfx-coating-small.svg" alt="Special GFX coating"> Superior Quality</span>
                                 </div>
                                 <div class="plus-info" id="plus-info-four" data-infofor="plus-sign-four" data-tab="uniform-ridges-tab">
                                         <span><img src="./images/GFX-coated-superlinks/accuracy-small.svg" alt="Accuracy">Superior Interlocking</span>
