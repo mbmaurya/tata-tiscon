@@ -1208,6 +1208,11 @@ span.left-arrow {
   background-repeat: no-repeat;
 }
 
+.programm_section:hover .logo_img * {
+  fill: #FFFFFF ;
+  stroke: #FFFFFF;
+}
+
 .programm_section:hover .read_more_programe {
   color: #fff;
   fill: #fff;
@@ -1237,6 +1242,7 @@ span.left-arrow {
   width: 100%;
   padding: 20px;
   border-radius: 5px;
+  min-height: 235px;
 }
 
 .programm_section p {
@@ -1303,7 +1309,10 @@ span.left-arrow img {
 }
 
 .logo_img img {
-  width: 100px !important;
+  width: 150px !important;
+}
+.basera-logo img {
+  width: 120px !important;
 }
 
 .img_section img {
@@ -1331,6 +1340,13 @@ span.left-arrow img {
   margin: 0 auto;
 }
 
+.testi-slider {
+  display: flex;
+  justify-content: center;
+}
+.testi-slider div {
+  width: 600px;
+}
 .testi-slider .slick-dots li button:before {
   font-size: 12px;
   color: #fff;
@@ -1454,6 +1470,10 @@ span.left-arrow img {
 @media screen and (max-width: 992px) {
   .hero-bg section {
     padding: 0px 0;
+  }
+
+  .programm_section {
+    min-height: 293px;
   }
 
   .aboutUsContainer {
@@ -3412,6 +3432,7 @@ input.newsletter_input {
 }
 
 .unbeatable-strength .grid-row .img-col img {
+  width: 95%;
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
@@ -3792,6 +3813,9 @@ input.newsletter_input {
     width: 60%;
   }
 
+  .unbeatable-strength .grid-row .img-col img {
+    width: 100%;
+  }
   .unbeatable-strength .grid-row .text-col br {
     display: none;
   }
@@ -4647,6 +4671,8 @@ input.newsletter_input {
     height: auto;
     margin-bottom: 20px;
   }
+
+
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
@@ -5823,6 +5849,8 @@ input.newsletter_input {
     }
   }
 
+  /* -------------------------------- */
+/* 
   .sales-office .inner-section #plus-info-thirteen span {
     top: -32px;
     right: -4px;
@@ -5974,7 +6002,7 @@ input.newsletter_input {
     top: -32px;
     left: 86px;
   }
-}
+
 
 .sales-office .inner-section #plus-sign-nineteen {
   top: 406px;
@@ -6018,7 +6046,7 @@ input.newsletter_input {
 .sales-office .inner-section #plus-info-twenty span {
   top: -32px;
   left: -74px;
-}
+} */
 
 .sales-office .inner-section .container .tab-col {
   display: flex;
@@ -7564,6 +7592,10 @@ footer .list {
 footer .list li {
   margin-bottom: 16px;
   line-height: 1.7;
+  transition: all .2s ease-in-out;
+}
+footer .list li:hover {
+  opacity: .7;
 }
 
 footer .number {

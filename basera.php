@@ -891,15 +891,6 @@
                     <div>
                         <img src="images/tata-basera/placeholder-1.png" class="img-fluid" />
                     </div>
-                    <div>
-                        <img src="images/tata-basera/placeholder-1.png" class="img-fluid" />
-                    </div>
-                    <div>
-                        <img src="images/tata-basera/placeholder-2.png" class="img-fluid" />
-                    </div>
-                    <div>
-                        <img src="images/tata-basera/placeholder-1.png" class="img-fluid" />
-                    </div>
                 </div>
             </div>
         </div>

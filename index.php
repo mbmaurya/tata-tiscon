@@ -355,7 +355,7 @@
                 <div class="row no-gutters">
                     <div class="col-md-6">
                         <div class="img-key-project" id="key-project-one">
-                            <div class="img-key"><img src="images/lotus-temple.png" class="da-image" class="img-fluid">
+                            <div class="img-key"><img src="images/bandra-worli-sea-link.png" class="da-image" class="img-fluid">
                                 <div class="overlay opacity">
                                     <div class="text_project">
                                         <h3>Bandra-Worli Sealink</h3>
@@ -368,11 +368,11 @@
                     </div>
                     <div class="col-md-6">
                         <div class="img-key-project" id="key-project-two">
-                            <div class="img-key"><img src="images/bandra-worli-sea-link.png" class="img-fluid">
+                            <div class="img-key"><img src="images/lotus-temple.png" class="img-fluid">
                                 <div class="overlay-two">
                                     <div class="text_project">
                                         <h3>The Lotus Temple</h3>
-                                        <p>Reducing travelling time by almost 50%, the Bandra- Worli Sealink dominates the Arabian Sea. Reinforced with TATA Tiscon SD Rebars, all 8 lanes of this engineering marvel were opened in 2010.</p>
+                                        <p>One of India’s most loved landmarks, the Lotus Temple, New Delhi, is an architectural marvel! Built over 10 years, this iconic & majestic temple is reinforced with the unmatched strength of corrosion resistant TATA Tiscon SD Rebars.</p>
                                         <a href="javascript:void(0)" class="read_more text-white">Read More <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
                                     </div>
                                 </div>
@@ -437,39 +437,30 @@
                     <div class="program-slider">
                         <div>
                             <div class="programm_section">
-                                <div class="logo_img"><img src="images/tata_pravesh.png" width="200"></div>
+                                <div class="logo_img">
+                                    <img src="images/tata-discovery-pro.svg" width="200">
+                                </div>
                                 <p>Specially designed programs to upgrade architect & engineer skills and enable best construction practices.</p>
                                 <a href="" class="read_more_programe"> <span> Read more </span> <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
                             </div>
                         </div>
                         <div>
                             <div class="programm_section">
-                                <div class="logo_img"><img src="images/tata_pravesh.png" width="200"></div>
+                                <div class="logo_img">
+                                    <img src="images/mitr.svg" width="200">
+                                </div>
                                 <p>An exclusive loyalty program & insurance scheme for masons who are Mitr members.</p>
                                 <a href="" class="read_more_programe"> <span> Read more </span> <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
                             </div>
                         </div>
                         <div>
                             <div class="programm_section">
-                                <div class="logo_img"><img src="images/tata_pravesh.png" width="200"></div>
+                                <div class="logo_img basera-logo"><img src="images/tata-basera.svg" width="200"></div>
                                 <p>Earn benefits across 6 TATA Home Solutions Brands when you spend on TATA Tiscon SD products.</p>
                                 <a href="" class="read_more_programe"> <span> Read more </span> <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
                             </div>
                         </div>
-                        <div>
-                            <div class="programm_section">
-                                <div class="logo_img"><img src="images/tata_pravesh.png" width="200"></div>
-                                <p>Earn benefits across 6 TATA Home Solutions Brands when you spend on TATA Tiscon SD products.</p>
-                               <a href="" class="read_more_programe"> <span> Read more </span> <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="programm_section">
-                                <div class="logo_img"><img src="images/tata_pravesh.png" width="200"></div>
-                                <p>Earn benefits across 6 TATA Home Solutions Brands when you spend on TATA Tiscon SD products.</p>
-                                <a href="" class="read_more_programe"> <span> Read more </span> <span class="left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="7.341" height="13.419" viewBox="0 0 7.341 13.419"><defs></defs><path class="a" d="M124.5,6.152l-5.909-6a.489.489,0,0,0-.7,0,.511.511,0,0,0,0,.714l5.557,5.648-5.557,5.648a.511.511,0,0,0,0,.714.489.489,0,0,0,.7,0l5.909-6a.511.511,0,0,0,0-.715Z" transform="translate(-117.501 0.2)"/></svg></span></a>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -482,26 +473,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h2>Testimonial</h2>
-                    <hr>
+                    <h2 class="heading">Testimonial</h2>
+                    <hr class="underline">
+                    <p class="line text-white">What people say About US</p>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="testi-slider">
                         <div>
                             <p class="text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
-                            <div class="img_icon"><img src="images/testi-images.png" class="img-fluid" width="100px"></div>
                         </div>
                         <div>
                             <p class="text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
-                            <div class="img_icon"><img src="images/testi-images.png" class="img-fluid" width="100px"></div>
                         </div>
                         <div>
                             <p class="text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
-                            <div class="img_icon"><img src="images/testi-images.png" class="img-fluid" width="100px"></div>
                         </div>
                     </div>
                 </div>

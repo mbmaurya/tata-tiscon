@@ -155,6 +155,7 @@ $(document).ready(function () {
     $(".overlay").removeClass("opacity");
     $(".overlay-two").addClass("opacity");
   });
+
 });
 /* discovery slider */
 
@@ -387,7 +388,7 @@ $(document).ready(function () {
     });
     $(".plus-desc").not(this).removeClass("active");
   });
-  $(".plus-desc").not(this).removeClass("active");
+  // $(".plus-desc").not(this).removeClass("active");
 });
 
 $(".nav-link").click(function () {

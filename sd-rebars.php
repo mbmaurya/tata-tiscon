@@ -184,7 +184,7 @@
                         <img src="./images/product-sd-rebars/rebars.png" alt="rebars" class="img-fluid" />        
                 </div>
                 <div class="btn-div">
-                        <button class="btn btn-blue" data-toggle="modal" data-target="#mechanicalProperties">Mechanical properties</button>
+                        <button class="btn btn-white" data-toggle="modal" data-target="#mechanicalProperties">Mechanical properties</button>
                         <button class="btn btn-white">Recommended Consumer Prices</button>
                 </div>
                 <div class="modal fade" id="mechanicalProperties" tabindex="-1" role="dialog" aria-labelledby="mechanicalProperties" aria-hidden="true">
