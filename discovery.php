@@ -18,7 +18,7 @@
 <!-- /hero bg -->
 
 <!-- Discovery series -->
-
+<!-- 
 <div class="discovery-series">
     <div class="container">
         <div class="row">
@@ -34,7 +34,7 @@
             </div>
         </div>
     </div>
-    <!-- image slider -->
+
     <div class="discovery-series">
         <div class="discovery-slider">
             <div>
@@ -58,8 +58,7 @@
         </div>
     </div>
 
-    <!-- /image slider -->
-</div>
+</div> -->
 
 <!-- /Discovery series -->
 <!-- programmes -->
@@ -157,7 +156,7 @@
 <!-- /programmes -->
 
 <!-- image gallery -->
-
+<!-- 
 <div class="gallery">
     <div class="container">
         <div class="row">
@@ -195,16 +194,14 @@
         <div class="modal-body">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <img src="" id="image" class="img-fluid" />
-            <!-- <ul class="img-list">
 
-            </ul> -->
             <div class="img-list">
                 
             </div>
         </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- /image gallery -->
 

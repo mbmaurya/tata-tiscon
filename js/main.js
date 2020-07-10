@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $(".testimonial-slider").slick({
     infinite: true,
-    dots: true,
+    dots: false,
     slidesToShow: 3,
     slidesToScroll: 3,
     responsive: [
