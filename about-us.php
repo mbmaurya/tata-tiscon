@@ -35,7 +35,7 @@
         </div>
         <div class="inner-section mt-5">
                 <div class="div text-div">
-                        <h2 class="title">About TATA Tiscon</h2>
+                        <h4 class="title">About TATA Tiscon</h4>
                         <p class="para">
                                 Launched in 2000, TATA Tiscon is India’s first <br/>
                                 rebar brand to launch TMT rebars with <br/>
@@ -86,9 +86,9 @@
 
 <div class="about-tata-steel">
         <div class="div text-div">
-                <h2 class="title">
+                <h4 class="title">
                         About TATA Steel
-                </h2>
+                </h4>
                 <p class="para">
                         Built on a foundation of trust , TATA Steel <br/>
                         was integrated as Asia’s first private steel <br/>
@@ -138,7 +138,7 @@
                         </div>
                         <div class="col-md-6 col-12 text-col order-md-2 order-2">
                                 <div class="div">
-                                        <h2 class="title">Homes Of Rajasthan</h2>
+                                        <h4 class="title">Homes Of Rajasthan</h4>
                                         <p class="para">
                                                 A mirror into the elegance and tradition of India’s royal <br/>
                                                 past, these Homes of Rajasthan built using unmatched <br/>
@@ -149,7 +149,7 @@
                         </div>
                         <div class="col-md-6 col-12 text-col order-md-3 order-4">
                                 <div class="div">
-                                        <h2 class="title">Homes Of Delhi</h2>
+                                        <h4 class="title">Homes Of Delhi</h4>
                                         <p class="para">
                                                 Also known as the heart of the nation, Delhi is known <br/>
                                                 for its love of luxury and comfort. These beautifully <br/>
@@ -195,7 +195,7 @@
                         </div>
                         <div class="col-md-6 col-12 text-col order-md-6 order-6">
                                 <div class="div">
-                                        <h2 class="title">Homes Of Kerala</h2>
+                                        <h4 class="title">Homes Of Kerala</h4>
                                         <p class="para">
                                                 Feel the refreshing winds in your hair and take a stroll <br/>
                                                 along the serene backwaters of Kerala right from your <br/>
@@ -227,22 +227,22 @@
                 <div class="discovery-slider">
                         <div>
                                 <img src="images/about/sealink-wide.png" alt="" class="img-fluid">      
-                                <h2 class="title">Bandra Worli Sea Link, Mumbai</h2>     
+                                <h4 class="title">Bandra Worli Sea Link, Mumbai</h4>     
                                 <p class="para">An architectural marvel reinforced with state-of-the-art TATA Tiscon SD rebars</p>                             
                         </div>
                         <div>
                                 <img src="images/about/sealink-wide.png" alt="" class="img-fluid">      
-                                <h2 class="title">Bandra Worli Sea Link, Mumbai</h2>     
+                                <h4 class="title">Bandra Worli Sea Link, Mumbai</h4>     
                                 <p class="para">An architectural marvel reinforced with state-of-the-art TATA Tiscon SD rebars</p>                             
                         </div>
                         <div>
                                 <img src="images/about/sealink-wide.png" alt="" class="img-fluid">      
-                                <h2 class="title">Bandra Worli Sea Link, Mumbai</h2>     
+                                <h4 class="title">Bandra Worli Sea Link, Mumbai</h4>     
                                 <p class="para">An architectural marvel reinforced with state-of-the-art TATA Tiscon SD rebars</p>                             
                         </div>
                         <div>
                                 <img src="images/about/sealink-wide.png" alt="" class="img-fluid">      
-                                <h2 class="title">Bandra Worli Sea Link, Mumbai</h2>     
+                                <h4 class="title">Bandra Worli Sea Link, Mumbai</h4>     
                                 <p class="para">An architectural marvel reinforced with state-of-the-art TATA Tiscon SD rebars</p>                             
                         </div>
                 </div>

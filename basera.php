@@ -34,8 +34,13 @@
         </div>
     </div>
     <div class="new-world-banner mt-5">
-        <h2 class="heading text-white pt-5">A Whole New World</h2>
-        <p class="para text-white text-center">Of Exclusive Home Making Solutions Awaits You!</p>
+        <h2 class="heading text-white text-shadow pt-5">A Whole New World</h2>
+        <p class="para text-white text-shadow text-center">Of Exclusive Home Making Solutions Awaits You!</p>
+        <div class="container">
+            <div class="bubble bubble-1"><img src="images/tata-basera/bubble-1.svg" alt=""></div>
+            <div class="bubble bubble-2"><img src="images/tata-basera/bubble-2.svg" alt=""></div>
+            <div class="bubble bubble-3"><img src="images/tata-basera/blob-left.svg" alt=""></div>
+        </div>
     </div>
 </div>
 <!-- /new world section -->
@@ -882,15 +887,6 @@
                 <h2 class="heading">Testimonials</h2>
                 <hr class="underline" />
                 <div class="mason-testimonial-slider testimonial-slider">
-                    <div>
-                        <img src="images/tata-basera/placeholder-1.png" class="img-fluid" />
-                    </div>
-                    <div>
-                        <img src="images/tata-basera/placeholder-2.png" class="img-fluid" />
-                    </div>
-                    <div>
-                        <img src="images/tata-basera/placeholder-1.png" class="img-fluid" />
-                    </div>
                     <div>
                         <img src="images/tata-basera/placeholder-1.png" class="img-fluid" />
                     </div>

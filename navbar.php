@@ -131,7 +131,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
             <div class="modal-header">
-                <img src="images/tata-tiscon-logo.png" class="mx-auto d-block" />
+                <img src="images/tiscon-logo.png" class="mx-auto d-block" />
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25.702" height="25.702" viewBox="0 0 25.702 25.702"><defs><style>.c{fill:#d4001c !important;stroke:#eaebee;}</style></defs><path class="c" d="M-1072.029,251.664l9.5-9.5a1.631,1.631,0,0,0,0-2.307,1.631,1.631,0,0,0-2.307,0l-9.5,9.5-9.5-9.5a1.632,1.632,0,0,0-2.307,0,1.632,1.632,0,0,0,0,2.307l9.5,9.5-9.5,9.5a1.632,1.632,0,0,0,0,2.307,1.627,1.627,0,0,0,1.154.478,1.626,1.626,0,0,0,1.153-.478l9.5-9.5,9.5,9.5a1.626,1.626,0,0,0,1.154.478,1.625,1.625,0,0,0,1.153-.478,1.631,1.631,0,0,0,0-2.307Z" transform="translate(1087.252 -238.749)"/></svg>
                 </button>
