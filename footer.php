@@ -97,6 +97,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
   </body>
 </html>

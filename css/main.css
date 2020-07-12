@@ -496,7 +496,8 @@ nav .v-center {
 
 #modal_menu .modal-content {
   height: 100vh;
-  background:linear-gradient(#ffffffef, #ffffffef), url(../images/nav-background.png) no-repeat;
+  background: linear-gradient(#ffffffef, #ffffffef),
+    url(../images/nav-background.png) no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0;
@@ -767,7 +768,7 @@ nav .v-center {
 }
 
 .wrapperTestimonial {
-  background-image: url(../images/testimonials.png);
+  background-image: url(../images/testimonials-bg.jpg);
   background-size: cover;
 }
 
@@ -888,9 +889,12 @@ nav .v-center {
 }
 .img_storie .read_more:hover {
   fill: #000;
+  stroke: #000;
 }
 .img_storie .read_more {
   fill: #d4001c;
+  stroke: #d4001c;
+  cursor: pointer;
 }
 .img_storie .read_more span.left-arrow {
   position: relative;
@@ -1119,14 +1123,14 @@ span.left-arrow {
 }
 
 .wrapperTisconStrory {
-  background-image: url(../images/bg-tiscon-story.png);
+  background-image: url(../images/bg-tiscon-story.jpg);
   background-size: cover;
   background-position: center;
   float: left;
   width: 100%;
 }
 .wrapperTataStory {
-  background-image: url(../images/tata-story-banner.png);
+  background-image: url(../images/tata-story-banner.jpg);
   background-size: cover;
   background-position: center;
   float: left;
@@ -1177,7 +1181,7 @@ span.left-arrow {
 
 .imgTataStories {
   float: right;
-  background: url("../images/about-us_steel.png");
+  background: url("../images/about-us_steel.jpg");
   width: 200px;
   margin: 0 auto;
   text-align: center;
@@ -1220,8 +1224,8 @@ span.left-arrow {
 }
 
 .programm_section:hover .logo_img * {
-  fill: #FFFFFF ;
-  stroke: #FFFFFF;
+  fill: #ffffff;
+  stroke: #ffffff;
 }
 
 .programm_section:hover .read_more_programe {
@@ -3473,6 +3477,10 @@ input.newsletter_input {
   margin-top: 12px;
 }
 
+.unbeatable-strength .grid-row .text-col .icon-row svg .c {
+  stroke: #212529;
+}
+
 .unbeatable-strength .grid-row .text-col .icon-row .col-sm-3 {
   text-align: center;
 }
@@ -3480,6 +3488,7 @@ input.newsletter_input {
 .unbeatable-strength .grid-row .text-col .icon-row .col-sm-3 .icon-para {
   margin-top: 8px;
   font-size: 0.9rem;
+  line-height: 1.35rem;
 }
 
 .unbeatable-strength .grid-row .text-col .download-link {
@@ -4275,7 +4284,7 @@ input.newsletter_input {
   padding: 20px;
   box-shadow: 0px 5px 5px #00000029;
   border-radius: 5px;
-  background: #FFFFFF;
+  background: #ffffff;
   transition: all 0.2s ease-in-out;
 }
 
@@ -4342,7 +4351,7 @@ input.newsletter_input {
 }
 
 .testiminial .slick-dots {
-  display: none!important;
+  display: none !important;
 }
 
 @media screen and (max-width: 767px) {
@@ -4426,13 +4435,13 @@ input.newsletter_input {
   left: 0;
 }
 .bubble::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 42%;
   left: 50%;
   font-size: 16px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
   transform: translate(-50%, -50%);
 }
 
@@ -4441,7 +4450,7 @@ input.newsletter_input {
   left: 130px;
 }
 .bubble-1::after {
-  content: '6 Brands';
+  content: "6 Brands";
 }
 
 .bubble-2 {
@@ -4449,7 +4458,7 @@ input.newsletter_input {
   left: 144px;
 }
 .bubble-2::after {
-  content: 'Benefits Upto Rs 68,600';
+  content: "Benefits Upto Rs 68,600";
 }
 
 .bubble-3 {
@@ -4457,7 +4466,7 @@ input.newsletter_input {
   left: 150px;
 }
 .bubble-3::after {
-  content: 'Exclusive Offers';
+  content: "Exclusive Offers";
 }
 
 .navbar {
@@ -4714,7 +4723,7 @@ input.newsletter_input {
   .bubble-2 {
     top: 2%;
     left: -11%;
-}
+  }
   .bubble-3 {
     top: 3%;
     left: 36%;
@@ -4759,12 +4768,9 @@ input.newsletter_input {
     height: auto;
     margin-bottom: 20px;
   }
-
-
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
-
   .bubble {
     transform: scale(0.5);
   }
@@ -4776,13 +4782,12 @@ input.newsletter_input {
   .bubble-2 {
     top: 2%;
     left: -11%;
-}
+  }
   .bubble-3 {
     top: 5%;
     left: 56%;
     margin-top: 23px;
   }
-
 
   .journey .path-div .path {
     width: 54px;
@@ -4814,7 +4819,7 @@ input.newsletter_input {
   .bubble-2 {
     top: 148px;
     left: -15px;
-}
+  }
   .bubble-3 {
     top: -8px;
     left: 536px;
@@ -4869,322 +4874,731 @@ input.newsletter_input {
 
 /* contact us */
 
+.map-section .container {
+  max-width: 1000px;
+  padding: 60px 0;
+  background: #ffffff;
+}
+.map-section .container {
+  max-width: 1000px;
+}
 
-  .map-section .container {
-    max-width: 1000px;
-    padding: 60px 0;
-    background: #ffffff;
-  }
-  .map-section .container {
-    max-width: 1000px;
-  }
+.map-section .map-col #map {
+  width: 100%;
+  height: 400px;
+}
 
-  .map-section .map-col #map {
-    width: 100%;
-    height: 400px;
-  }
+.map-section .text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.map-section .text-col ul {
+  padding: 0 0 0 30px;
+}
+
+.map-section .text-col ul li {
+  position: relative;
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+.map-section .text-col ul li::before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: -30px;
+}
+
+.map-section .text-col ul li:first-child::before {
+  content: url("../images/contact-us/address.svg");
+}
+
+.map-section .text-col ul li:last-child::before {
+  content: url("../images/contact-us/phone.svg");
+}
+
+.sales-office {
+  padding-top: 60px;
+}
+
+.sales-office .inner-section {
+  padding: 60px 0;
+}
+
+.sales-office .inner-section .container {
+  max-width: 1000px;
+}
+
+.sales-office .inner-section .container .img-col .map-container {
+  width: 100% !important;
+}
+
+.sales-office .inner-section .container .img-col .map-container img {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sales-office .inner-section .container .img-col .map-container .plus-desc {
+  position: absolute;
+  display: inline-block;
+  padding: 0;
+  line-height: 10px;
+  background-color: transparent;
+  background: url("../images/contact-us/map-point-blue.svg") no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 45px;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.sales-office .inner-section .container .img-col .map-container .active {
+  position: absolute;
+  display: inline-block;
+  padding: 0;
+  line-height: 10px;
+  background-color: transparent;
+  background: url("../images/contact-us/map-point-red.svg") no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 45px;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.sales-office .inner-section .container .img-col .map-container .plus-info {
+  width: 80px;
+  height: 80px;
+  border-right: 2px dashed #ffffff;
+  border-bottom: 2px dashed #ffffff;
+  z-index: 1;
+}
+
+.sales-office .inner-section .container .img-col .map-container #plus-info-two {
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  top: 40px;
+  left: 73px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 1;
+}
+
+.sales-office
+  .inner-section
+  .container
+  .img-col
+  .map-container
+  .plus-info
+  span {
+  position: absolute;
+  display: inline-block;
+  top: -44px;
+  width: auto;
+  padding: 4px 12px;
+  margin-left: -48px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 16px #00000029;
+  transform: translateX(50%);
+  z-index: 1;
+}
+
+.sales-office .inner-section #plus-sign-one {
+  top: 165px;
+  left: unset;
+  right: 35px;
+}
+
+.sales-office .inner-section #plus-info-one {
+  top: 107px;
+  left: unset;
+  right: -8px;
+}
+
+.sales-office .inner-section #plus-info-one span {
+  top: -32px;
+  right: 0px;
+}
+
+.sales-office .inner-section #plus-sign-two {
+  top: 100px;
+  left: 154px;
+  right: unset;
+}
+
+.sales-office .inner-section #plus-info-two {
+  top: 39px;
+  left: 60px;
+  right: unset;
+}
+
+.sales-office .inner-section #plus-info-two span {
+  left: -70px;
+  top: -32px;
+}
+
+.sales-office .inner-section #plus-sign-three {
+  top: 106px;
+  left: 140px;
+  right: unset;
+}
+
+.sales-office .inner-section #plus-info-three {
+  top: 39px;
+  left: 38px;
+  right: unset;
+  height: 87px;
+  width: 101px;
+  border-left: 2px dashed #ffffff;
+}
+
+.sales-office .inner-section #plus-info-three span {
+  top: -32px;
+}
+
+.sales-office .inner-section #plus-sign-four {
+  top: 136px;
+  left: 165px;
+  right: unset;
+}
+
+.sales-office .inner-section #plus-info-four {
+  top: 60px;
+  left: 38px;
+  right: unset;
+  height: 96px;
+  width: 126px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 0;
+}
+
+.sales-office .inner-section #plus-info-four span {
+  top: -32px;
+  left: -16px;
+}
+
+.sales-office .inner-section #plus-sign-five {
+  top: 176px;
+  left: 144px;
+  right: unset;
+}
+
+.sales-office .inner-section #plus-info-five {
+  top: 99px;
+  left: 28px;
+  right: unset;
+  height: 96px;
+  width: 126px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 0;
+}
+
+.sales-office .inner-section #plus-info-five span {
+  top: -32px;
+  left: -25px;
+}
+
+.sales-office .inner-section #plus-sign-six {
+  top: 184px;
+  left: unset;
+  right: 240px;
+}
+
+.sales-office .inner-section #plus-info-six {
+  top: 124px;
+  left: unset;
+  right: 217px;
+  z-index: 0;
+}
+
+.sales-office .inner-section #plus-info-six span {
+  top: -32px;
+  right: -3px;
+}
+
+.sales-office .inner-section #plus-sign-seven {
+  top: 202px;
+  left: unset;
+  right: 169px;
+}
+
+.sales-office .inner-section #plus-info-seven {
+  top: 143px;
+  left: unset;
+  right: 131px;
+  z-index: 0;
+}
+
+.sales-office .inner-section #plus-info-seven span {
+  top: -32px;
+  right: -3px;
+}
+
+.sales-office .inner-section #plus-sign-eight {
+  top: 236px;
+  left: 92px;
+  right: unset;
+}
+
+.sales-office .inner-section #plus-info-eight {
+  top: 159px;
+  left: -35px;
+  right: unset;
+  height: 96px;
+  width: 126px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 0;
+}
+
+.sales-office .inner-section #plus-info-eight span {
+  top: -32px;
+  left: -76px;
+}
+
+.sales-office .inner-section #plus-sign-nine {
+  top: 253px;
+  left: 147px;
+  right: unset;
+}
+.sales-office .inner-section #plus-info-nine {
+  top: 203px;
+  left: -35px;
+  right: unset;
+  height: 66px;
+  width: 182px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-nine span {
+  top: -32px;
+  left: -27px;
+}
+
+.sales-office .inner-section #plus-sign-ten {
+  top: 244px;
+  right: 153px;
+  left: unset;
+}
+.sales-office .inner-section #plus-info-ten {
+  top: 208px;
+  right: -15px;
+  left: unset;
+  height: 56px;
+  width: 208px;
+  border-left: none;
+  border-right: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-ten span {
+  top: -32px;
+  right: -4px;
+}
+
+.sales-office .inner-section #plus-sign-eleven {
+  top: 252px;
+  right: 122px;
+  left: unset;
+}
+.sales-office .inner-section #plus-info-eleven {
+  top: 240px;
+  right: -15px;
+  left: unset;
+  height: 33px;
+  width: 178px;
+  border-left: none;
+  border-right: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-eleven span {
+  top: -32px;
+  right: -4px;
+}
+
+.sales-office .inner-section #plus-sign-twelve {
+  top: 264px;
+  right: 215px;
+  left: unset;
+}
+.sales-office .inner-section #plus-info-twelve {
+  top: 249px;
+  right: 19px;
+  left: unset;
+  height: 35px;
+  width: 236px;
+  border-left: none;
+  border-right: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-twelve span {
+  top: -32px;
+  right: -4px;
+}
+
+.sales-office .inner-section #plus-sign-thirteen {
+  top: 270px;
+  right: 275px;
+  left: unset;
+}
+.sales-office .inner-section #plus-info-thirteen {
+  top: 272px;
+  right: 27px;
+  left: unset;
+  height: 18px;
+  width: 299px;
+  border-left: none;
+  border-right: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-thirteen span {
+  top: -32px;
+  right: -4px;
+}
+
+.sales-office .inner-section #plus-sign-fourteen {
+  top: 300px;
+  right: 172px;
+  left: unset;
+}
+.sales-office .inner-section #plus-info-fourteen {
+  top: 294px;
+  right: 63px;
+  left: unset;
+  height: 24px;
+  width: 150px;
+  border-left: none;
+  border-right: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-fourteen span {
+  top: -32px;
+  right: -4px;
+}
+
+.sales-office .inner-section #plus-sign-fifteen {
+  top: 308px;
+  left: 92px;
+  right: unset;
+}
+.sales-office .inner-section #plus-info-fifteen {
+  top: 310px;
+  left: -6px;
+  right: unset;
+  height: 18px;
+  width: 98px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-fifteen span {
+  top: -32px;
+  left: -41px;
+}
+
+.sales-office .inner-section #plus-sign-sixteen {
+  top: 322px;
+  left: 114px;
+  right: unset;
+}
+.sales-office .inner-section #plus-info-sixteen {
+  top: 340px;
+  left: 15px;
+  right: unset;
+  height: 4px;
+  width: 98px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-sixteen span {
+  top: -32px;
+  left: -18px;
+}
+
+.sales-office .inner-section #plus-sign-seventeen {
+  top: 333px;
+  right: 270px;
+  left: unset;
+}
+.sales-office .inner-section #plus-info-seventeen {
+  top: 322px;
+  right: 92px;
+  left: unset;
+  height: 31px;
+  width: 229px;
+  border-left: none;
+  border-right: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-seventeen span {
+  top: -32px;
+  right: -3px;
+}
+
+.sales-office .inner-section #plus-sign-eighteen {
+  top: 401px;
+  right: 249px;
+  left: unset;
+}
+.sales-office .inner-section #plus-info-eighteen {
+  top: 389px;
+  right: 144px;
+  left: unset;
+  height: 32px;
+  width: 146px;
+  border-left: none;
+  border-right: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-eighteen span {
+  top: -32px;
+  right: -3px;
+}
+
+.sales-office .inner-section #plus-sign-nineteen {
+  top: 406px;
+  left: 157px;
+  right: unset;
+}
+.sales-office .inner-section #plus-info-nineteen {
+  top: 394px;
+  left: 10px;
+  right: unset;
+  height: 32px;
+  width: 146px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-nineteen span {
+  top: -32px;
+  left: -60px;
+}
+
+.sales-office .inner-section #plus-sign-twenty {
+  top: 454px;
+  left: 153px;
+  right: unset;
+}
+.sales-office .inner-section #plus-info-twenty {
+  top: 442px;
+  left: 6px;
+  right: unset;
+  height: 32px;
+  width: 146px;
+  border-right: none;
+  border-left: 2px dashed #ffffff;
+  z-index: 0;
+}
+.sales-office .inner-section #plus-info-twenty span {
+  top: -32px;
+  left: -74px;
+}
+
+.sales-office .inner-section .container .tab-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sales-office .inner-section .container .tab-col ul {
+  padding: 0 0 0 40px;
+}
+.sales-office .inner-section .container .tab-col ul li {
+  position: relative;
+  margin-bottom: 24px;
+  list-style: none;
+}
+.sales-office .inner-section .container .tab-col ul li::before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: -40px;
+}
+.sales-office .inner-section .container .tab-col ul li:nth-of-type(1)::before {
+  content: url("../images/contact-us/avatar-white.svg");
+}
+.sales-office .inner-section .container .tab-col ul li:nth-of-type(2)::before {
+  content: url("../images/contact-us/address-white.svg");
+}
+.sales-office .inner-section .container .tab-col ul li:nth-of-type(3)::before {
+  content: url("../images/contact-us/phone-white.svg");
+}
+.sales-office .inner-section .container .tab-col ul li:nth-of-type(4)::before {
+  content: url("../images/contact-us/email-white.svg");
+}
+.sales-office .inner-section .container .tab-col ul li:nth-of-type(5)::before {
+  content: url("../images/contact-us/distributor-white.svg");
+}
+
+.feedback {
+  padding: 60px 0;
+  background: #ffffff;
+}
+.feedback .container {
+  max-width: 1000px;
+}
+@media only screen and (max-width: 767px) {
   .map-section .text-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20px;
+  }
+  .map-section .text-col br {
+    display: block;
   }
 
-  .map-section .text-col ul {
-    padding: 0 0 0 30px;
-  }
-
-  .map-section .text-col ul li {
-    position: relative;
-    margin-bottom: 24px;
-    list-style: none;
-  }
-
-  .map-section .text-col ul li::before {
-    content: "";
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    top: 0;
-    left: -30px;
-  }
-
-  .map-section .text-col ul li:first-child::before {
-    content: url("../images/contact-us/address.svg");
-  }
-
-  .map-section .text-col ul li:last-child::before {
-    content: url("../images/contact-us/phone.svg");
-  }
-
-  .sales-office {
-    padding-top: 60px;
-  }
-
-  .sales-office .inner-section {
-    padding: 60px 0;
-  }
-
-  .sales-office .inner-section .container {
-    max-width: 1000px;
-  }
-
-  .sales-office .inner-section .container .img-col .map-container {
-    width: 100% !important;
-  }
-
-  .sales-office .inner-section .container .img-col .map-container img {
-    position: relative;
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .sales-office .inner-section .container .img-col .map-container .plus-desc {
-    position: absolute;
-    display: inline-block;
-    padding: 0;
-    line-height: 10px;
-    background-color: transparent;
-    background: url("../images/contact-us/map-point-blue.svg") no-repeat;
-    background-position: center;
-    width: 40px;
-    height: 45px;
-    color: #ffffff;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-  }
-
-  .sales-office .inner-section .container .img-col .map-container .active {
-    position: absolute;
-    display: inline-block;
-    padding: 0;
-    line-height: 10px;
-    background-color: transparent;
-    background: url("../images/contact-us/map-point-red.svg") no-repeat;
-    background-position: center;
-    width: 40px;
-    height: 45px;
-    color: #ffffff;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-  }
-
-  .sales-office .inner-section .container .img-col .map-container .plus-info {
-    width: 80px;
-    height: 80px;
-    border-right: 2px dashed #ffffff;
-    border-bottom: 2px dashed #ffffff;
-    z-index: 1;
-  }
-
-  .sales-office
-    .inner-section
-    .container
-    .img-col
-    .map-container
-    #plus-info-two {
-    border-right: none;
-    border-left: 2px dashed #ffffff;
-    top: 40px;
-    left: 73px;
-    border-right: none;
-    border-left: 2px dashed #ffffff;
-    z-index: 1;
-  }
-
-  .sales-office
-    .inner-section
-    .container
-    .img-col
-    .map-container
-    .plus-info
-    span {
-    position: absolute;
-    display: inline-block;
-    top: -44px;
-    width: auto;
-    padding: 4px 12px;
-    margin-left: -48px;
-    height: 30px;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 5px 16px #00000029;
-    transform: translateX(50%);
-    z-index: 1;
+  .sales-office .inner-section .container .tab-col {
+    margin-top: 20px;
   }
 
   .sales-office .inner-section #plus-sign-one {
-    top: 165px;
-    left: unset;
-    right: 35px;
+    top: 32% !important;
+    left: unset !important;
+    right: 7% !important;
   }
-
   .sales-office .inner-section #plus-info-one {
-    top: 107px;
-    left: unset;
-    right: -8px;
-  }
-
-  .sales-office .inner-section #plus-info-one span {
-    top: -32px;
-    right: 0px;
+    top: 20% !important;
+    left: unset !important;
+    right: 13% !important;
+    width: 19px !important;
+    height: 73px;
   }
 
   .sales-office .inner-section #plus-sign-two {
-    top: 100px;
-    left: 154px;
-    right: unset;
+    top: 19% !important;
+    left: 31% !important;
+    right: unset !important;
   }
-
   .sales-office .inner-section #plus-info-two {
-    top: 39px;
-    left: 60px;
+    top: 0% !important;
+    left: 18% !important;
     right: unset;
-  }
-
-  .sales-office .inner-section #plus-info-two span {
-    left: -70px;
-    top: -32px;
+    width: 45px;
+    height: 95px;
   }
 
   .sales-office .inner-section #plus-sign-three {
-    top: 106px;
-    left: 140px;
+    top: 21%;
+    left: 28%;
     right: unset;
   }
-
   .sales-office .inner-section #plus-info-three {
-    top: 39px;
-    left: 38px;
+    top: 3.5%;
+    left: 17%;
     right: unset;
-    height: 87px;
-    width: 101px;
-    border-left: 2px dashed #ffffff;
-  }
-
-  .sales-office .inner-section #plus-info-three span {
-    top: -32px;
+    width: 45px;
+    height: 95px;
   }
 
   .sales-office .inner-section #plus-sign-four {
-    top: 136px;
-    left: 165px;
+    top: 26%;
+    left: 33%;
     right: unset;
   }
 
-  .sales-office .inner-section #plus-info-four {
-    top: 60px;
-    left: 38px;
-    right: unset;
-    height: 96px;
-    width: 126px;
-    border-right: none;
-    border-left: 2px dashed #ffffff;
-    z-index: 0;
-  }
-
-  .sales-office .inner-section #plus-info-four span {
-    top: -32px;
-    left: -16px;
-  }
-
-  .sales-office .inner-section #plus-sign-five {
-    top: 176px;
-    left: 144px;
-    right: unset;
-  }
-
-  .sales-office .inner-section #plus-info-five {
-    top: 99px;
-    left: 28px;
-    right: unset;
-    height: 96px;
-    width: 126px;
-    border-right: none;
-    border-left: 2px dashed #ffffff;
-    z-index: 0;
-  }
-
-  .sales-office .inner-section #plus-info-five span {
-    top: -32px;
-    left: -25px;
-  }
-
-  .sales-office .inner-section #plus-sign-six {
-    top: 184px;
-    left: unset;
-    right: 240px;
-  }
-
-  .sales-office .inner-section #plus-info-six {
-    top: 124px;
-    left: unset;
-    right: 217px;
-    z-index: 0;
-  }
-
-  .sales-office .inner-section #plus-info-six span {
-    top: -32px;
-    right: -3px;
-  }
-
-  .sales-office .inner-section #plus-sign-seven {
-    top: 202px;
-    left: unset;
-    right: 169px;
-  }
-
-  .sales-office .inner-section #plus-info-seven {
-    top: 143px;
-    left: unset;
-    right: 131px;
-    z-index: 0;
-  }
-
-  .sales-office .inner-section #plus-info-seven span {
-    top: -32px;
-    right: -3px;
-  }
-
-  .sales-office .inner-section #plus-sign-eight {
-    top: 236px;
-    left: 92px;
-    right: unset;
-  }
-
-  .sales-office .inner-section #plus-info-eight {
-    top: 159px;
-    left: -35px;
-    right: unset;
-    height: 96px;
-    width: 126px;
-    border-right: none;
-    border-left: 2px dashed #ffffff;
-    z-index: 0;
-  }
-
-  .sales-office .inner-section #plus-info-eight span {
-    top: -32px;
-    left: -76px;
-  }
-
-  .sales-office .inner-section #plus-sign-nine {
-    top: 253px;
-    left: 147px;
-    right: unset;
-  }
   .sales-office .inner-section #plus-info-nine {
     top: 203px;
     left: -35px;
     right: unset;
+    width: 76px;
+    height: 76px;
+  }
+
+  .sales-office .inner-section #plus-sign-six {
+    top: 35%;
+    left: unset;
+    right: 45%;
+  }
+  .sales-office .inner-section #plus-info-six {
+    top: 23%;
+    left: unset;
+    right: 42%;
+    width: 53px;
     height: 66px;
-    width: 182px;
+  }
+
+  .sales-office .inner-section #plus-sign-seven {
+    top: 37%;
+    left: unset;
+    right: 31%;
+  }
+  .sales-office .inner-section #plus-info-seven {
+    top: 25%;
+    left: unset;
+    right: 28%;
+    width: 53px;
+    height: 66px;
+  }
+
+  .sales-office .inner-section #plus-sign-eight {
+    top: 45%;
+    left: 19%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-eight {
+    top: 0%;
+    left: 14%;
+    right: unset;
+    height: 189px;
+    width: 16px;
+  }
+  .sales-office .inner-section #plus-info-eight span {
+    top: -32px;
+    left: -65px;
+  }
+
+  .sales-office .inner-section #plus-sign-nine {
+    top: 48%;
+    left: 30%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-nine {
+    top: 23%;
+    left: 3%;
+    right: unset;
+    height: 114px;
+    width: 101px;
     border-right: none;
     border-left: 2px dashed #ffffff;
-    z-index: 0;
   }
+  .sales-office .inner-section #plus-info-nine span {
+    top: -32px;
+    left: 2px;
+  }
+
+  .sales-office .inner-section #plus-sign-ten {
+    top: 46%;
+    right: 28%;
+    left: unset;
+  }
+  .sales-office .inner-section #plus-info-ten {
+    top: 23%;
+    right: 3%;
+    left: unset;
+    height: 106px;
+    width: 135px;
+    border-left: none;
+  }
+  .sales-office .inner-section #plus-info-ten span {
+    top: -32px;
+    right: 51px;
+  }
+
   .sales-office .inner-section #plus-info-nine span {
     top: -32px;
     left: -27px;
@@ -5194,7 +5608,15 @@ input.newsletter_input {
     top: 244px;
     right: 153px;
     left: unset;
+    height: 124px;
+    width: 184px;
+    border-left: none;
   }
+  .sales-office .inner-section #plus-info-twelve span {
+    top: -32px;
+    right: 31px;
+  }
+
   .sales-office .inner-section #plus-info-ten {
     top: 208px;
     right: -15px;
@@ -5202,9 +5624,28 @@ input.newsletter_input {
     height: 56px;
     width: 208px;
     border-left: none;
-    border-right: 2px dashed #ffffff;
+  }
+  .sales-office .inner-section #plus-info-fourteen span {
+    top: -32px;
+    right: 65px;
+  }
+
+  .sales-office .inner-section #plus-sign-fifteen {
+    top: 59%;
+    left: 19%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-fifteen {
+    top: 22%;
+    left: 2%;
+    right: unset;
+    height: 161px;
+    width: 62px;
+    border-right: none;
+    border-left: 2px dashed #ffffff;
     z-index: 0;
   }
+
   .sales-office .inner-section #plus-info-ten span {
     top: -32px;
     right: -4px;
@@ -5215,19 +5656,151 @@ input.newsletter_input {
     right: 122px;
     left: unset;
   }
-  .sales-office .inner-section #plus-info-eleven {
-    top: 240px;
-    right: -15px;
+
+  .sales-office .inner-section #plus-sign-nineteen {
+    top: 78%;
+    left: 30%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-nineteen {
+    top: 74%;
+    right: 27%;
+    left: unset;
+    height: 34px;
+    width: 162px;
+    border-left: none;
+    border-right: 2px dashed #ffffff;
+  }
+  .sales-office .inner-section #plus-info-nineteen span {
+    top: -32px;
+    left: 101px;
+  }
+  .sales-office .inner-section #plus-sign-twenty {
+    top: 87%;
+    left: 31%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-twenty {
+    top: 83%;
+    right: 26%;
     left: unset;
     height: 33px;
     width: 178px;
     border-left: none;
     border-right: 2px dashed #ffffff;
-    z-index: 0;
   }
+  .sales-office .inner-section #plus-info-twenty span {
+    top: -32px;
+    left: 101px;
+  }
+}
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .sales-office .inner-section #plus-sign-one {
+    top: 33% !important;
+    left: unset;
+    right: 10% !important;
+  }
+  .sales-office .inner-section #plus-info-one {
+    top: 25% !important;
+    left: unset;
+    right: 11.5% !important;
+    width: 30px !important;
+    height: 88px !important;
+  }
+
+  .sales-office .inner-section #plus-sign-two {
+    top: 20% !important;
+  }
+  .sales-office .inner-section #plus-info-two {
+    top: 9% !important;
+    left: 13% !important;
+    right: unset;
+    width: 118px;
+    height: 95px;
+  }
+  .sales-office .inner-section #plus-sign-three {
+    top: 21%;
+    left: 28%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-three {
+    top: 11%;
+    left: 15%;
+    right: unset;
+    width: 94px;
+    height: 95px;
+  }
+
+  .sales-office .inner-section #plus-sign-four {
+    top: 27%;
+    left: 32.5%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-four {
+    top: 18%;
+    left: 11%;
+    right: unset;
+    width: 142px;
+    height: 81px;
+  }
+
+  .sales-office .inner-section #plus-sign-five {
+    top: 36%;
+    left: 28%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-five {
+    top: 25%;
+    left: 10%;
+    right: unset;
+    width: 144px;
+    height: 108px;
+  }
+
+  .sales-office .inner-section #plus-sign-six {
+    top: 37%;
+    left: unset;
+    right: 51%;
+  }
+  .sales-office .inner-section #plus-info-six {
+    top: 30%;
+    left: unset;
+    right: 45%;
+    width: 84px;
+    height: 73px;
+  }
+
+  .sales-office .inner-section #plus-sign-seven {
+    top: 40%;
+    left: unset;
+    right: 36%;
+  }
+  .sales-office .inner-section #plus-info-seven {
+    top: 29%;
+    left: unset;
+    right: 35%;
+    width: 47px;
+    height: 97px;
+  }
+
   .sales-office .inner-section #plus-info-eleven span {
     top: -32px;
-    right: -4px;
+    left: -79px;
+  }
+
+  .sales-office .inner-section #plus-sign-nine {
+    top: 50%;
+    left: 29%;
+    right: unset;
+  }
+  .sales-office .inner-section #plus-info-nine {
+    top: 29%;
+    left: 2%;
+    right: unset;
+    height: 166px;
+    width: 179px;
+    border-right: none;
+    border-left: 2px dashed #ffffff;
   }
 
   .sales-office .inner-section #plus-sign-twelve {
@@ -5235,6 +5808,7 @@ input.newsletter_input {
     right: 215px;
     left: unset;
   }
+
   .sales-office .inner-section #plus-info-twelve {
     top: 249px;
     right: 19px;
@@ -5245,6 +5819,7 @@ input.newsletter_input {
     border-right: 2px dashed #ffffff;
     z-index: 0;
   }
+
   .sales-office .inner-section #plus-info-twelve span {
     top: -32px;
     right: -4px;
@@ -5255,6 +5830,7 @@ input.newsletter_input {
     right: 275px;
     left: unset;
   }
+
   .sales-office .inner-section #plus-info-thirteen {
     top: 272px;
     right: 27px;
@@ -5262,715 +5838,113 @@ input.newsletter_input {
     height: 18px;
     width: 299px;
     border-left: none;
-    border-right: 2px dashed #ffffff;
-    z-index: 0;
-  }
-  .sales-office .inner-section #plus-info-thirteen span {
-    top: -32px;
-    right: -4px;
-  }
-
-  .sales-office .inner-section #plus-sign-fourteen {
-    top: 300px;
-    right: 172px;
-    left: unset;
-  }
-  .sales-office .inner-section #plus-info-fourteen {
-    top: 294px;
-    right: 63px;
-    left: unset;
-    height: 24px;
-    width: 150px;
-    border-left: none;
-    border-right: 2px dashed #ffffff;
-    z-index: 0;
   }
   .sales-office .inner-section #plus-info-fourteen span {
     top: -32px;
-    right: -4px;
+    right: 0;
   }
 
   .sales-office .inner-section #plus-sign-fifteen {
-    top: 308px;
-    left: 92px;
+    top: 60%;
+    left: 18%;
     right: unset;
   }
   .sales-office .inner-section #plus-info-fifteen {
-    top: 310px;
-    left: -6px;
+    top: 60%;
+    left: 9%;
     right: unset;
-    height: 18px;
-    width: 98px;
+    height: 20px;
+    width: 61px;
     border-right: none;
     border-left: 2px dashed #ffffff;
     z-index: 0;
   }
   .sales-office .inner-section #plus-info-fifteen span {
-    top: -32px;
-    left: -41px;
+    top: -28px;
+    left: -45px;
   }
 
   .sales-office .inner-section #plus-sign-sixteen {
-    top: 322px;
-    left: 114px;
+    top: 62%;
+    left: 23%;
     right: unset;
   }
   .sales-office .inner-section #plus-info-sixteen {
-    top: 340px;
-    left: 15px;
+    top: 62%;
+    left: 9%;
     right: unset;
-    height: 4px;
-    width: 98px;
+    height: 20px;
+    width: 92px;
     border-right: none;
     border-left: 2px dashed #ffffff;
     z-index: 0;
   }
   .sales-office .inner-section #plus-info-sixteen span {
-    top: -32px;
-    left: -18px;
+    top: -28px;
+    left: -17px;
   }
 
   .sales-office .inner-section #plus-sign-seventeen {
-    top: 333px;
-    right: 270px;
+    top: 65%;
+    right: 57%;
     left: unset;
   }
   .sales-office .inner-section #plus-info-seventeen {
-    top: 322px;
-    right: 92px;
+    top: 59%;
+    right: 14%;
     left: unset;
-    height: 31px;
-    width: 229px;
-    border-left: none;
-    border-right: 2px dashed #ffffff;
-    z-index: 0;
+    height: 67px;
+    width: 357px;
   }
   .sales-office .inner-section #plus-info-seventeen span {
     top: -32px;
-    right: -3px;
+    right: 0px;
   }
-
   .sales-office .inner-section #plus-sign-eighteen {
-    top: 401px;
-    right: 249px;
+    top: 78%;
+    right: 52%;
     left: unset;
   }
   .sales-office .inner-section #plus-info-eighteen {
-    top: 389px;
-    right: 144px;
+    top: 76%;
+    right: 36%;
     left: unset;
     height: 32px;
     width: 146px;
-    border-left: none;
-    border-right: 2px dashed #ffffff;
-    z-index: 0;
   }
-  .sales-office .inner-section #plus-info-eighteen span {
-    top: -32px;
-    right: -3px;
-  }
-
   .sales-office .inner-section #plus-sign-nineteen {
-    top: 406px;
-    left: 157px;
+    top: 80%;
+    left: 29%;
     right: unset;
   }
   .sales-office .inner-section #plus-info-nineteen {
-    top: 394px;
-    left: 10px;
-    right: unset;
-    height: 32px;
-    width: 146px;
-    border-right: none;
-    border-left: 2px dashed #ffffff;
-    z-index: 0;
+    top: 78%;
+    right: 42%;
+    left: unset;
+    height: 34px;
+    width: 195px;
+    border-left: none;
   }
   .sales-office .inner-section #plus-info-nineteen span {
     top: -32px;
-    left: -60px;
+    left: 135px;
   }
 
   .sales-office .inner-section #plus-sign-twenty {
-    top: 454px;
-    left: 153px;
+    top: 88%;
+    left: 30.5%;
     right: unset;
   }
   .sales-office .inner-section #plus-info-twenty {
-    top: 442px;
-    left: 6px;
-    right: unset;
-    height: 32px;
-    width: 146px;
-    border-right: none;
-    border-left: 2px dashed #ffffff;
-    z-index: 0;
+    top: 86%;
+    right: 45%;
+    left: unset;
+    height: 34px;
+    width: 162px;
   }
-  .sales-office .inner-section #plus-info-twenty span {
-    top: -32px;
-    left: -74px;
-  }
+}
 
-  .sales-office .inner-section .container .tab-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .sales-office .inner-section .container .tab-col ul {
-    padding: 0 0 0 40px;
-  }
-  .sales-office .inner-section .container .tab-col ul li {
-    position: relative;
-    margin-bottom: 24px;
-    list-style: none;
-  }
-  .sales-office .inner-section .container .tab-col ul li::before {
-    content: "";
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    top: 0;
-    left: -40px;
-  }
-  .sales-office
-    .inner-section
-    .container
-    .tab-col
-    ul
-    li:nth-of-type(1)::before {
-    content: url("../images/contact-us/avatar-white.svg");
-  }
-  .sales-office
-    .inner-section
-    .container
-    .tab-col
-    ul
-    li:nth-of-type(2)::before {
-    content: url("../images/contact-us/address-white.svg");
-  }
-  .sales-office
-    .inner-section
-    .container
-    .tab-col
-    ul
-    li:nth-of-type(3)::before {
-    content: url("../images/contact-us/phone-white.svg");
-  }
-  .sales-office
-    .inner-section
-    .container
-    .tab-col
-    ul
-    li:nth-of-type(4)::before {
-    content: url("../images/contact-us/email-white.svg");
-  }
-  .sales-office
-    .inner-section
-    .container
-    .tab-col
-    ul
-    li:nth-of-type(5)::before {
-    content: url("../images/contact-us/distributor-white.svg");
-  }
-
-  .feedback {
-    padding: 60px 0;
-    background: #ffffff;
-  }
-  .feedback .container {
-    max-width: 1000px;
-  }
-  @media only screen and (max-width: 767px) {
-    .map-section .text-col {
-      margin-top: 20px;
-    }
-    .map-section .text-col br {
-      display: block;
-    }
-
-    .sales-office .inner-section .container .tab-col {
-      margin-top: 20px;
-    }
-
-    .sales-office .inner-section #plus-sign-one {
-      top: 32% !important;
-      left: unset !important;
-      right: 7% !important;
-    }
-    .sales-office .inner-section #plus-info-one {
-      top: 20% !important;
-      left: unset !important;
-      right: 13% !important;
-      width: 19px !important;
-      height: 73px;
-    }
-
-    .sales-office .inner-section #plus-sign-two {
-      top: 19% !important;
-      left: 31% !important;
-      right: unset !important;
-    }
-    .sales-office .inner-section #plus-info-two {
-      top: 0% !important;
-      left: 18% !important;
-      right: unset;
-      width: 45px;
-      height: 95px;
-    }
-
-    .sales-office .inner-section #plus-sign-three {
-      top: 21%;
-      left: 28%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-three {
-      top: 3.5%;
-      left: 17%;
-      right: unset;
-      width: 45px;
-      height: 95px;
-    }
-
-    .sales-office .inner-section #plus-sign-four {
-      top: 26%;
-      left: 33%;
-      right: unset;
-    }
-
-    .sales-office .inner-section #plus-info-nine {
-      top: 203px;
-      left: -35px;
-      right: unset;
-      width: 76px;
-      height: 76px;
-    }
-
-    .sales-office .inner-section #plus-sign-six {
-      top: 35%;
-      left: unset;
-      right: 45%;
-    }
-    .sales-office .inner-section #plus-info-six {
-      top: 23%;
-      left: unset;
-      right: 42%;
-      width: 53px;
-      height: 66px;
-    }
-
-    .sales-office .inner-section #plus-sign-seven {
-      top: 37%;
-      left: unset;
-      right: 31%;
-    }
-    .sales-office .inner-section #plus-info-seven {
-      top: 25%;
-      left: unset;
-      right: 28%;
-      width: 53px;
-      height: 66px;
-    }
-
-    .sales-office .inner-section #plus-sign-eight {
-      top: 45%;
-      left: 19%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-eight {
-      top: 0%;
-      left: 14%;
-      right: unset;
-      height: 189px;
-      width: 16px;
-    }
-    .sales-office .inner-section #plus-info-eight span {
-      top: -32px;
-      left: -65px;
-    }
-
-    .sales-office .inner-section #plus-sign-nine {
-      top: 48%;
-      left: 30%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-nine {
-      top: 23%;
-      left: 3%;
-      right: unset;
-      height: 114px;
-      width: 101px;
-      border-right: none;
-      border-left: 2px dashed #ffffff;
-    }
-    .sales-office .inner-section #plus-info-nine span {
-      top: -32px;
-      left: 2px;
-    }
-
-    .sales-office .inner-section #plus-sign-ten {
-      top: 46%;
-      right: 28%;
-      left: unset;
-    }
-    .sales-office .inner-section #plus-info-ten {
-      top: 23%;
-      right: 3%;
-      left: unset;
-      height: 106px;
-      width: 135px;
-      border-left: none;
-    }
-    .sales-office .inner-section #plus-info-ten span {
-      top: -32px;
-      right: 51px;
-    }
-
-    .sales-office .inner-section #plus-info-nine span {
-      top: -32px;
-      left: -27px;
-    }
-
-    .sales-office .inner-section #plus-sign-ten {
-      top: 244px;
-      right: 153px;
-      left: unset;
-      height: 124px;
-      width: 184px;
-      border-left: none;
-    }
-    .sales-office .inner-section #plus-info-twelve span {
-      top: -32px;
-      right: 31px;
-    }
-
-    .sales-office .inner-section #plus-info-ten {
-      top: 208px;
-      right: -15px;
-      left: unset;
-      height: 56px;
-      width: 208px;
-      border-left: none;
-    }
-    .sales-office .inner-section #plus-info-fourteen span {
-      top: -32px;
-      right: 65px;
-    }
-
-    .sales-office .inner-section #plus-sign-fifteen {
-      top: 59%;
-      left: 19%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-fifteen {
-      top: 22%;
-      left: 2%;
-      right: unset;
-      height: 161px;
-      width: 62px;
-      border-right: none;
-      border-left: 2px dashed #ffffff;
-      z-index: 0;
-    }
-
-    .sales-office .inner-section #plus-info-ten span {
-      top: -32px;
-      right: -4px;
-    }
-
-    .sales-office .inner-section #plus-sign-eleven {
-      top: 252px;
-      right: 122px;
-      left: unset;
-    }
-
-    .sales-office .inner-section #plus-sign-nineteen {
-      top: 78%;
-      left: 30%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-nineteen {
-      top: 74%;
-      right: 27%;
-      left: unset;
-      height: 34px;
-      width: 162px;
-      border-left: none;
-      border-right: 2px dashed #ffffff;
-    }
-    .sales-office .inner-section #plus-info-nineteen span {
-      top: -32px;
-      left: 101px;
-    }
-    .sales-office .inner-section #plus-sign-twenty {
-      top: 87%;
-      left: 31%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-twenty {
-      top: 83%;
-      right: 26%;
-      left: unset;
-      height: 33px;
-      width: 178px;
-      border-left: none;
-      border-right: 2px dashed #ffffff;
-    }
-    .sales-office .inner-section #plus-info-twenty span {
-      top: -32px;
-      left: 101px;
-    }
-  }
-  @media only screen and (max-width: 767px) and (orientation: landscape) {
-    .sales-office .inner-section #plus-sign-one {
-      top: 33% !important;
-      left: unset;
-      right: 10% !important;
-    }
-    .sales-office .inner-section #plus-info-one {
-      top: 25% !important;
-      left: unset;
-      right: 11.5% !important;
-      width: 30px !important;
-      height: 88px !important;
-    }
-
-    .sales-office .inner-section #plus-sign-two {
-      top: 20% !important;
-    }
-    .sales-office .inner-section #plus-info-two {
-      top: 9% !important;
-      left: 13% !important;
-      right: unset;
-      width: 118px;
-      height: 95px;
-    }
-    .sales-office .inner-section #plus-sign-three {
-      top: 21%;
-      left: 28%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-three {
-      top: 11%;
-      left: 15%;
-      right: unset;
-      width: 94px;
-      height: 95px;
-    }
-
-    .sales-office .inner-section #plus-sign-four {
-      top: 27%;
-      left: 32.5%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-four {
-      top: 18%;
-      left: 11%;
-      right: unset;
-      width: 142px;
-      height: 81px;
-    }
-
-    .sales-office .inner-section #plus-sign-five {
-      top: 36%;
-      left: 28%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-five {
-      top: 25%;
-      left: 10%;
-      right: unset;
-      width: 144px;
-      height: 108px;
-    }
-
-    .sales-office .inner-section #plus-sign-six {
-      top: 37%;
-      left: unset;
-      right: 51%;
-    }
-    .sales-office .inner-section #plus-info-six {
-      top: 30%;
-      left: unset;
-      right: 45%;
-      width: 84px;
-      height: 73px;
-    }
-
-    .sales-office .inner-section #plus-sign-seven {
-      top: 40%;
-      left: unset;
-      right: 36%;
-    }
-    .sales-office .inner-section #plus-info-seven {
-      top: 29%;
-      left: unset;
-      right: 35%;
-      width: 47px;
-      height: 97px;
-    }
-
-    .sales-office .inner-section #plus-info-eleven span {
-      top: -32px;
-      left: -79px;
-    }
-
-    .sales-office .inner-section #plus-sign-nine {
-      top: 50%;
-      left: 29%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-nine {
-      top: 29%;
-      left: 2%;
-      right: unset;
-      height: 166px;
-      width: 179px;
-      border-right: none;
-      border-left: 2px dashed #ffffff;
-    }
-
-    .sales-office .inner-section #plus-sign-twelve {
-      top: 264px;
-      right: 215px;
-      left: unset;
-    }
-
-    .sales-office .inner-section #plus-info-twelve {
-      top: 249px;
-      right: 19px;
-      left: unset;
-      height: 35px;
-      width: 236px;
-      border-left: none;
-      border-right: 2px dashed #ffffff;
-      z-index: 0;
-    }
-
-    .sales-office .inner-section #plus-info-twelve span {
-      top: -32px;
-      right: -4px;
-    }
-
-    .sales-office .inner-section #plus-sign-thirteen {
-      top: 270px;
-      right: 275px;
-      left: unset;
-    }
-
-    .sales-office .inner-section #plus-info-thirteen {
-      top: 272px;
-      right: 27px;
-      left: unset;
-      height: 18px;
-      width: 299px;
-      border-left: none;
-    }
-    .sales-office .inner-section #plus-info-fourteen span {
-      top: -32px;
-      right: 0;
-    }
-
-    .sales-office .inner-section #plus-sign-fifteen {
-      top: 60%;
-      left: 18%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-fifteen {
-      top: 60%;
-      left: 9%;
-      right: unset;
-      height: 20px;
-      width: 61px;
-      border-right: none;
-      border-left: 2px dashed #ffffff;
-      z-index: 0;
-    }
-    .sales-office .inner-section #plus-info-fifteen span {
-      top: -28px;
-      left: -45px;
-    }
-
-    .sales-office .inner-section #plus-sign-sixteen {
-      top: 62%;
-      left: 23%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-sixteen {
-      top: 62%;
-      left: 9%;
-      right: unset;
-      height: 20px;
-      width: 92px;
-      border-right: none;
-      border-left: 2px dashed #ffffff;
-      z-index: 0;
-    }
-    .sales-office .inner-section #plus-info-sixteen span {
-      top: -28px;
-      left: -17px;
-    }
-
-    .sales-office .inner-section #plus-sign-seventeen {
-      top: 65%;
-      right: 57%;
-      left: unset;
-    }
-    .sales-office .inner-section #plus-info-seventeen {
-      top: 59%;
-      right: 14%;
-      left: unset;
-      height: 67px;
-      width: 357px;
-    }
-    .sales-office .inner-section #plus-info-seventeen span {
-      top: -32px;
-      right: 0px;
-    }
-    .sales-office .inner-section #plus-sign-eighteen {
-      top: 78%;
-      right: 52%;
-      left: unset;
-    }
-    .sales-office .inner-section #plus-info-eighteen {
-      top: 76%;
-      right: 36%;
-      left: unset;
-      height: 32px;
-      width: 146px;
-    }
-    .sales-office .inner-section #plus-sign-nineteen {
-      top: 80%;
-      left: 29%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-nineteen {
-      top: 78%;
-      right: 42%;
-      left: unset;
-      height: 34px;
-      width: 195px;
-      border-left: none;
-    }
-    .sales-office .inner-section #plus-info-nineteen span {
-      top: -32px;
-      left: 135px;
-    }
-
-    .sales-office .inner-section #plus-sign-twenty {
-      top: 88%;
-      left: 30.5%;
-      right: unset;
-    }
-    .sales-office .inner-section #plus-info-twenty {
-      top: 86%;
-      right: 45%;
-      left: unset;
-      height: 34px;
-      width: 162px;
-    }
-  }
-
-  /* -------------------------------- */
+/* -------------------------------- */
 /* 
   .sales-office .inner-section #plus-info-thirteen span {
     top: -32px;
@@ -7334,7 +7308,7 @@ input.newsletter_input {
   margin-left: auto;
   width: 70%;
   height: 587px;
-  background: url("../images/about/6.png") no-repeat;
+  background: url("../images/about/6.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -7351,7 +7325,7 @@ input.newsletter_input {
 .number-grid {
   width: 100%;
   min-height: 500px;
-  background: url("../images/about/The-TATA-Tiscon-SD-Story.png") no-repeat;
+  background: url("../images/about/The-TATA-Tiscon-SD-Story.jpg") no-repeat;
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
@@ -7376,7 +7350,7 @@ input.newsletter_input {
   position: relative;
   margin: 60px 0;
   width: 70%;
-  background: url("../images/about/5.png") no-repeat;
+  background: url("../images/about/5.jpg") no-repeat;
   background-size: cover;
   height: 587px;
 }
@@ -7713,10 +7687,10 @@ footer .list {
 footer .list li {
   margin-bottom: 16px;
   line-height: 1.7;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 footer .list li:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 footer .number {

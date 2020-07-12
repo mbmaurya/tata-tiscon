@@ -5,10 +5,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 v-center mt-5">
+                <div class="col-lg-6 v-center mt-5" data-aos="fade-right" data-aos-duration="500">
                     <h1 class="text-uppercase text-white">Build The Unbreakable With <br/>TATA Tiscon</h1>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="left">
                     <img src="images/about-us.jpg" class="img-fluid" />
                 </div>
             </div>
@@ -22,7 +22,7 @@
 <div class="story">
         <div class="container">
                 <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-12" data-aos="fade-up" data-aos-duration="500">
                                 <h2 class="heading">The TATA Tiscon Story</h2>
                                 <hr class="underline" />
                                 <p class="para mt-5 text-center">
@@ -33,7 +33,7 @@
                         </div>
                 </div>
         </div>
-        <div class="inner-section mt-5">
+        <div class="inner-section mt-5" data-aos="fade-right" data-aos-duration="500">
                 <div class="div text-div">
                         <h4 class="title">About TATA Tiscon</h4>
                         <p class="para">
@@ -58,24 +58,24 @@
 <!-- numbers grid -->
 
 <div class="number-grid">
-        <div class="grid text-center">
-                <h2 class="heading text-white">5 lakh</h2>
+        <div class="grid text-center" data-aos="fade-up" data-aos-duration="500">
+                <h2 class="heading text-white"><span class="count">5</span> lakh</h2>
                 <p class="text-white">Consumers Per Annum</p>
         </div>
-        <div class="grid text-center">
-                <h2 class="heading text-white">6200+</h2>
+        <div class="grid text-center" data-aos="fade-up" data-aos-duration="500">
+                <h2 class="heading text-white"><span class="count">6200</span>+</h2>
                 <p class="text-white">Dealers</p>
         </div>
-        <div class="grid text-center">
-                <h2 class="heading text-white">25000+</h2>
+        <div class="grid text-center" data-aos="fade-up" data-aos-duration="500">
+                <h2 class="heading text-white"><span class="count">25000</span>+</h2>
                 <p class="text-white">Masons</p>
         </div>
-        <div class="grid text-center">
-                <h2 class="heading text-white">100+</h2>
+        <div class="grid text-center" data-aos="fade-up" data-aos-duration="500">
+                <h2 class="heading text-white"><span class="count">100</span>+</h2>
                 <p class="text-white">Customers Service Engineers</p>
         </div>
-        <div class="grid text-center">
-                <h2 class="heading text-white">47</h2>
+        <div class="grid text-center" data-aos="fade-up" data-aos-duration="500">
+                <h2 class="heading text-white"><span class="count">47</span></h2>
                 <p class="text-white">Channel Partners</p>
         </div>
 </div>
@@ -84,7 +84,7 @@
 
 <!-- about tata steel -->
 
-<div class="about-tata-steel">
+<div class="about-tata-steel" data-aos="fade-left" data-aos-duration="500">
         <div class="div text-div">
                 <h4 class="title">
                         About TATA Steel
@@ -112,31 +112,31 @@
 <div class="projects">
         <div class="container">
                 <div class="row">
-                        <div class="col-sm-12 col-12">
+                        <div class="col-sm-12 col-12" data-aos="fade-up" data-aos-duration="500">
                                 <h2 class="heading">Key home building projects</h2>
                                 <hr class="underline" />
                         </div>
                 </div>
                 <div class="row mt-5">
-                        <div class="col-md-6 col-12 img-col order-md-1 order-1" class="rajasthan-homes ">
+                        <div class="col-md-6 col-12 img-col order-md-1 order-1" class="rajasthan-homes" data-aos="fade-right" data-aos-duration="500">
                                 <div id="rajasthanCarouselControls" class="carousel slide" data-ride="carousel">
                                         <img src="images/left-blue.svg" alt="left-arrow" class="rajasthan-homes-prev arrow" />
                                         <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                        <img class="d-block w-100" src="images/about/1.png" alt="First slide">
+                                                        <img class="d-block w-100" src="images/about/1.jpg" alt="First slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                        <img class="d-block w-100" src="images/about/1.png" alt="First slide">
+                                                        <img class="d-block w-100" src="images/about/1.jpg" alt="First slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                        <img class="d-block w-100" src="images/about/1.png" alt="First slide">
+                                                        <img class="d-block w-100" src="images/about/1.jpg" alt="First slide">
                                                 </div>
                                                 
                                         </div>
                                         <img src="images/right-blue.svg" alt="right-arrow" class="rajasthan-homes-next arrow" />
                                 </div> 
                         </div>
-                        <div class="col-md-6 col-12 text-col order-md-2 order-2">
+                        <div class="col-md-6 col-12 text-col order-md-2 order-2" data-aos="fade-left" data-aos-duration="500">
                                 <div class="div">
                                         <h4 class="title">Homes Of Rajasthan</h4>
                                         <p class="para">
@@ -147,7 +147,7 @@
                                         </p>
                                 </div>
                         </div>
-                        <div class="col-md-6 col-12 text-col order-md-3 order-4">
+                        <div class="col-md-6 col-12 text-col order-md-3 order-4" data-aos="fade-right" data-aos-duration="500">
                                 <div class="div">
                                         <h4 class="title">Homes Of Delhi</h4>
                                         <p class="para">
@@ -159,41 +159,41 @@
                                         </p>
                                 </div>
                         </div>
-                        <div class="col-md-6 col-12 img-col order-md-4 order-3">
+                        <div class="col-md-6 col-12 img-col order-md-4 order-3" data-aos="fade-left" data-aos-duration="500">
                                 <div id="delhiCarouselControls" class="carousel slide" data-ride="carousel">
                                         <img src="images/left-blue.svg" alt="left-arrow" class="delhi-homes-prev arrow" />
                                         <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                        <img class="d-block w-100" src="images/about/delhi-lotus.png" alt="Second slide">
+                                                        <img class="d-block w-100" src="images/about/delhi-lotus.jpg" alt="Second slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                        <img class="d-block w-100" src="images/about/delhi-lotus.png" alt="Second slide">
+                                                        <img class="d-block w-100" src="images/about/delhi-lotus.jpg" alt="Second slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                        <img class="d-block w-100" src="images/about/delhi-lotus.png" alt="Second slide">
+                                                        <img class="d-block w-100" src="images/about/delhi-lotus.jpg" alt="Second slide">
                                                 </div>
                                         </div>
                                         <img src="images/right-blue.svg" alt="right-arrow" class="delhi-homes-next arrow" />
                                 </div>
                         </div>
-                        <div class="col-md-6 col-12 img-col order-md-5 order-5">
+                        <div class="col-md-6 col-12 img-col order-md-5 order-5" data-aos="fade-right" data-aos-duration="500">
                                 <div id="keralaCarouselControls" class="carousel slide" data-ride="carousel">
                                         <img src="images/left-blue.svg" alt="left-arrow" class=" arrow kerala-homes-prev" />
                                         <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                        <img class="d-block w-100" src="images/about/sealink.png" alt="Third slide">
+                                                        <img class="d-block w-100" src="images/about/sealink.jpg" alt="Third slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                        <img class="d-block w-100" src="images/about/sealink.png" alt="Third slide">
+                                                        <img class="d-block w-100" src="images/about/sealink.jpg" alt="Third slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                        <img class="d-block w-100" src="images/about/sealink.png" alt="Third slide">
+                                                        <img class="d-block w-100" src="images/about/sealink.jpg" alt="Third slide">
                                                 </div>
                                         </div>
                                         <img src="images/right-blue.svg" alt="right-arrow" class=" arrow kerala-homes-next" />
                                 </div>
                         </div>
-                        <div class="col-md-6 col-12 text-col order-md-6 order-6">
+                        <div class="col-md-6 col-12 text-col order-md-6 order-6" data-aos="fade-left" data-aos-duration="500">
                                 <div class="div">
                                         <h4 class="title">Homes Of Kerala</h4>
                                         <p class="para">
@@ -216,7 +216,7 @@
 <div class="key-projects">
         <div class="container">
                 <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-12" data-aos="fade-up" data-aos-duration="500">
                                 <h2 class="heading">Key Projects</h2>
                                 <hr class="underline" />
                         </div>
@@ -226,22 +226,22 @@
         <div class="discovery-series">
                 <div class="discovery-slider">
                         <div>
-                                <img src="images/about/sealink-wide.png" alt="" class="img-fluid">      
+                                <img src="images/about/sealink-wide.jpg" alt="" class="img-fluid">      
                                 <h4 class="title">Bandra Worli Sea Link, Mumbai</h4>     
                                 <p class="para">An architectural marvel reinforced with state-of-the-art TATA Tiscon SD rebars</p>                             
                         </div>
                         <div>
-                                <img src="images/about/sealink-wide.png" alt="" class="img-fluid">      
+                                <img src="images/about/sealink-wide.jpg" alt="" class="img-fluid">      
                                 <h4 class="title">Bandra Worli Sea Link, Mumbai</h4>     
                                 <p class="para">An architectural marvel reinforced with state-of-the-art TATA Tiscon SD rebars</p>                             
                         </div>
                         <div>
-                                <img src="images/about/sealink-wide.png" alt="" class="img-fluid">      
+                                <img src="images/about/sealink-wide.jpg" alt="" class="img-fluid">      
                                 <h4 class="title">Bandra Worli Sea Link, Mumbai</h4>     
                                 <p class="para">An architectural marvel reinforced with state-of-the-art TATA Tiscon SD rebars</p>                             
                         </div>
                         <div>
-                                <img src="images/about/sealink-wide.png" alt="" class="img-fluid">      
+                                <img src="images/about/sealink-wide.jpg" alt="" class="img-fluid">      
                                 <h4 class="title">Bandra Worli Sea Link, Mumbai</h4>     
                                 <p class="para">An architectural marvel reinforced with state-of-the-art TATA Tiscon SD rebars</p>                             
                         </div>
