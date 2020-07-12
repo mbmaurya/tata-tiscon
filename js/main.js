@@ -155,7 +155,6 @@ $(document).ready(function () {
     $(".overlay").removeClass("opacity");
     $(".overlay-two").addClass("opacity");
   });
-
 });
 /* discovery slider */
 
