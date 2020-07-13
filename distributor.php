@@ -5,10 +5,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 v-center mt-5">
+                <div class="col-lg-6 v-center mt-5" data-aos="fade-right" data-aos-duration="500">
                     <h1 class="text-uppercase text-white">Find Leading Trustworthy Distributors</h1>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
                     <img src="images/distrubutor/distrubutor-hero.jpg" class="img-fluid" />
                 </div>
             </div>
@@ -21,10 +21,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 mt-3">
-                <h2>Use The Easy Distributor Locator</h2>
-                <hr />
-                <p>Finding TATA Tiscon distributors for your big project? We’ve got you covered!</p>
-                <ul class="feature-list">
+                <h2 data-aos="fade-up" data-aos-duration="500">Use The Easy Distributor Locator</h2>
+                <hr data-aos="fade-up" data-aos-duration="500" />
+                <p data-aos="fade-up" data-aos-duration="500">Finding TATA Tiscon distributors for your big project? We’ve got you covered!</p>
+                <ul class="feature-list" data-aos="fade-up" data-aos-duration="500">
                     <li>
                         <div>
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 182.2 182.2" style="enable-background:new 0 0 182.2 182.2;" xml:space="preserve">
@@ -158,11 +158,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>Fill for more details</h2>
-                <hr />
+                <h2 data-aos="fade-up" data-aos-duration="500">Fill for more details</h2>
+                <hr data-aos="fade-up" data-aos-duration="500" />
                 <section>
                     <div class="row">
-                        <div class="col-lg-6 order-lg-1 order-md-2">
+                        <div class="col-lg-6 order-lg-1 order-md-2" data-aos="fade-right" data-aos-duration="500">
                             <form>
                                 <h3>Chanel Partner Locator</h3>
                                 <p>Selection of pincode and district is mandatory</p>
@@ -182,7 +182,7 @@
                                 <button class="btn btn-blue-inverse">Cancel</button>
                             </form>
                         </div>
-                        <div class="col-lg-6 order-lg-2 order-md-1">
+                        <div class="col-lg-6 order-lg-2 order-md-1" data-aos="fade-left" data-aos-duration="500">
                             <img src="images/distrubutor/distrubutor-form.jpg" class="img-fluid" />
                         </div>
                     </div>
@@ -195,7 +195,7 @@
 <!-- locator results -->
 <div class="locator-results">
     <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="500">
             <div class="col-lg-4">
                 <section>
                     <p class="result-type">Distributor</p>

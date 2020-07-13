@@ -5,10 +5,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 v-center mt-5">
+                <div class="col-lg-6 v-center mt-5" data-aos="fade-right" data-aos-duration="500">
                     <h1 class="text-uppercase text-white">View Recommended Product Prices</h1>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
                     <img src="images/rcp/rcp-banner.jpg" class="img-fluid" />
                 </div>
             </div>
@@ -21,10 +21,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 mt-3">
-                <h2>Use The Recommended Price List Tool</h2>
-                <hr>
-                <p>Worried about hidden extra charges & the right price? Put your worries to rest with TATA Tiscon SD!</p>
-                <ul class="feature-list">
+                <h2 data-aos="fade-up" data-aos-duration="500">Use The Recommended Price List Tool</h2>
+                <hr data-aos="fade-up" data-aos-duration="500" />
+                <p data-aos="fade-up" data-aos-duration="500">Worried about hidden extra charges & the right price? Put your worries to rest with TATA Tiscon SD!</p>
+                <ul class="feature-list" data-aos="fade-up" data-aos-duration="500">
                     <li>
                         <div>
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 182.2 182.2" style="enable-background:new 0 0 182.2 182.2;" xml:space="preserve">
@@ -97,30 +97,30 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>Fill for more details</h2>
-                <hr />
+                <h2 data-aos="fade-up" data-aos-duration="500">Fill for more details</h2>
+                <hr data-aos="fade-up" data-aos-duration="500" />
                 <section>
                     <div class="row">
-                        <div class="col-lg-6 order-lg-1 order-md-2">
-                        <form>
-                            <h3>Choose by Location</h3>
-                            <div class="form-group">
-                                <label for="pincode">Pincode*</label>
-                                <input type="text" class="form-control" id="pincode" aria-describedby="pincode">
-                            </div>
-                            <div class="form-group">
-                                <label for="district">Products</label>
-                                <select id="district" class="form-control">
-                                    <option selected>Product 1</option>
-                                    <option>Product 2</option>
-                                    <option>Product 3</option>
-                                </select>
-                            </div>
-                            <button class="btn btn-blue">View</button>
-                            <button class="btn btn-blue-inverse">Cancel</button>
-                        </form>
+                        <div class="col-lg-6 order-lg-1 order-md-2" data-aos="fade-right" data-aos-duration="500">
+                            <form>
+                                <h3>Choose by Location</h3>
+                                <div class="form-group">
+                                    <label for="pincode">Pincode*</label>
+                                    <input type="text" class="form-control" id="pincode" aria-describedby="pincode">
+                                </div>
+                                <div class="form-group">
+                                    <label for="district">Products</label>
+                                    <select id="district" class="form-control">
+                                        <option selected>Product 1</option>
+                                        <option>Product 2</option>
+                                        <option>Product 3</option>
+                                    </select>
+                                </div>
+                                <button class="btn btn-blue">View</button>
+                                <button class="btn btn-blue-inverse">Cancel</button>
+                            </form>
                         </div>
-                        <div class="col-lg-6 order-lg-2 order-md-1">
+                        <div class="col-lg-6 order-lg-2 order-md-1" data-aos="fade-left" data-aos-duration="500">
                             <img src="images/price-calculator-image.png" class="img-fluid" />
                         </div>
                     </div>
@@ -134,9 +134,11 @@
 <div class="result_wrapper py-5">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-5">
+            <div class="col-lg-5" data-aos="fade-right" data-aos-duration="500">
                 <div class="section_wrapper">
-                    <div class="circle-img"><img src="images/section.svg"></div>
+                    <div class="circle-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44.038" height="62.406" viewBox="0 0 44.038 62.406"><defs><style>.a{fill:#102b6c;}</style></defs><path class="a" d="M773,247.087H745.115V200.835a.835.835,0,0,0-.835-.835H730.631a.835.835,0,0,0-.835.835v60.741a.831.831,0,0,0,.245.585.836.836,0,0,0,.59.245H773a.834.834,0,0,0,.835-.835V247.922A.834.834,0,0,0,773,247.087Zm-41.533,7.01h2.666a.835.835,0,0,0,0-1.67h-2.666v-2.742h2.666a.835.835,0,0,0,0-1.67h-2.666v-2.742h2.666a.835.835,0,0,0,0-1.67h-2.666v-2.741h1.206a.835.835,0,1,0,0-1.67h-1.206V236.45h2.666a.835.835,0,0,0,0-1.67h-2.666v-2.742h2.666a.835.835,0,1,0,0-1.67h-2.666v-2.742h2.666a.835.835,0,1,0,0-1.67h-2.666v-2.742h1.206a.835.835,0,0,0,0-1.67h-1.206V218.8h2.666a.835.835,0,1,0,0-1.67h-2.666V214.39h2.666a.835.835,0,1,0,0-1.67h-2.666v-2.742h2.666a.835.835,0,1,0,0-1.67h-2.666v-2.742h1.206a.835.835,0,1,0,0-1.67h-1.206V201.67h11.98v45.907l-11.98,11.979Zm40.7,6.639H732.647l11.979-11.979h27.538Z" transform="translate(-729.796 -200)"/></svg>
+                    </div>
                     <h3 class="text-center text-white">Section</h3>	
                     <p class="active"><span>8 mm</span></p>
                     <p><span>10 mm</span></p>
@@ -146,9 +148,11 @@
                     <p><span>25 mm</span></p>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-lg-5" data-aos="fade-left" data-aos-duration="500">
                 <div class="rcp_wrapper">
-                        <div class="circle-img"><img src="images/rcp.svg"></div>
+                        <div class="circle-img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="73.969" height="62.77" viewBox="0 0 73.969 62.77"><defs><style>.a{fill:#d93348;}</style></defs><path class="a" d="M-213.565,278.278h-1.91a1.008,1.008,0,0,0-.1-.416l-9.788-20.042c0-.01-.012-.018-.018-.028h0l.734-.251a1.017,1.017,0,0,0,.634-1.291,1.017,1.017,0,0,0-1.291-.634l-19.259,6.574a5.894,5.894,0,0,0-5.171-3.074A5.9,5.9,0,0,0-255.625,265a5.914,5.914,0,0,0,.075.935l-19.264,6.576a1.017,1.017,0,0,0-.634,1.292,1.018,1.018,0,0,0,.963.689,1.018,1.018,0,0,0,.329-.055l.376-.128-9.708,19.878a1.02,1.02,0,0,0-.058.157H-285.5a1.017,1.017,0,0,0-1.017,1.017c0,2.518,1.49,4.85,4.2,6.569a17.978,17.978,0,0,0,9.535,2.524,17.978,17.978,0,0,0,9.535-2.524c2.705-1.719,4.2-4.051,4.2-6.569a1.017,1.017,0,0,0-1.017-1.017h-1.953a1.02,1.02,0,0,0-.058-.157l-9.788-20.043c0-.01-.012-.018-.017-.028a1.018,1.018,0,0,0-.058-.093c-.018-.026-.035-.052-.054-.076a.982.982,0,0,0-.068-.072,1,1,0,0,0-.074-.07l-.05-.038,17.311-5.91a5.9,5.9,0,0,0,4.13,2.942v37.576c0,.005,0,.01,0,.016h-15.963a2.037,2.037,0,0,0-2.035,2.035v6.882a1.017,1.017,0,0,0,1.017,1.017h34.9a1.017,1.017,0,0,0,1.017-1.017v-6.882a2.037,2.037,0,0,0-2.035-2.035H-248.72c0-.005,0-.01,0-.016V270.8a5.9,5.9,0,0,0,4.872-5.8,5.893,5.893,0,0,0-.067-.887l16.377-5.59-9.443,19.336a1.008,1.008,0,0,0-.1.416h-1.91a1.017,1.017,0,0,0-1.017,1.017c0,2.518,1.49,4.85,4.2,6.569a17.98,17.98,0,0,0,9.535,2.524,17.98,17.98,0,0,0,9.535-2.524c2.705-1.719,4.2-4.051,4.2-6.569A1.017,1.017,0,0,0-213.565,278.278Zm-47.653,18.1c-.846,3.364-5.8,6.041-11.568,6.041s-10.723-2.676-11.569-6.041Zm-3.054-2.035H-281.3l8.515-17.435Zm30.424,16.082v5.865h-32.867v-5.865Zm-15.888-41.572A3.859,3.859,0,0,1-253.59,265a3.859,3.859,0,0,1,3.855-3.855A3.859,3.859,0,0,1-245.881,265,3.859,3.859,0,0,1-249.736,268.858Zm23.458-8.273,8.641,17.694h-17.282Zm0,25.769c-5.768,0-10.723-2.676-11.568-6.041h23.137C-215.555,283.677-220.509,286.353-226.278,286.353Z" transform="translate(286.517 -255.559)"/></svg>
+                        </div>
                         <h3 class="text-center text-white">Recommended Consumer Price</h3>	
                         <p class="active"><span>400.00</span></p>
                         <p><span>613.00</span></p>
@@ -164,7 +168,7 @@
     <div class="result-content">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12" data-aos="fade-up" data-aos-duration="500">
                     <p>
                         These PLASMA REBAR prices are applicable in the state of Gujarat for material sold through the Authorised Distributor and its network, with effect from 4th July 2019
                     </p>

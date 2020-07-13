@@ -7,10 +7,10 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8" data-aos="fade-right" data-aos-duration="500">
                         <img src="images/expert/hero-image.jpg" class="img-fluid" />
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-left" data-aos-duration="500">
                     <form class="expert-form">
                             <h3>ASK EXPERTS</h3>
                             <div class="form-group">
@@ -53,10 +53,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="heading">Use The Easy Mason Locator</h2>
-                    <hr class="underline" />
-                    <p class="subheading">Finding experienced masons? TATA Tiscon SD has you covered!</p>
-                    <ul class="feature-list">
+                    <h2 class="heading" data-aos="fade-up" data-aos-duration="500">Use The Easy Mason Locator</h2>
+                    <hr class="underline" data-aos="fade-up" data-aos-duration="500" />
+                    <p class="subheading" data-aos="fade-up" data-aos-duration="500">Finding experienced masons? TATA Tiscon SD has you covered!</p>
+                    <ul class="feature-list" data-aos="fade-up" data-aos-duration="500">
                         <li>
                             <div>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 182.2 182.2" style="enable-background:new 0 0 182.2 182.2;" xml:space="preserve">

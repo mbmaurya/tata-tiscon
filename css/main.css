@@ -2570,6 +2570,12 @@ nav .v-center {
 .locator-results section .view-more-svg {
   margin-left: 8px;
   fill: #d4001c;
+  stroke: #d4001c;
+}
+
+.locator-results section:hover .view-more-svg {
+  fill: #ffffff;
+  stroke: #ffffff;
 }
 
 .locator-results section:hover {
@@ -2793,6 +2799,10 @@ nav .v-center {
   fill: #ffffff;
 }
 
+#modalTab .nav-link svg .a {
+  fill: #ffffff !important;
+}
+
 #modalTab .nav-link.active {
   color: #112769;
   border-color: none;
@@ -2800,6 +2810,10 @@ nav .v-center {
 
 #modalTab .nav-link.active svg {
   fill: #112769;
+}
+
+#modalTab .nav-link.active svg .a {
+  fill: #112769 !important;
 }
 
 .tab-content {
@@ -7573,16 +7587,20 @@ span.left-arrow img {
   margin-top: 30px;
 }
 
-.section_wrapper .circle-img img {
+.section_wrapper .circle-img svg {
   position: relative;
   top: 35px;
   left: 45px;
 }
 
-.rcp_wrapper .circle-img img {
+.rcp_wrapper .circle-img svg {
   position: relative;
   top: 35px;
   left: 30px;
+}
+
+.rcp_wrapper .circle-img svg .a {
+  fill: #db474d !important;
 }
 
 .circle-img {
@@ -7735,9 +7753,24 @@ footer .footer-base .footer-base-line {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .section_wrapper {
+    background-repeat: repeat;
+    margin-bottom: 80px;
+  }
+
+  .circle-img {
+    left: 40%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   footer .social-link-div {
     left: 0;
+  }
+
+  .circle-img {
+    left: 32%;
   }
 }
 

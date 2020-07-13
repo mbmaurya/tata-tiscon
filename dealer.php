@@ -5,10 +5,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 v-center mt-5">
+                <div class="col-lg-6 v-center mt-5" data-aos="fade-right" data-aos-duration="500">
                     <h1 class="text-uppercase text-white">Find & Contact Trusted<br/>Dealers</h1>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
                     <img src="images/dealer/dealer-hero.jpg" class="img-fluid" />
                 </div>
             </div>
@@ -22,10 +22,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 mt-3">
-                <h2>Use The Easy Dealers Locator</h2>
-                <hr />
-                <p>Finding superior rebars at the best price? TATA Tiscon SD has the answer!</p>
-                <ul class="feature-list">
+                <h2 data-aos="fade-up" data-aos-duration="500">Use The Easy Dealers Locator</h2>
+                <hr data-aos="fade-up" data-aos-duration="500" />
+                <p data-aos="fade-up" data-aos-duration="500">Finding superior rebars at the best price? TATA Tiscon SD has the answer!</p>
+                <ul class="feature-list" data-aos="fade-up" data-aos-duration="500">
                     <li>
                         <div>
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -237,31 +237,31 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>Fill for more details</h2>
-                <hr />
+                <h2 data-aos="fade-up" data-aos-duration="500">Fill for more details</h2>
+                <hr data-aos="fade-up" data-aos-duration="500" />
                 <section>
                     <div class="row">
-                        <div class="col-lg-6 order-lg-1 order-md-2">
-                        <form>
-                            <h3>Choose by Location</h3>
-                            <p>Selection of pincode is mandatory</p>
-                            <div class="form-group">
-                                <label for="pincode">Pincode*</label>
-                                <input type="text" class="form-control" id="pincode" aria-describedby="pincode">
-                            </div>
-                            <div class="form-group">
-                                <label for="district">Nearest</label>
-                                <select id="district" class="form-control">
-                                    <option selected>Nashik</option>
-                                    <option>Thane</option>
-                                    <option>Palghar</option>
-                                </select>
-                            </div>
-                            <button class="btn btn-blue">View</button>
-                            <button class="btn btn-blue-inverse">Cancel</button>
-                        </form>
+                        <div class="col-lg-6 order-lg-1 order-md-2" data-aos="fade-right" data-aos-duration="500">
+                            <form>
+                                <h3>Choose by Location</h3>
+                                <p>Selection of pincode is mandatory</p>
+                                <div class="form-group">
+                                    <label for="pincode">Pincode*</label>
+                                    <input type="text" class="form-control" id="pincode" aria-describedby="pincode">
+                                </div>
+                                <div class="form-group">
+                                    <label for="district">Nearest</label>
+                                    <select id="district" class="form-control">
+                                        <option selected>Nashik</option>
+                                        <option>Thane</option>
+                                        <option>Palghar</option>
+                                    </select>
+                                </div>
+                                <button class="btn btn-blue">View</button>
+                                <button class="btn btn-blue-inverse">Cancel</button>
+                            </form>
                         </div>
-                        <div class="col-lg-6 order-lg-2 order-md-1">
+                        <div class="col-lg-6 order-lg-2 order-md-1" data-aos="fade-left" data-aos-duration="500">
                             <img src="images/dealer/map.jpg" class="img-fluid" />
                         </div>
                     </div>
@@ -275,7 +275,7 @@
 <!-- locator results -->
 <div class="locator-results">
     <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="500">
             <div class="col-lg-4">
                 <section>
                     <a href="#" class="map-icon" >
