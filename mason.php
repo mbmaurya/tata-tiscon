@@ -5,10 +5,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 v-center mt-5">
+                <div class="col-lg-6 v-center mt-5" data-aos="fade-right" data-aos-duration="500">
                     <h1 class="text-uppercase text-white">Find Skilled & Trustworthy Masons</h1>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
                     <img src="images/mason/mason-banner.jpg" class="img-fluid hero-img" />
                 </div>
             </div>
@@ -21,11 +21,11 @@
 <div class="mason-features">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 mt-3">
+            <div class="col-sm-12 mt-3" data-aos="fade-up" data-aos-duration="500">
                 <h2 class="heading">Use The Easy Mason Locator</h2>
                 <hr class="underline" />
                 <p class="subheading">Finding experienced masons? TATA Tiscon SD has you covered!</p>
-                <ul class="feature-list">
+                <ul class="feature-list" data-aos="fade-up" data-aos-duration="500">
                     <li>
                         <div>
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 182.2 182.2" style="enable-background:new 0 0 182.2 182.2;" xml:space="preserve">
@@ -193,11 +193,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>Fill for more details</h2>
-                <hr />
+                <h2 data-aos="fade-up" data-aos-duration="500">Fill for more details</h2>
+                <hr data-aos="fade-up" data-aos-duration="500" />
                 <section>
                     <div class="row">
-                        <div class="col-lg-6 order-lg-1 order-md-2">
+                        <div class="col-lg-6 order-lg-1 order-md-2" data-aos="fade-right" data-aos-duration="500">
                         <form>
                             <h3>Mason Locator</h3>
                             <p>Selection of pincode and district is mandatory</p>
@@ -217,7 +217,7 @@
                             <button class="btn btn-blue-inverse">Cancel</button>
                         </form>
                         </div>
-                        <div class="col-lg-6 order-lg-2 order-md-1">
+                        <div class="col-lg-6 order-lg-2 order-md-1" data-aos="fade-left" data-aos-duration="500">
                             <img src="images/mason/mason-form.jpg" class="img-fluid" />
                         </div>
                     </div>
@@ -231,7 +231,7 @@
 <!-- locator results -->
 <div class="locator-results">
     <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="500">
             <div class="col-lg-4">
                 
                 <section>
@@ -363,7 +363,7 @@
             
             </div>
         </div>
-        <div class="text-center">
+        <div class="text-center" data-aos="fade-up" data-aos-duration="500">
                 <button class="btn btn-blue-inverse">Show More</button>
         </div>
     </div>
